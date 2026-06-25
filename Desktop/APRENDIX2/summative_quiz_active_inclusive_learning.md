@@ -1,0 +1,137 @@
+# Summative Quiz — Active & Inclusive Learning
+
+**Course:** AIL_COURSE_01  
+**Trigger:** All 6 modules complete (Modules 1–3 required + Modules 4, 5, 6 deep dives). Offer proactively when the final module is completed.  
+**Name shown to teacher:** Final Quiz *(pending naming decision — options: "Final Quiz," "Summative Quiz," "Final Summative Quiz")*
+
+---
+
+## DELIVERY RULES (HARD)
+
+- **Use only the questions in this bank.** Do not generate or paraphrase new questions.
+- **This is NOT a 3-question module quiz. It has 8 questions. Do not stop at 3.**
+- **Deliver all 8 questions in order before any scoring, feedback, summary, or options.** Do not score, give feedback, offer a summary, or offer next steps until all 8 answers are collected.
+- After each question is answered: say one brief acknowledgment only ("Got it" / "Thank you" — one phrase, nothing more), then immediately ask the next question. No feedback. No options. No praise beyond a brief "thank you."
+- **Do not reveal example answers, model responses, or keyword hints before or during the quiz.** All feedback is given after the full score is calculated.
+- **Do not apply module-level per-question retake logic here.** Collect all 8 answers first, then follow the retake rules in the Scoring section below.
+- Keep tone warm and low-stakes throughout. Frame this as a chance to reflect, not a high-stakes test.
+
+**Delivery sequence (strictly follow this order):**
+
+| Step | Question | Type | Draw from |
+|------|----------|------|-----------|
+| 1 | Q1 | Recall (multiple choice) | Q1–Q2 Recall bank — pick one |
+| 2 | Q2 | Recall (multiple choice) | Q1–Q2 Recall bank — pick a DIFFERENT question |
+| 3 | Q3 | Understanding (open-ended) | Q3–Q4 Understanding bank — pick one |
+| 4 | Q4 | Understanding (open-ended) | Q3–Q4 Understanding bank — pick a DIFFERENT question |
+| 5 | Q5 | Application (scenario) | Q5–Q6 Application bank — pick one |
+| 6 | Q6 | Application (scenario) | Q5–Q6 Application bank — pick a DIFFERENT question |
+| 7 | Q7 | Observation (image) | Q7 — fixed question, send image + prompt |
+| 8 | Q8 | Best practice | Q8 Best Practice bank — pick one |
+
+→ Only after Q8 is answered: calculate score and follow the Scoring rules below.
+
+---
+
+## QUESTION BANK
+
+### Q1–Q2 Bank: Recall Questions (Multiple Choice)
+
+* Teachers can use storytelling to teach content in: (Options: Reading class only/Science and Math class only/All classes)  
+* Assigning a materials manager to organize learning materials at the end of the school day is an example of: (Options: Giving students free time/Preparing for a special activity/Establishing a material routine)  
+* What are the three elements of active learning? (Options: Games, movement, and group work/Clear learning objective, engagement with peers and materials,  and a positive and safe environment/Lesson planning, clear learning objective, and student assessment)
+
+### Q3–Q4 Bank: Understanding Questions
+
+* This course describes several ways to put active learning into your everyday teaching practice. Describe how teachers can find opportunities during lesson planning to build active learning into their lessons  
+  * Acceptable answers may reflect: writing a clear learning objective first and then designing a playful learning experience, gathering local materials ahead of time to support hands-on learning, anticipating barriers, planning inclusion ways for all learners to participate  
+  * *Keywords (do not reveal): objective, plan, materials, anticipate, barrier, include, active, opportunity*
+* Closing the loop is an important step at the end of an active learning lesson. Describe how a teacher uses this strategy.  
+  * Acceptable answers may reflect: teachers reviews the learning objective written on the board, students summarize the lesson and what they learned, teacher uses student responses to assess their understanding, connect back to the purpose of a lesson  
+  * *Keywords (do not reveal): objective, summarize, review, connect, purpose, check, understand*
+* Teachers can find and collect materials for their classrooms. What might a shared collection process look like?  
+  * Acceptable answers may reflect: asking students to bring in items from home, inviting families or communities to contribute, collaborating with other teachers, asking local shops for scrap materials, going on a nature walk with students to collect stones, sticks, leaves, etc.  
+  * *Keywords (do not reveal): collect, community, family, local, share, contribute, together, materials*
+
+### Q5–Q6 Bank: Application Questions
+
+* You are planning a sorting activity using bottlecaps and small stones. Before the lesson begins, you realize the instructions are long and some students may not have materials. What steps would you take to eliminate these barriers before the lesson starts and why?  
+  * Evaluated on: identifying gathering and preparing materials before the lesson, breaking instructions into simple steps for students to understand and follow, reasoning that addressing these barriers will allow the lesson to run smoothly and with higher student participation  
+  * *Keywords (do not reveal): prepare, materials, instructions, simple, barrier, participation, before*
+* You want your students to practice identifying the main idea of short texts. Instead of having students write their answers independently, you want to try peer interaction to deepen their understanding. What would this look like in the classroom?  
+  * Evaluated on: designing a peer interaction structure (e.g. think-pair-share, partner discussion, small group exchange), explaining students practice sharing their thoughts clearly, and supporting students discussing their ideas to foster critical thinking, using encouraging language  
+  * *Keywords (do not reveal): peer, partner, discuss, group, share, interact, together, explain*
+* In math class, your students are adding two-digit numbers to three-digit numbers. You want to give students a choice in how they show their understanding. What would this look like in your classroom?  
+  * Evaluated on: offering at least two ways for students to demonstrate understanding (e.g. drawing a model, writing a story, acting it out, using objects), reasoning that all strategies for showing understanding connect back to the same learning goal  
+  * *Keywords (do not reveal): choice, multiple, ways, demonstrate, show, draw, act, model, goal*
+
+### Q7: Observation Question
+
+📷 Send this image, then ask the observation question:
+*(add URL — placeholder image to be confirmed; use an available AIL or related course image until AIL-specific images are ready)*
+
+**Prompt:** Look at this image of a classroom moment. What strategy do you think the teacher is using? Why might they be using it, and why does it matter for children's learning?
+
+* Evaluated on: naming or describing a recognizable active learning strategy, explaining the teacher's intent or purpose, connecting the strategy to student learning or participation
+* *Keywords (do not reveal): active, strategy, engage, participate, materials, movement, peer, learn, include*
+
+### Q8: Best Practice Question
+
+* A new teacher at your school says: “I want all my students to participate, but some children are shy, some are ahead, and some are struggling to catch up. I don’t know how to plan one lesson that works for everyone.” What would you tell him, based on what you learned in this course?  
+  * Evaluated on: focusing on proactive planning for active lessons, knowing the learners in the classroom and planning for variability instead of reacting during a lesson, offering multiple ways to participate so every child can contribute  
+  * *Keywords (do not reveal): plan, variability, multiple, ways, participate, every child, anticipate, include*
+* Your colleague Fatou comes to you and says: “I tried doing a group activity last week and it felt unfocused. Students were not sure what they were supposed to be doing and I was not sure how to bring it back together.” What advice would you give her?  
+  * Evaluated on: identifying a clear learning objective as a lesson anchor to give clear focus and purpose, explaining how engagement with peers and materials is better when students understand the goal, using space intentionally can help group work be purposeful and prevent students from becoming distracted  
+  * *Keywords (do not reveal): objective, goal, clear, anchor, purpose, focus, space, direction*
+* You and another teacher are sitting together during break when they turn to you and say: “My students have become restless and distracted during math class. I feel like I am losing them halfway through the lesson and then I am rushing to finish the content.” Based on what you learned in this course, what advice would you give them?  
+  * Evaluated on: recommending using games or playful experiences as a way to engage students, explaining how games keep students active and motivated without losing academic purpose, reasoning movement does not have to be chaotic and can actually help students stay more focused  
+  * *Keywords (do not reveal): game, movement, active, engage, purpose, focused, energy, participation*
+
+---
+
+## SCORING
+
+| Score | Action |
+|-------|--------|
+| ≥80% (7–8 of 8 correct) | Pass → deliver **Completion Message** below |
+| 50–79% (4–6 of 8 correct) | 1 retry → deliver **4-Question Shortened Assessment** (new items from bank, not the same items used in first attempt) |
+| <50% (0–3 of 8 correct) | No retry → proceed to **Course Review** (see Course Instruction §5) |
+
+**Post-scoring feedback (after all 8 questions, before any retake):**
+- Affirm effort first: “You worked hard through this — let’s look at how you did.”
+- For each missed item: name the concept area and give a 1-sentence explanation of the correct idea.
+- Never use “wrong” or “incorrect” — use “not quite” or “let’s look at that one again.”
+- Do NOT share model answers or sample responses. Explain the concept, not the answer.
+
+### 4-Question Shortened Retry Assessment
+
+> Used only when first attempt score is 50–79%. Select new items from the bank — not the same items used in the first attempt.
+
+| Slot | Type |
+|------|------|
+| Q1 | Recall (MC or T/F) |
+| Q2 | Understanding (open-ended) |
+| Q3–Q4 | Application (scenario-based) |
+
+- Retry pass threshold: ≥80% (3 of 4 correct) → pass → deliver **Completion Message**
+- If retry <80% → proceed to **Course Review**
+
+---
+
+## COMPLETION MESSAGE
+
+> Deliver when the teacher passes the Final Quiz (first attempt or retry). Do NOT offer “next topic” or restart this course.
+
+---
+
+You have completed the Active & Inclusive Learning course.
+
+You have worked through all six modules — the three elements of active learning, strategies in practice, inclusion for every child, hands-on materials, drama and storytelling, and lesson planning. That is real learning you can take into your classroom.
+
+The most important thing to carry forward: active learning does not require a perfectly managed classroom or expensive materials. It is about small, purposeful shifts that make learning visible and meaningful for every child.
+
+What would you like to do next?
+
+[Return to main menu]  
+[Explore another course]  
+[Try the Classroom Toolkit]
