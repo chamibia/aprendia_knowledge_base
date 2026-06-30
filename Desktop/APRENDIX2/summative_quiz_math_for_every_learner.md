@@ -2,37 +2,72 @@
 
 **Course:** MATH_COURSE_01  
 **Trigger:** All 7 modules complete — required lessons (Lesson 1, Lesson 2) AND all five deep dives (L3–L7). Offer proactively when the final module is completed.  
-**Name shown to teacher:** Final Quiz
+**Name shown to teacher:** Final Quiz *(options: "Final Quiz," "Summative Quiz," "Final Summative Quiz")*
 
 ---
 
 ## DELIVERY RULES (HARD)
 
+- **UNLOCK GATE (HARD):** Do NOT offer this quiz unless all seven modules are confirmed complete: `MATH_M1_EMD`, `MATH_L2_MEL`, `MATH_L3_SMM`, `MATH_L4_MPS`, `MATH_L5_MHO`, `MATH_L6_IMI`, and `MATH_L7_AML`. If the teacher requests the quiz before all modules are done, do not offer it — tell them which module(s) remain and redirect them there.
 - **Use only the questions in this bank.** Do not generate or paraphrase new questions.
-- **Deliver all 8 questions before scoring.** Do not score, give feedback, or offer retakes mid-quiz.
+- **This is NOT a 3-question module quiz. It has 8 questions. Do not stop at 3. Do not stop at any number fewer than 8.**
+- **Do NOT apply the module quiz sequence (Q1 recall → Q2 understanding → Q3 application in 3 questions) to this quiz.** This quiz has its own sequence: Q1–Q2 Recall, Q3–Q4 Understanding, Q5–Q6 Application, Q7 Observation, Q8 Best Practice. Follow this sequence exactly.
+- **Q3 and Q4 are Understanding questions (open-ended). Q5 and Q6 are Application questions (scenario-based).** Never deliver Q3 or Q4 as an Application question, and never deliver Q5 or Q6 as an Understanding question.
+- **Deliver all 8 questions in order before any scoring, feedback, summary, or options.** Do not score, give feedback, offer a summary, or offer next steps until all 8 answers are collected.
+- After each question is answered: say one brief acknowledgment only ("Got it" / "Thank you" — one phrase, nothing more), then immediately ask the next question. No feedback. No options. No praise beyond a brief "thank you."
 - **Do not reveal example answers, model responses, or keyword hints before or during the quiz.** All feedback is given after the full score is calculated.
 - **Do not apply module-level per-question retake logic here.** Collect all 8 answers first, then follow the retake rules in the Scoring section below.
 - **Q7 requires an image.** Send the image for the selected Q7 option before asking the question.
 - Keep tone warm and low-stakes throughout. Frame this as a chance to reflect, not a high-stakes test.
 
+**Delivery sequence (strictly follow this order):**
+
+| Step | Position | Type | Source |
+|------|----------|------|--------|
+| 1 | Q1 | **Recall** (multiple choice) | Recall bank — pick one |
+| 2 | Q2 | **Recall** (multiple choice) | Recall bank — pick a DIFFERENT question |
+| 3 | Q3 | **Understanding** (open-ended) | Understanding bank — pick one |
+| 4 | Q4 | **Understanding** (open-ended) | Understanding bank — pick a DIFFERENT question |
+| 5 | Q5 | **Application** (scenario) | Application bank — pick one |
+| 6 | Q6 | **Application** (scenario) | Application bank — pick a DIFFERENT question |
+| 7 | Q7 | **Observation** (image) | Q7 bank — select one option, send image first |
+| 8 | Q8 | **Best Practice** | Best Practice bank — pick one |
+
+**⚠️ Each bank is tied to its position only.** The Recall bank feeds Q1 and Q2 only — never Q3, Q4, or beyond. The Understanding bank feeds Q3 and Q4 only — never Q1, Q2, Q5, or beyond. The Application bank feeds Q5 and Q6 only. Each bank has 3 questions; use 2 per attempt, keep the third for variety in later sessions.
+
+→ Only after Q8 is answered: calculate score and follow the Scoring rules below.
+
+---
+
+## QUESTION SELECTION & ROTATION RULES
+
+Each bank section contains 3 items. The bot selects from them as follows — and must track which items were used to avoid repeating them across attempts in the same session.
+
+| Attempt | Q1–Q2 (Recall) | Q3–Q4 (Understanding) | Q5–Q6 (Application) | Q7 (Observation) | Q8 (Best Practice) |
+|---------|---------------|----------------------|---------------------|------------------|---------------------|
+| First attempt (full 8Q) | 2 of 3 | 2 of 3 | 2 of 3 | 1 of 3 | 1 of 3 |
+| Shortened retry (4Q) | 1 remaining | 1 remaining | 2 remaining | — | — |
+| Course Review retake (full 8Q) | 2 of 3 (different pair from first attempt) | 2 of 3 (different pair) | 2 of 3 (different pair) | 1 of remaining 2 | 1 of remaining 2 |
+
+> **Key rule:** Never reuse the exact same set of items from one full attempt to the next. The shortened retry naturally uses the 1 unused item per slot. The Course Review retake must use a different combination than the first full attempt.
+
 ---
 
 ## QUESTION BANK
 
-### Q1 & Q2: Recall Questions
+### Q1 - Q2: Recall Questions
 
-* Which of the following is an example of a math process skill?
-  * Options: Counting to 100 / Measuring length with a ruler / Using logic to justify your thinking / Identifying shapes in the environment
+> Pick one for Q1 and a DIFFERENT one for Q2. Auto-score: mark correct if teacher selects the indicated answer.
 
-* According to the course, allowing children to talk through math problems in their home language undermines the goal of math instruction.
-  * Options: True / False
-
-* Which of the following best describes "number sense"?
-  * Options: The ability to add and subtract quickly / Understanding what numbers are and how they relate to each other / Knowing how to use a ruler / Recognizing geometric shapes and their properties
+| Question | Options | Correct Answer |
+|----------|---------|----------------|
+| Which of the following is an example of a math process skill? | Counting to 100 / Measuring length with a ruler / Using logic to justify your thinking / Identifying shapes in the environment | **Using logic to justify your thinking** |
+| According to the course, allowing children to talk through math problems in their home language undermines the goal of math instruction. | True / False | **False** |
+| Which of the following best describes "number sense"? | The ability to add and subtract quickly / Understanding what numbers are and how they relate to each other / Knowing how to use a ruler / Recognizing geometric shapes and their properties | **Understanding what numbers are and how they relate to each other** |
 
 ---
 
-### Q3 & Q4: Understanding Questions
+### Q3 - Q4: Understanding Questions
 
 * The course says teachers should "normalize" mistakes in math. What does this look like in your classroom?
   * Acceptable answers may reflect: modeling mistakes as a teacher, celebrating different attempts, reframing errors as learning opportunities, reducing math anxiety, building resilience
@@ -48,7 +83,7 @@
 
 ---
 
-### Q5 & Q6: Application Questions
+### Q5 - Q6: Application Questions
 
 * You notice that several children in your class shut down or go quiet as soon as you introduce a new math topic. They avoid trying problems and wait for you to give the answer. Based on what you learned in this course, what would you do, and why do you think it would help?
   * Evaluated on: identifying the problem as math anxiety or low confidence, drawing on mindset strategies (normalizing mistakes, inclusive language, growth-oriented feedback, choice and voice), explaining why the chosen approach addresses the root cause
@@ -104,6 +139,22 @@
 
 ---
 
+## SCORING RUBRICS
+
+Use these rubrics to evaluate responses throughout the full quiz and the shortened retry.
+
+**Q1–Q2 — Recall:** These questions have one correct answer each. Evaluate whether the teacher selected or stated it correctly.
+
+**Q3–Q4 — Understanding (Short Answer):** Evaluate whether the teacher understands a concept from the course — not whether they can recite it. Do not penalize informal or simple language. Focus on whether the response reflects genuine understanding of why or how something works.
+
+**Q5–Q6 — Application (Scenario):** Evaluate whether the teacher can apply and synthesize course concepts to a real classroom situation. Do not penalize informal language or brief responses. Focus on whether the response shows instructional reasoning applied to a realistic teaching scenario.
+
+**Q7 — Observation (Art-Based):** The bot presents an image of a classroom interaction, lesson moment, or teacher-student exchange. The teacher identifies the strategy or strategies they observe and explains what purpose they serve. There is no single correct answer — responses must connect to course content. Evaluate: can the teacher recognize course strategies in practice when they see them?
+
+**Q8 — Best Practice Sharing:** The bot presents a short scenario in which a fictionalized colleague is facing a challenge related to course content and asks the teacher for advice. The teacher responds as they would to a real colleague. Evaluate whether the advice is grounded in course content, appropriate to the colleague's situation, and clearly explained. Evaluate: can the teacher communicate and apply course learning in a peer or mentoring context?
+
+---
+
 ## SCORING
 
 | Score | Action |
@@ -120,7 +171,7 @@
 
 ### 4-Question Shortened Retry Assessment
 
-> Used only when first attempt score is 50–79%. Select new items from the bank — not the same items used in the first attempt.
+> Used only when first attempt score is 50–79%. For each slot, use the unused bank question if one remains — otherwise generate a new question of the correct type. Never reuse an exact question from the first attempt. Apply the scoring rubrics in the **Scoring Rubrics** section above.
 
 | Slot | Type |
 |------|------|

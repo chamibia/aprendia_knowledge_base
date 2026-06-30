@@ -214,7 +214,9 @@ Today you explored five strategies for making learning hands-on with low-cost ma
 
 > **[Deliver all 3 items in order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass.]**
 > **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using the matching ALT item from QUIZ_BANK_ALT — do not wait for the teacher to ask. At most one retake per item.]**
+> **[RETAKE RULE — HARD: NEVER re-ask the original question as the retake. Always use the matching ALT item from QUIZ_BANK_ALT. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3.]**
 > **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
+> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT offer the main menu or pivot to Solve a Challenge. Mark AIL_M4_HLLCM as complete. Then: (1) If Deep Dives 5 and 6 are both also complete AND Modules 1–3 are complete → congratulate the teacher and immediately offer the Final Quiz. (2) Otherwise → show the remaining deep dive menu, listing only the deep dives not yet completed. Example: "Great work! You have one more deep dive available — which would you like to explore next? [list remaining options]".]**
 
 ### QUIZ_ITEM_1
 

@@ -8,7 +8,7 @@ title: Active Learning in Action
 pathway: steady_path
 duration_target: 12-15 minutes
 unlock_requires: AIL_M1_TTEAL (prior module quiz: ≥2 of 3)
-unlocks: null
+unlocks: AIL_M3_ALEC
 quiz_pass: 2_of_3              # per-module: ≥2 of 3 correct
 course_pass_threshold: 0.80    # course-level; explain depth (system prompt §9)
 quiz_retry_allowed: true
@@ -41,6 +41,7 @@ subject: Active and Inclusive Learning
 - Clearly define active learning as structured and teacher-guided (not free-play).
 - Clearly list the three elements of active learning.
 - Emphasize active learning includes all students — regardless of age, gender, academic level, or abilities.
+- **All examples, including movement examples, must be explicitly tied to a learning objective or academic content.** If an example could be mistaken for an energizer or free play, add one sentence connecting it to what students are learning (e.g. what skill, concept, or objective the movement supports). Never present a movement activity as a standalone energy break.
 
 ---
 
@@ -217,7 +218,9 @@ Today you explored five strategies that make learning active and inclusive: buil
 
 > **[Deliver all 3 items. User must get ≥2 of 3 correct to unlock the next module.]**
 > **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using the matching ALT item from QUIZ_BANK_ALT — do not wait for the teacher to ask. At most one retake per item.]**
+> **[RETAKE RULE — HARD: NEVER re-ask the original question as the retake. Always use the matching ALT item from QUIZ_BANK_ALT. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3.]**
 > **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
+> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT offer the main menu, suggest repeating this module, or pivot to Solve a Challenge. Congratulate the teacher in one sentence, then immediately introduce Module 3: "Next up: Active Learning for Every Child — let's explore how to make your lessons work for every student." Begin Module 3 (AIL_M3_ALEC) immediately.]**
 
 ### QUIZ_ITEM_1
 

@@ -20,9 +20,9 @@ subject: Active and Inclusive Learning
 
 ## LEARNING OBJECTIVES
 
-- Teachers understand what active learning is and distinguish it from free play.
-- Teachers can name the three elements of active learning as a planning framework.
-- Teachers reflect on which element they feel most and least confident about.
+- Teachers can intentionally plan playful learning experiences with clear learning objectives.
+- Teachers can promote active engagement with peers and learning materials.
+- Teachers can create a positive classroom environment.
 
 ---
 
@@ -37,12 +37,11 @@ subject: Active and Inclusive Learning
 
 ## MODULE RULES
 
-- This module is foundational and informational — it does not deliver strategies.
-- Concepts should be presented linearly and briefly. They establish the shared understanding teachers need before applying strategies in later modules.
-- **Even though this module has no strategies, treat each concept exactly like a strategy delivery turn: one concept per message, then stop and wait for any user response before sending the next concept.**
-- Address the free-play misconception directly in CON1 — this is a common barrier.
-- Surface the three elements as a named, memorable framework in CON3.
-- Keep every concept to 1 bot turn (≤4 sentences). This module is ≤5 minutes total.
+- This module is foundational, ensuring that users can define the three elements of active learning.
+- Concepts should be presented linearly and informationally. They are not strategies, but foundational knowledge teachers need to have before doing the subsequent modules.
+- Frame active learning as adaptable across subjects and age groups.
+- Focus on small shifts that teachers can make immediately.
+- Emphasize that active learning can take place in short, simple moments.
 
 ---
 
@@ -56,15 +55,14 @@ subject: Active and Inclusive Learning
 
 **Bot behavior (step by step):**
 
-1. Send intro message: "Before we look at how to make your lessons more active, let's make sure we understand what active learning is. This will only take about 5 minutes."
-2. Wait for any acknowledgment, then deliver AIL_M1_CON1 (1 bot turn — address the free-play misconception).
-3. Wait for any response, then deliver AIL_M1_CON2 (1 bot turn — why active learning matters, 2–3 sentences).
-4. Wait for any response, then deliver AIL_M1_CON3 (1 bot turn — surface the three elements explicitly as a named framework).
+1. Send intro message: "Before we look at how to make your lessons more active, let's make sure we understand what active learning is. Every active learning lesson has three key elements: **a clear learning objective**, **active engagement with peers and learning materials**, and **a positive and safe learning environment**. We'll go through each one now. This will only take about 5 minutes."
+2. Wait for any acknowledgment, then deliver AIL_M1_CON1. Begin with: "**Element 1: A Clear Learning Objective.**" Then deliver the concept content.
+3. Wait for any response, then deliver AIL_M1_CON2. Begin with: "**Element 2: Engagement with Peers and Learning Materials.**" Then deliver the concept content.
+4. Wait for any response, then deliver AIL_M1_CON3. Begin with: "**Element 3: A Positive and Safe Learning Environment.**" Then deliver the concept content.
 5. Ask the closing reflection (see CLOSING REFLECTION section below). Wait for response.
 6. Accept any response warmly. Acknowledge in 1–2 sentences. Store response as `weakest_element` signal for Module 2 personalization. Transition: "Let's move on to what this looks like in practice." Unlock Module 2 (AIL_M2_ALA) immediately.
 
 **Chunking rules:**
-- Each concept ≤4 sentences OR ≤400 characters
 - One concept per message — never combine
 - **After each concept, stop and wait for any user response before sending the next concept. Do not send CON2 in the same turn as CON1, and do not send CON3 in the same turn as CON2.**
 - Deliver in order: CON1 → CON2 → CON3
@@ -72,35 +70,62 @@ subject: Active and Inclusive Learning
 
 ---
 
-## CONCEPTS
+## KEY CONCEPTS
 
-### AIL_M1_CON1 — What Active Learning Is and Isn't
+### AIL_M1_CON1 — Concept 1: A Clear Learning Objective
 
-**Key distinction to surface:** Not all classroom activity is active learning. Free play lets children explore without a goal (e.g. "Go outside for break"). Active learning is purposeful and teacher-guided — every game, movement, or discussion is designed to reach a specific learning objective (e.g. "Walk around the room, find the letter card, and practice the sound with a partner"). Active learning is not free time — it is a purposeful method for delivering the curriculum children are already learning.
+**Description:** Plan and deliver playful learning experiences with clear learning objectives.
 
-**Teacher Voice:** "I used to think active learning meant letting students play. Understanding that it still has a clear goal changed how I plan."
+**Expanded Explanation:** A clear learning objective gives direction to both teachers and students. It helps ensure that playful activities are connected to meaningful learning instead of becoming participation without purpose. Not all play in the classroom is the same. Free play allows children to explore without a specific goal (e.g. "Today, we will go outside and play football during break"). Active learning uses play purposefully; every game, movement, or activity is designed to guide students toward a specific learning objective (e.g. "Today, we will roam the classroom searching for the hidden letter cards. When you find a letter card, raise your hand and then we will all practice saying the letter sound."). When planning active learning lessons, teachers should create learning objectives to guide and ground purposeful play experiences. Without a clear learning objective, an activity may be enjoyable but not support students' academic growth. With it, even a simple game or movement activity can become a powerful learning experience. Learning objectives do not need to be long or complicated; they are simple "I can…" statements describing what students should be able to do by the end of a lesson or activity (e.g. "I can write the names of the plane shapes" or "I can match the word to the picture card."). Clear objectives can also help teachers think creatively about playful activities that can support student learning, ensuring that a lesson is engaging, age-appropriate, and academically meaningful.
+
+**Examples / Variations:**
+- While weekly lesson planning for math, a teacher writes down the lesson objectives for each day of the week. Then they begin creating playful experiences that reflect what students are learning.
+- Students practice identifying shapes by sorting everyday objects into groups. The lesson objective is "I can sort objects based on their shape."
+- At the beginning of a lesson, a teacher uses the echo-choral-independent strategy to read the lesson objective with the whole class.
+- At the end of the lesson, the teacher uses the lesson objective as a quick-check to assess if students understood the lesson (e.g. "Our learning objective was: 'I can solve two-digit addition problems.' Give me a thumbs up if you feel confident in solving these problems, give me a thumbs in the middle if you would like more practice, or give me a thumbs down if you would like to review this with me.").
+- A teacher plans a movement activity where students walk around the room, pair with a peer, discuss a question about the shared text, and repeat. The lesson objective is "I can describe the main details of the shared text."
+
+**Reflection Prompt:** What is a clear objective to help students understand the purpose of your next learning activity?
+
+**Teacher Voice:** "When I started planning with a clear learning objective, I noticed students stayed focused and engaged."
 
 ---
 
-### AIL_M1_CON2 — Why Active Learning Matters
+### AIL_M1_CON2 — Concept 2: Engagement with Peers and Learning Materials
 
-**Key point to surface:** Children's brains learn better when they are actively doing — not passively listening. In large, low-resource, or crisis-affected classrooms, active learning supports both understanding and wellbeing. It does not require special materials or a perfectly managed classroom — small, purposeful shifts make a real difference.
+**Description:** Promote interactions with peers and/or materials that allow students to deeply think, discover, and interact during learning.
 
-**Teacher Voice:** "Even small moments of participation help my students feel included and stay focused."
+**Expanded Explanation:** Students learn more deeply when they are actively engaged with content instead of passively listening to information. Active engagement allows students to think, question, practice, discuss, explore, and apply ideas in meaningful ways. Playful learning experiences can help students stay motivated throughout a lesson, strengthening their understanding of a lesson objective. When teachers plan lessons, they should consider activities that connect to the learning objective and allow students to interact with content in creative ways. Engaging activities do not require a lot of time or a lot of resources; they can be short, simple opportunities for participation. Interacting with peers is a way for students to not only build a positive community, but also experience playful learning opportunities. Teachers can gather local resources (e.g. bottle caps, fabric, plastic bottles) as a cost-effective way to increase classroom learning materials. Using movement, question throws, or multiple ways of teaching and responding are also ways for students to become active participants in their learning. When students are engaged in learning, they are able to thrive today and in the future.
+
+**Examples / Variations:**
+- Students act out vocabulary words while classmates guess the meaning.
+- Students work with a partner to write a simple book for the classroom library corner.
+- Students work in small groups to create math word problems, then trade and solve.
+- Students work together to make a map of the country out of scraps of fabric.
+- Teacher uses plastic bottles for small groups to each plant a tomato seedling; groups water and measure the growth of their plant, then compare and contrast their plant with the other class groups.
+- Teacher asks students to bring five stones each for a blending sounds activity.
+
+**Reflection Prompt:** What is one way students could actively interact with materials or peers during your next lesson?
+
+**Teacher Voice:** "When I gave students more opportunities to discuss ideas together, I noticed they were more excited to participate."
 
 ---
 
-### AIL_M1_CON3 — The Three Elements of Active Learning
+### AIL_M1_CON3 — Concept 3: Positive and Safe Learning Environment
 
-**Surface explicitly as a named, memorable framework — number each element clearly:**
+**Description:** Create and maintain a positive and safe environment that allows students to feel included and confident to participate.
 
-Every active learning lesson has three core elements:
+**Expanded Explanation:** Students are more likely to actively participate when they feel emotionally safe and included in the classroom community. Playful and active learning often asks students to share ideas, collaborate with peers, and take risks while learning. A positive classroom environment supports students to feel comfortable participating without fear, embarrassment, or judgment. Teachers play an essential role in creating a safe and supportive classroom environment. Teachers can model respectful interactions, valuing effort, and normalizing mistakes. Using other classroom management tools like greeting students, creating positive classroom rules, and using logical consequences support students to feel supported and safe. When teachers invest in a positive classroom, students will do the same. Classrooms that establish a sense of community have students who are more willing to ask questions, try new ideas, and stay engaged in playful learning.
 
-1. **A clear learning objective** — Students know what they are learning and why. Every activity connects to a specific goal.
-2. **Active engagement with peers and/or materials** — Students think, discuss, explore, or create — not just listen. Local objects, movement, and peer interaction are all tools.
-3. **A positive, safe, inclusive environment** — Students feel confident enough to participate, make mistakes, and take risks. Every child has a way to join in.
+**Examples / Variations:**
+- A class chooses to especially focus on one positive classroom rule a week (e.g. Be a good listener, Raise your hand, Be respectful).
+- Teacher praises effort, participation, and collaboration — not just correct answers.
+- Teacher offers multiple ways to respond so that students can demonstrate their understanding in their preferred way.
+- Teacher uses a closing circle every Friday before dismissal, allowing students to share their favorite part of the week.
 
-These three elements work together in any lesson, any subject, and any grade level — even in a crowded, low-resource classroom.
+**Reflection Prompt:** What is a classroom routine or teacher action that could help students feel safe to participate?
+
+**Teacher Voice:** "When students felt included and respected, they began sharing their thinking more."
 
 ---
 
@@ -116,19 +141,3 @@ These three elements work together in any lesson, any subject, and any grade lev
 - Transition: "Let's move on to what this looks like in practice."
 - **Unlock Module 2 (AIL_M2_ALA) immediately.**
 
----
-
-## REFERENCE CONTENT (Agent Use Only)
-
-> The following expanded content supports the concepts above. Use it to inform tone, generate examples, and respond to teacher questions — but do not deliver it as separate content blocks. Each concept must remain ≤4 sentences in delivery.
-
-**On CON1 (Clear Learning Objective):**
-Learning objectives do not need to be long or complicated. They are simple "I can…" statements describing what students should be able to do by the end of a lesson (e.g. "I can write the names of the plane shapes" or "I can match the word to the picture card"). Clear objectives help teachers think creatively about playful activities that support learning, ensuring lessons are engaging and academically meaningful.
-
-**On CON2 (Why It Matters):**
-Active engagement allows students to think, question, practice, discuss, explore, and apply ideas in meaningful ways. Playful learning experiences help students stay motivated throughout a lesson. In stressful environments, being actively engaged also supports emotional safety and a sense of belonging.
-
-**On CON3 (The Three Elements):**
-- *Clear objective:* Without one, an activity may be enjoyable but not support academic growth. With one, even a simple movement activity can become powerful learning.
-- *Engagement:* Engaging activities do not require a lot of time or resources — they can be short, simple opportunities for participation. Teachers can gather local resources (bottle caps, fabric, stones) as a cost-effective way to increase materials.
-- *Positive environment:* Teachers play an essential role — modeling respectful interactions, valuing effort, normalizing mistakes. Classrooms that establish a sense of community have students who are more willing to ask questions and stay engaged.

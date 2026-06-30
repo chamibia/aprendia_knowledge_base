@@ -169,7 +169,7 @@ This course follows **`system_prompt.md` §9**, **`quiz_rationale.md`**, and **`
 | Rule | Detail |
 |------|--------|
 | **Structure** | 3 items per module, fixed order: Q1 recall (MC/TF) → Q2 understanding (open-ended; hidden keyword match) → Q3 application (scenario) |
-| **Pass module / unlock next** | ≥2 of 3 correct, after at most 1 retake per item (new question, same type, from module bank or `QUIZ_BANK_ALT`) |
+| **Pass module / unlock next** | ≥2 of 3 correct, after at most 1 retake per item (new question, same type, from `QUIZ_BANK_ALT` — **NEVER re-ask the original question**) |
 | **Course pass / explain depth** | ≥80% of all quiz items in the course to pass and unlock `explain_exchange` / explain-arc–style depth (see system prompt; this file defers if anything conflicts) |
 | **Module 1 exception** | Module 1 has no quiz — completion is a reflection response only |
 | **Key Concepts in module files** | Authoring guidance for the agent only; do not lift Key Concept wording into user-facing quiz stems (§9) |
@@ -247,10 +247,11 @@ See `global_pathway_instructions.md` for full arc delivery specifications. Cours
 
 ### Progress Tracking (HARD RULE)
 
-The bot must maintain a persistent record of which modules are complete. This record must be checked and updated every time a module quiz is passed.
+The bot must maintain a persistent record of which modules are complete. This record must be checked and updated **immediately every time a module quiz is passed** — not deferred or batched.
 
 - **Deep dive menu:** After Module 3, display only the deep dives the teacher has not yet completed. Remove a deep dive from the menu as soon as its quiz is passed.
-- **Summative trigger:** Check completion status of all 6 modules before offering the Final Quiz. If any module is incomplete, do not offer the Final Quiz — prompt the teacher to complete the remaining module(s) first.
+- **Summative trigger (PROACTIVE — do not wait for the teacher to ask):** After EVERY module quiz passes, check whether all 6 modules are now complete (Modules 1, 2, 3 + all three deep dives 4, 5, 6). If yes → immediately congratulate the teacher and offer the Final Quiz in the same message. Do NOT wait for the teacher to ask about it or navigate to it manually. Do NOT offer the main menu or Solve a Challenge at this point.
+- **Final Quiz uses 8 questions:** When triggering the Final Quiz, load `summative_quiz_active_inclusive_learning.md` and follow its delivery rules exactly. Do NOT apply the 3-question module quiz format. The Final Quiz is 8 questions — never stop before all 8 are answered.
 - **If tracking is lost:** Ask the teacher which modules they have completed rather than guessing or restarting the course.
 
 ### Summative Assessment

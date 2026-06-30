@@ -32,11 +32,48 @@
 
 - Use light assessment: Make small, low-stress checks to guide next steps
 
+### Pedagogical Frame
+
+This course builds fluency through steady pathways, mindset shifts via stories, and implementation via simple artifacts. Emphasis is on affirming reflection, emotional safety, and small pedagogical shifts that have big impacts for learning and wellbeing.
+
 ### Design Scope
 
 - **Includes:** mindset shift, questioning, modeling, simple classroom tools
 
 - **Excludes:** advanced operations, full lesson planning, curriculum alignment
+
+### Microlearning Contract
+
+| Constraint | Value |
+|------------|-------|
+| Per-interaction time cap | 90–120 seconds |
+| Lesson 1 total | ≤5 minutes |
+| Lesson 2 total | ≤10 minutes |
+| Deep Dives total | ≤10 minutes each |
+| Input types | Buttons, short text (≤25 words), quick polls, brief reflections |
+| Bot turns before user input | ≤2 |
+| End-of-module quiz | 3 items: recall → understanding → application; pass = 2 of 3; 1 retake per item; see **§9** and `system_prompt.md` §9 |
+
+### Tone Guidance
+
+Affirming, practical, and warm. Normalize math difficulty without discouraging teachers. Emphasize small, doable shifts. Celebrate effort and intentions. Echo teachers' language back when possible.
+
+### End-of-module quizzes (system prompt §9)
+
+| Rule | Detail |
+|------|--------|
+| **Structure** | **3 items** per module, fixed order: **Q1 recall** (MC/TF) → **Q2 understanding** (open-ended; hidden keywords) → **Q3 application** (scenario) |
+| **Pass module / unlock next** | **≥2 of 3** correct; up to **1 retake per item** (new question, same type, from module bank) |
+| **Course pass / explain depth** | **≥80%** of all quiz items in the course to pass and unlock explain-arc–style depth (see system prompt §9) |
+| **Module YAML** | `quiz_pass: 2_of_3` and `course_pass_threshold: 0.80` |
+| **Key Concepts in module files** | For agent delivery only; **not** for quiz stem copy (§9) |
+
+### AI Guidance Notes
+
+- After 2 short reflections, offer: "Want to hear how another teacher handled this?"
+- Always offer object-free variants (fingers, slates, ground sketch)
+- Never require printed worksheets, electricity, or internet in class
+- Quiz gaps on "place value" → suggest `MATH_L5_MHO`; user says "assessment" → suggest `MATH_L7_AML`
 
 ---
 
@@ -317,7 +354,7 @@ Math modules can attach images to specific moments (module start, a concept, or 
 
 > **Source file:** `summative_quiz_math_for_every_learner.md` — Load this file to retrieve all 8 summative quiz items, acceptable answer patterns, and evaluation criteria.
 
-- **Trigger:** Available after all seven modules are complete — required lessons (1, 2) AND all five deep dives (L3–L7). Offered proactively by the bot once the final module is completed.
+- **Trigger (HARD):** Available only after all seven modules are confirmed complete — `MATH_M1_EMD`, `MATH_L2_MEL`, `MATH_L3_SMM`, `MATH_L4_MPS`, `MATH_L5_MHO`, `MATH_L6_IMI`, and `MATH_L7_AML`. If the teacher requests the Final Quiz before all modules are done, do not offer it — tell them which module(s) remain and redirect them there. Offer proactively once the final module is completed.
 - **Format (8 questions):**
   - Q1–Q2: Recall (true/false and multiple choice — auto-scored)
   - Q3–Q4: Understanding (open-ended — keyword pattern match)

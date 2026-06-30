@@ -2,14 +2,17 @@
 
 **Course:** AIL_COURSE_01  
 **Trigger:** All 6 modules complete (Modules 1–3 required + Modules 4, 5, 6 deep dives). Offer proactively when the final module is completed.  
-**Name shown to teacher:** Final Quiz *(pending naming decision — options: "Final Quiz," "Summative Quiz," "Final Summative Quiz")*
+**Name shown to teacher:** Final Quiz *(options: "Final Quiz," "Summative Quiz," "Final Summative Quiz")*
 
 ---
 
 ## DELIVERY RULES (HARD)
 
+- **UNLOCK GATE (HARD):** Do NOT offer this quiz unless all six modules are confirmed complete: `AIL_M1_TTEAL`, `AIL_M2_ALA`, `AIL_M3_ALEC`, `AIL_M4_HLLCM`, `AIL_M5_DRPCE`, and `AIL_M6_PAL`. If the teacher requests the quiz before all modules are done, do not offer it — tell them which module(s) remain and redirect them there.
 - **Use only the questions in this bank.** Do not generate or paraphrase new questions.
-- **This is NOT a 3-question module quiz. It has 8 questions. Do not stop at 3.**
+- **This is NOT a 3-question module quiz. It has 8 questions. Do not stop at 3. Do not stop at any number fewer than 8.**
+- **Do NOT apply the module quiz sequence (Q1 recall → Q2 understanding → Q3 application in 3 questions) to this quiz.** This quiz has its own sequence: Q1–Q2 Recall, Q3–Q4 Understanding, Q5–Q6 Application, Q7 Observation, Q8 Best Practice. Follow this sequence exactly.
+- **Q3 and Q4 are Understanding questions (open-ended). Q5 and Q6 are Application questions (scenario-based).** Never deliver Q3 or Q4 as an Application question, and never deliver Q5 or Q6 as an Understanding question.
 - **Deliver all 8 questions in order before any scoring, feedback, summary, or options.** Do not score, give feedback, offer a summary, or offer next steps until all 8 answers are collected.
 - After each question is answered: say one brief acknowledgment only ("Got it" / "Thank you" — one phrase, nothing more), then immediately ask the next question. No feedback. No options. No praise beyond a brief "thank you."
 - **Do not reveal example answers, model responses, or keyword hints before or during the quiz.** All feedback is given after the full score is calculated.
@@ -18,16 +21,18 @@
 
 **Delivery sequence (strictly follow this order):**
 
-| Step | Question | Type | Draw from |
-|------|----------|------|-----------|
-| 1 | Q1 | Recall (multiple choice) | Q1–Q2 Recall bank — pick one |
-| 2 | Q2 | Recall (multiple choice) | Q1–Q2 Recall bank — pick a DIFFERENT question |
-| 3 | Q3 | Understanding (open-ended) | Q3–Q4 Understanding bank — pick one |
-| 4 | Q4 | Understanding (open-ended) | Q3–Q4 Understanding bank — pick a DIFFERENT question |
-| 5 | Q5 | Application (scenario) | Q5–Q6 Application bank — pick one |
-| 6 | Q6 | Application (scenario) | Q5–Q6 Application bank — pick a DIFFERENT question |
-| 7 | Q7 | Observation (image) | Q7 — fixed question, send image + prompt |
-| 8 | Q8 | Best practice | Q8 Best Practice bank — pick one |
+| Step | Position | Type | Source |
+|------|----------|------|--------|
+| 1 | Q1 | **Recall** (multiple choice) | Recall bank — pick one |
+| 2 | Q2 | **Recall** (multiple choice) | Recall bank — pick a DIFFERENT question |
+| 3 | Q3 | **Understanding** (open-ended) | Understanding bank — pick one |
+| 4 | Q4 | **Understanding** (open-ended) | Understanding bank — pick a DIFFERENT question |
+| 5 | Q5 | **Application** (scenario) | Application bank — pick one |
+| 6 | Q6 | **Application** (scenario) | Application bank — pick a DIFFERENT question |
+| 7 | Q7 | **Observation** (image) | Q7 bank — send image + prompt |
+| 8 | Q8 | **Best Practice** | Best Practice bank — pick one |
+
+**⚠️ Each bank is tied to its position only.** The Recall bank feeds Q1 and Q2 only — never Q3, Q4, or beyond. The Understanding bank feeds Q3 and Q4 only — never Q1, Q2, Q5, or beyond. The Application bank feeds Q5 and Q6 only. Each bank has 3 questions; use 2 per attempt, keep the third for variety in later sessions.
 
 → Only after Q8 is answered: calculate score and follow the Scoring rules below.
 
@@ -37,9 +42,13 @@
 
 ### Q1–Q2 Bank: Recall Questions (Multiple Choice)
 
-* Teachers can use storytelling to teach content in: (Options: Reading class only/Science and Math class only/All classes)  
-* Assigning a materials manager to organize learning materials at the end of the school day is an example of: (Options: Giving students free time/Preparing for a special activity/Establishing a material routine)  
-* What are the three elements of active learning? (Options: Games, movement, and group work/Clear learning objective, engagement with peers and materials,  and a positive and safe environment/Lesson planning, clear learning objective, and student assessment)
+> Pick one for Q1 and a DIFFERENT one for Q2. Auto-score: mark correct if teacher selects the indicated answer.
+
+| Question | Options | Correct Answer |
+|----------|---------|----------------|
+| Teachers can use storytelling to teach content in: | Reading class only / Science and Math class only / All classes | **All classes** |
+| Assigning a materials manager to organize learning materials at the end of the school day is an example of: | Giving students free time / Preparing for a special activity / Establishing a material routine | **Establishing a material routine** |
+| What are the three elements of active learning? | Games, movement, and group work / Clear learning objective, engagement with peers and materials, and a positive and safe environment / Lesson planning, clear learning objective, and student assessment | **Clear learning objective, engagement with peers and materials, and a positive and safe environment** |
 
 ### Q3–Q4 Bank: Understanding Questions
 
@@ -89,6 +98,22 @@
 
 ---
 
+## SCORING RUBRICS
+
+Use these rubrics to evaluate responses throughout the full quiz and the shortened retry.
+
+**Q1–Q2 — Recall:** These questions have one correct answer each. Evaluate whether the teacher selected or stated it correctly.
+
+**Q3–Q4 — Understanding (Short Answer):** Evaluate whether the teacher understands a concept from the course — not whether they can recite it. Do not penalize informal or simple language. Focus on whether the response reflects genuine understanding of why or how something works.
+
+**Q5–Q6 — Application (Scenario):** Evaluate whether the teacher can apply and synthesize course concepts to a real classroom situation. Do not penalize informal language or brief responses. Focus on whether the response shows instructional reasoning applied to a realistic teaching scenario.
+
+**Q7 — Observation (Art-Based):** The bot presents an image of a classroom interaction, lesson moment, or teacher-student exchange. The teacher identifies the strategy or strategies they observe and explains what purpose they serve. There is no single correct answer — responses must connect to course content. Evaluate: can the teacher recognize course strategies in practice when they see them?
+
+**Q8 — Best Practice Sharing:** The bot presents a short scenario in which a fictionalized colleague is facing a challenge related to course content and asks the teacher for advice. The teacher responds as they would to a real colleague. Evaluate whether the advice is grounded in course content, appropriate to the colleague's situation, and clearly explained. Evaluate: can the teacher communicate and apply course learning in a peer or mentoring context?
+
+---
+
 ## SCORING
 
 | Score | Action |
@@ -105,7 +130,7 @@
 
 ### 4-Question Shortened Retry Assessment
 
-> Used only when first attempt score is 50–79%. Select new items from the bank — not the same items used in the first attempt.
+> Used only when first attempt score is 50–79%. For each slot, use the unused bank question if one remains — otherwise generate a new question of the correct type. Never reuse an exact question from the first attempt. Apply the scoring rubrics in the **Scoring Rubrics** section above.
 
 | Slot | Type |
 |------|------|

@@ -189,7 +189,12 @@ When delivering module content, ALWAYS include pathway-specific keywords to retr
 - Module 1 (Three Elements of Active Learning) → "active learning elements", "learning objective", "peer engagement", "inclusive environment", "active learning framework"
 - Module 2 (Active Learning in Action) → "active learning strategies", "movement", "everyday materials", "peer interaction", "inclusion foundation"
 - Module 3 (Active Learning for Every Child) → "learner variability", "proactive inclusion", "barriers to learning", "multiple ways to engage", "every child"
-- Deep Dives → Include specific topic: "hands-on materials", "low-cost materials", "local materials", "drama role play", "storytelling", "creative expression", "active lesson planning", "quick checks", "close the loop"
+- **AIL Deep Dive menu (when user selects a deep dive or asks which to do next)** → MUST include: "AIL_M4_HLLCM hands-on learning low-cost materials", "AIL_M5_DRPCE drama role play creative expression", "AIL_M6_PAL planning active lesson" — do NOT use generic "deep dive" keywords that may match other courses
+- Module 4 / Deep Dive: Hands-On Learning with Low-Cost Materials (AIL_M4_HLLCM) → "hands-on materials", "low-cost materials", "local materials", "material routines", "every child a material"
+- Module 5 / Deep Dive: Drama, Role Play, and Creative Expression (AIL_M5_DRPCE) → "drama role play", "storytelling", "creative expression", "active learning drama"
+- Module 6 / Deep Dive: Planning an Active Lesson (AIL_M6_PAL) → "active lesson planning", "quick checks", "close the loop", "know your learners", "use space intentionally"
+- **AIL Summative / Final Quiz trigger** → "summative_quiz_active_inclusive_learning", "AIL final quiz", "8 questions", "all six modules complete" — load `summative_quiz_active_inclusive_learning.md`; do NOT apply the 3-question module quiz format
+- **Math Summative / Final Quiz trigger** → "summative_quiz_math_for_every_learner", "Math final quiz", "8 questions", "all seven modules complete", "MATH_M1 MATH_L2 MATH_L3 MATH_L4 MATH_L5 MATH_L6 MATH_L7 complete" — load `summative_quiz_math_for_every_learner.md`; do NOT apply the 3-question module quiz format
 
 ---
 

@@ -79,11 +79,14 @@ Strategies that support one group of learners often help all learners. For examp
 
 Use `<break>` tags between steps if the combined message exceeds 400 characters. Never skip or compress any of the four steps.
 
+**⚠️ CRITICAL PACING RULE: Each scene = one strategy = one message. NEVER combine two strategies into one message. Scene 3 and Scene 4 are separate messages — deliver Scene 3, wait for the teacher's response, then deliver Scene 4.**
+
 | Scene | Strategy | Concept (guides delivery; do not show) | Narrative brief |
 |-------|----------|----------------------------------------|-----------------|
 | Scene 1 | STRAT1 (Connect Learning to Children's Lives) | CON1 | A teacher is preparing a lesson and realizes her examples feel distant from students' daily lives. She makes a small change — replacing abstract examples with familiar objects like local foods or fabric. Students immediately recognize the context and engage. Show the strategy in action — no concept definitions. |
 | Scene 2 | STRAT2 (Present Information in Multiple Ways) | CON2 | The same teacher (or another) explains a concept verbally but notices several students still look confused. She adds a gesture and shows an object. More students connect with the idea. Show the strategy in action — no concept definitions. |
-| Scene 3 | STRAT3 + STRAT4 (Offer Multiple Ways to Show Understanding, Eliminate Barriers Before They Happen) | CON3 + CON4 | Weave together: she gives students a choice in how to respond (draw, act, write) — quieter students engage. Then she reflects on her next lesson, identifies a potential barrier, and adjusts her plan before class begins. Show strategies in action — no concept definitions. |
+| Scene 3 | STRAT3 (Offer Multiple Ways to Show Understanding) | CON3 | She gives students a choice in how to respond to a question — draw, act it out, or write a sentence. Quieter students who never raised their hand before begin to participate. Show the strategy in action — no concept definitions. |
+| Scene 4 | STRAT4 (Eliminate Barriers Before They Happen) | CON4 | She reflects on her next lesson before class begins. She identifies a potential barrier — some students may not understand the instructions — and adjusts her plan: she will show the steps on the board and model them first. Show the strategy in action — no concept definitions. |
 
 ---
 
@@ -94,7 +97,8 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 | Step | Prompt |
 |------|--------|
 | Reflection #1 (after Scene 1) | Have you noticed students engage more when they see their own lives reflected in a lesson? What happened? |
-| Reflection #2 (after Scene 3) | Which of these strategies feels most realistic to try in your next lesson? |
+| Reflection #2 (after Scene 3) | How could you offer students a choice in how they respond during your next lesson? |
+| Reflection #3 (after Scene 4) | Which of these four strategies feels most realistic to try in your next lesson? |
 
 ---
 
@@ -194,6 +198,7 @@ Today you explored four strategies that make learning accessible for every child
 
 > **[Deliver all 3 items. User must get ≥2 of 3 correct to pass.]**
 > **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using the matching ALT item from QUIZ_BANK_ALT — do not wait for the teacher to ask. At most one retake per item.]**
+> **[RETAKE RULE — HARD: NEVER re-ask the original question as the retake. Always use the matching ALT item from QUIZ_BANK_ALT. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3.]**
 > **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
 
 > **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT suggest repeating Module 3 or offer the main menu. Congratulate the teacher in one sentence, then immediately present the Deep Dive menu below. This is the only correct next step.]**

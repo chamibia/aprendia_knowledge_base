@@ -186,35 +186,109 @@ subject: Active and Inclusive Learning
 
 * **Teacher Voice:** "Ending the lesson as a whole class creates a sense of completion."
 
-### 7. Quiz Questions
+---
 
-**Question 1: Recall**
+## DELIVERY INSTRUCTIONS
 
-| # | Question | Options |
-| - | -------- | ------- |
-| 1 | What is the purpose of closing the lesson? | To finish quickly / To summarize learning / To start a new topic |
-| 2 | Knowing your learners helps _____________. | Control behavior / Plan intentional activities / Reduce long lessons |
-| 3 | Active learning requires a large classroom space. | True / False |
+**Pathway:** `steady_path`
 
-**Question 2: Understanding**
+**Flow:** INTRO → STRAT1 → STRAT2 → Reflection #1 (after STRAT2) → STRAT3 → STRAT4 → STRAT5 → Reflection #2 (after STRAT5) → RECAP → QUIZ
 
-| # | Question | Keywords |
-| - | -------- | -------- |
-| 1 | Why is planning small adjustments important in mixed-age classrooms? | inclusion, different needs, participation |
-| 2 | Why are quick checks useful during a lesson? | immediate feedback, adjust teaching, understanding |
-| 3 | How does organizing a classroom space help reduce stress for learners? | safe, movement, smooth transitions, predictability |
-
-**Question 3: Application**
-
-| # | Scenario | Question |
-| - | -------- | -------- |
-| 1 | At the end of a lesson, students quickly pack up and leave without discussing what they learned. The teacher is not sure if they understood the purpose of the activity. | How can the teacher close the lesson to help students reflect on their learning? |
-| 2 | During a small group activity, students crowd into one area and begin pushing and arguing over space. The activity becomes noisy and some students stop participating. | How can the teacher use classroom space to address this challenge for the next lesson? |
-| 3 | A teacher notices the same few students answer every question, while others stay quiet and keep their heads down. When planning the next lesson, the teacher is unsure how to get more students to participate. | How can they plan differently based on what they observed? |
+**Chunking rules:**
+- Each strategy = one message (≤4 sentences or ≤400 characters)
+- One strategy per message — never combine
+- Wait for user response after each reflection prompt
+- **After RECAP: immediately begin the quiz on any acknowledgment — do not wait for the teacher to ask**
 
 ---
 
-### 8. DIY Activity Element
+## RECAP
+
+Today you explored five planning habits that make active and inclusive lessons work better: knowing your learners, using the space intentionally, planning for a range of learners, using quick checks during the lesson, and closing the loop. These habits do not require extra time or new materials — they are small, intentional decisions you make before, during, and after every lesson. Let's check what stayed with you.
+
+> **[After the teacher acknowledges or replies to the recap — even a short reply like "ok" or 👍 — immediately begin the quiz. Do not wait for the teacher to ask for it. Do not offer optional enrichment before the quiz.]**
+
+---
+
+## QUIZ
+
+> **[Deliver all 3 items in order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass.]**
+> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using the matching ALT item from QUIZ_BANK_ALT — do not wait for the teacher to ask. At most one retake per item.]**
+> **[RETAKE RULE — HARD: NEVER re-ask the original question as the retake. Always use the matching ALT item from QUIZ_BANK_ALT. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3.]**
+> **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
+> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT offer the main menu or pivot to Solve a Challenge. Mark AIL_M6_PAL as complete. Then: (1) If Deep Dives 4 and 5 are both also complete AND Modules 1–3 are complete → congratulate the teacher and immediately offer the Final Quiz. (2) Otherwise → show the remaining deep dive menu, listing only the deep dives not yet completed.]**
+
+### QUIZ_ITEM_1
+
+| Field | Value |
+|-------|-------|
+| **Type** | Multiple choice (Recall) |
+| **Question** | What is the purpose of closing the lesson? |
+| **Options** | A) To finish quickly / B) To summarize learning / C) To start a new topic |
+| **Correct** | B |
+| **Feedback** | Ending with a closing moment helps students connect the activity to the learning goal and gives the lesson a clear sense of completion and purpose. |
+
+### QUIZ_ITEM_2
+
+| Field | Value |
+|-------|-------|
+| **Type** | Short answer (Understanding) |
+| **Question** | Why are quick checks useful during a lesson? |
+| **Accept keywords** | immediate feedback, adjust teaching, understanding, gauge, confused, slow down, reteach, on track |
+| **Feedback** | Quick checks give teachers a fast, low-pressure way to see what students understand in the moment so they can adjust — re-explain, slow down, or move on — without stopping the lesson for a formal assessment. |
+
+### QUIZ_ITEM_3
+
+| Field | Value |
+|-------|-------|
+| **Type** | Open-ended scenario (Application) |
+| **Question** | At the end of a lesson, students quickly pack up and leave without discussing what they learned. The teacher is not sure if they understood the purpose of the activity. How can the teacher close the lesson to help students reflect on their learning? |
+| **Accept** | Any response that describes a brief closing routine (asking students to share one thing they learned, restating the learning goal, a quick final question); and explains — even briefly — how it connects students to the lesson's purpose |
+| **Feedback** | Strong responses describe a short whole-class closing moment — such as asking students to share what they learned, restating the goal, or answering a final question — and link it to giving students a sense of completion and understanding. |
+
+---
+
+## QUIZ_BANK_ALT
+
+> **[Use these items for retakes only — offered automatically after a wrong answer. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3. At most one retake per item.]**
+
+### ALT_ITEM_1
+
+> **[Use when teacher answers QUIZ_ITEM_1 incorrectly. Same type: Recall.]**
+
+| Field | Value |
+|-------|-------|
+| **Type** | Multiple choice |
+| **Question** | Knowing your learners helps teachers: |
+| **Options** | A) Control behavior / B) Plan intentional activities / C) Reduce long lessons |
+| **Correct** | B |
+| **Feedback** | When teachers understand their learners — strengths, needs, and interests — they can plan activities that feel meaningful and inclusive for every student. |
+
+### ALT_ITEM_2
+
+> **[Use when teacher answers QUIZ_ITEM_2 incorrectly. Same type: Understanding.]**
+
+| Field | Value |
+|-------|-------|
+| **Type** | Short answer |
+| **Question** | Why is planning small adjustments important in mixed-age or mixed-level classrooms? |
+| **Accept keywords** | inclusion, different needs, participation, range, all learners, challenge, support, struggling, quick learners |
+| **Feedback** | Small planning adjustments keep both struggling and quick learners engaged — preventing boredom or frustration so every student can participate meaningfully. |
+
+### ALT_ITEM_3
+
+> **[Use when teacher answers QUIZ_ITEM_3 incorrectly. Same type: Application scenario.]**
+
+| Field | Value |
+|-------|-------|
+| **Type** | Open-ended scenario |
+| **Question** | During a small group activity, students crowd into one area and begin arguing over space. The activity becomes noisy and some students stop participating. How can the teacher use classroom space to prevent this challenge in the next lesson? |
+| **Accept** | Any response that describes a space planning strategy (pre-assigning group areas, creating pathways, taking the lesson outside, setting movement rules); and explains — even briefly — why it would reduce conflict or support learning |
+| **Feedback** | Strong responses suggest a specific space adjustment — assigning groups to different areas, creating clear pathways, or setting movement rules before the activity — and connect it to reducing confusion and keeping students focused. |
+
+---
+
+### 7. DIY Activity Element
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | ----- | ----- | ----- | ----- | ----- |
