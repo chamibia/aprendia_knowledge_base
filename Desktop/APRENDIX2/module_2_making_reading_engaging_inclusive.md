@@ -5,7 +5,7 @@
 ```yaml
 module_id: READING_M2_MREI
 title: Making Reading Engaging & Inclusive
-pathway: empathy_arc
+pathway: steady_arc
 duration_target: 12-15 minutes
 unlock_requires: READING_M1_HWLR
 unlocks: Deep Dives
@@ -26,7 +26,7 @@ subject: Reading
 | Subject / Topic | Reading |
 | Grade level(s) | Primary 1-6 (with notes for multi-age/multi-grade classes) |
 | Estimated Module Duration | 12-15 minutes (5 strategies x 2-3 minutes) |
-| Pathway Fit | empathy_arc |
+| Pathway Fit | steady_arc |
 
 ### 2. Learning Objectives (2–3)
 
@@ -61,8 +61,6 @@ subject: Reading
   * Write student predictions on the board and reflect on them after the reading
   * Teacher does not show the final pages of the book and asks students to draw what they think will happen
 * **Reflection Prompt:** How do making predictions affect attention during reading?
-* **Quiz Item:**
-  * What skill can students practice during picture walks? (Options: Memorizing the story/Reading quickly/Making predictions)
 * **Teacher Voice:** "My students are more focused when we review pictures before reading."
 
 #### READING_M2_STRAT2 / Strategy 2: Shared Reading and Finger Tracking
@@ -75,9 +73,6 @@ subject: Reading
   * At the end of the week, teacher invites students who are able to read the text independently to lead the tracking at the board
   * Teacher writes the text on a slate or paper, works with students individually or in small groups to practice tracking on printed text
 * **Reflection Prompt:** How might tracking change the pace of reading?
-* **Quiz Item:**
-  * How can shared readings help students writing? (Keywords: handwriting, spacing, direction, punctuation, capitalization, neatness)
-  * Finger tracking helps students notice how spoken words and written words _____. (Keywords: match, connect, go together)
 * **Teacher Voice:** "Even without their own book, my students could follow the words."
 
 #### READING_M2_STRAT3 / Strategy 3: Echo→Choral→Independent Reading
@@ -90,10 +85,6 @@ subject: Reading
   * Teacher allow students to create a sentence they would add to the text (e.g. "She will borrow one from the teacher" or "She will return home to get it")
   * Class reads the text in different voices (e.g. deep voice, whisper voice, or loud voice)
 * **Reflection Prompt:** How will this strategy help reluctant readers participate?
-* **Quiz Item:**
-  * Why is choral reading helpful? (Options: It reduces pressure/It rewards fast readers/It helps handwriting)
-  * Why is echo reading first? (Options: To test pronunciation/To model fluent reading/ To make reading faster)
-  * What is the correct order? (Options: Echo → Choral → Independent/ Choral → Echo → Independent/Independent → Echo → Choral)
 * **Teacher Voice:** "Echo and choral reading helped everyone participate, even shy learners and giving choice made independent reading feel safer."
 
 #### READING_M2_STRAT4 / Strategy 4: Thinking Aloud
@@ -108,9 +99,6 @@ subject: Reading
   * Teacher uses a book or writes a simple text on the board as the print to model thinking aloud
   * Teacher invites a student volunteer to try leading thinking aloud
 * **Reflection Prompt:** What is a statement you could say to model thinking aloud to your students?
-* **Quiz Item:**
-  * Thinking aloud makes reading strategies visible. (Options: True/False)
-  * Thinking aloud helps students learn: (Options: How to memorize/How to read fast/What readers think about)
 * **Teacher Voice:** "I realized students didn't know how readers think." and "My students started using the thinking words I modeled."
 
 #### READING_M2_STRAT5 / Strategy 5: Encourage Peer Discussion
@@ -123,9 +111,6 @@ subject: Reading
   * Teacher allows pairs to share their ideas with the whole class
   * Teachers instructs one partner to share first, then the teacher will call "change," this means the other partner will begin sharing
 * **Reflection Prompt:** How can peer talk support student understanding of a story?
-* **Quiz Item:**
-  * Why use peer discussion in reading class? (Keywords: build understanding together, collaboration, comprehension, oral language)
-  * When is peer discussion most useful? (Options: After reading part of a story/Only at the end of class/During silent work)
 * **Teacher Voice:** "Students understood the story better after talking with a partner."
 
 ### 6. DIY Activity Element
@@ -134,5 +119,47 @@ subject: Reading
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | Partner Replay | Text/story | 1. Teacher reads part of a story 2. Students find a partner and retell what happened 3. Students find a new partner and retell again 4. Teacher asks "What stayed the same or changed?" | Younger: Use movements to act out the retelling | Students remember events clearly and practice sharing their thoughts through oral language. | 10-12 minutes |
 | Swap the Sentence | Word cards, students | 1. Teacher pre-makes word cards that can be made into a sentence. 2. Students come to the front of the class and hold a card. 3. The students stand in random order to form a sentence. 4. Class reads and tracks the sentence students have formed 5. Teacher asks "Does this make sense?" 6. Class swaps students one at a time 7. After each swap, the class rereads and tracks the sentence 8. Swap until the sentence "makes sense" | Younger: Teacher creates simple sentences Older: Teacher uses compound or complex sentences | Students connect word order to meaning. | 10-12 minutes |
+
+---
+
+### 7. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **What is the correct order of this routine?**
+  - Options: Independent → Echo → Choral / Echo → Choral → Independent / Choral → Independent → Echo
+
+- **Thinking aloud shows students how to memorize words.**
+  - Options: True / False
+
+- **Why is peer discussion used in reading lessons?**
+  - Options: To replace reading / To build understanding through talking / To test reading skills
+
+#### Question 2: Understanding
+
+- **How does finger tracking support reading and writing development?**
+  - Keywords: direction, spacing, connection, print
+
+- **Why do picture walks help students stay more engaged during reading?**
+  - Keywords: predictions, connection, attention, background knowledge
+
+- **How does thinking aloud help students with reading comprehension?**
+  - Keywords: visible thinking, meaning, decoding, modeling
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  A teacher notices that many students feel nervous about reading aloud and avoid participating. The teacher wants to create a safer way for all students to practice reading.
+  *How can the teacher use the echo → choral → independent reading strategy to support students?*
+
+- **Scenario 2:**
+  After reading a story, a teacher asks questions to the whole class but only a few students respond while others stay quiet. The teacher wants more students to actively think about and discuss the story.
+  *How can the teacher use peer discussion?*
+
+- **Scenario 3:**
+  A teacher begins reading a new story, but students seem confused about the characters and struggle to follow along. The teacher wants to better prepare students before reading using pictures in the text.
+  *How can the teacher use a picture walk to support the students?*
 
 ---

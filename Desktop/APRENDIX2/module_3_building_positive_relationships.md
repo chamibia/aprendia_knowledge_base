@@ -87,8 +87,6 @@ Without clear boundaries, teachers may overextend themselves and experience burn
 
 **Reflection prompt:** Who could you check in with this week?
 
-**Quiz item:** A colleague says, "I don't have time for meetings." Which option best fits a peer mentoring moment? (Options: A: Schedule a weekly discussion / B: Send a short message / C: Write a long note / D: Wait until less busy | Correct: B)
-
 ---
 
 ### TWB_M3_STRAT2 — Celebrate Small Wins
@@ -105,8 +103,6 @@ Without clear boundaries, teachers may overextend themselves and experience burn
 
 **Reflection prompt:** What small success happened this week?
 
-**Quiz item:** Celebrating small wins helps teachers notice _____, even when challenges remain. (Keywords: progress, motivation, growth, success)
-
 ---
 
 ### TWB_M3_STRAT3 — Practice Active Listening
@@ -120,8 +116,6 @@ Without clear boundaries, teachers may overextend themselves and experience burn
 - Asking clarifying questions
 
 **Reflection prompt:** How do you show others you are listening to them?
-
-**Quiz item:** A colleague is sharing frustration about a difficult class. Which response shows active listening? (Options: A: "That happened to me—here's what I did." / B: "It will get better, don't worry." / C: "That sounds exhausting. What felt hardest?" / D: "You should try a new strategy." | Correct: C)
 
 ---
 
@@ -137,8 +131,6 @@ Without clear boundaries, teachers may overextend themselves and experience burn
 - Say no to an extra task
 
 **Reflection prompt:** What boundary would help you most right now?
-
-**Quiz item:** Which boundary is most realistic for protecting energy in a busy school setting? (Options: A: Never thinking about work at home / B: Taking a full day off each week / C: Protecting 10 minutes after school for a reset / D: Saying yes to every request for help | Correct: C)
 
 ---
 
@@ -161,66 +153,42 @@ You explored four ways to strengthen connections and protect energy: peer mentor
 
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **[Deliver all 3 items. User must get ≥2 of 3 correct to unlock the next module.]**  
-> **[Provide correct answer + 1-sentence explanation after each item.]**  
-> **[If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (§9)]**
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | A colleague says, "I don't have time for meetings." Which option best fits a peer mentoring moment? |
-| **Options** | A: Schedule a weekly discussion / B: Send a short message / C: Write a long note / D: Wait until less busy |
-| **Correct** | B |
-| **Feedback** | Peer mentoring moments can be brief—a short message or quick chat is enough to build connection. |
+- **A peer mentoring moment requires a formal weekly meeting with a colleague.**
+  - Options: True / False
 
-### QUIZ_ITEM_2
+- **A colleague is sharing frustration about a difficult class. Which response shows active listening?**
+  - Options: "That happened to me—here's what I did." / "It will get better, don't worry." / "That sounds exhausting. What felt hardest?" / "You should try a new strategy."
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | Celebrating small wins helps teachers notice _____, even when challenges remain. |
-| **Accept keywords** | progress, motivation, growth, success, effort |
-| **Feedback** | Celebrating small wins helps teachers recognize progress and growth, even in difficult conditions. |
+- **Which boundary is most realistic for protecting energy in a busy school setting?**
+  - Options: Never thinking about work at home / Taking a full day off each week / Protecting 10 minutes after school for a reset / Saying yes to every request for help
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | A colleague is sharing frustration about a difficult class. Which response shows active listening? |
-| **Options** | A: "That happened to me—here's what I did." / B: "It will get better, don't worry." / C: "That sounds exhausting. What felt hardest?" / D: "You should try a new strategy." |
-| **Correct** | C |
-| **Feedback** | Active listening involves acknowledging the feeling and inviting more—not immediately offering advice or solutions. |
+- **How can noticing a small win help teachers stay motivated when challenges remain?**
+  - Keywords: progress, motivation, growth, success
 
----
+- **What is one benefit of checking in briefly with a colleague during a busy week?**
+  - Keywords: connection, support, encouragement, friendship
 
-## QUIZ_BANK_ALT
+- **Why does protecting time or energy through boundaries support teachers?**
+  - Keywords: rest, care, tiredness, motivation
 
-> **[Use these items if retry is needed]**
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A teacher stays late every evening to lesson plan and help colleagues with tasks. They are very tired and feel they have no time to rest before the next school day.
+  *What boundary would you suggest for this teacher to protect their energy?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | Which boundary is most realistic for protecting energy in a busy school setting? |
-| **Options** | A: Never thinking about work at home / B: Taking a full day off each week / C: Protecting 10 minutes after school for a reset / D: Saying yes to every request for help |
-| **Correct** | C |
+- **Scenario 2:**
+  A teacher wants to check in with a colleague who has mentioned feeling overwhelmed, but the colleague says they are too busy for meetings. The teacher still wants to offer support without adding stress to their colleague.
+  *How could the teacher support their colleague?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | Why are boundaries a form of care? |
-| **Accept keywords** | protect, energy, sustain, burnout, continue, teaching |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | What does peer support NOT require? |
-| **Options** | A: Long conversations or formal meetings / B: Brief connection / C: Sharing one small win / D: Presence and encouragement |
-| **Correct** | A |
+- **Scenario 3:**
+  A colleague approaches a teacher to talk about a difficult situation in their classroom. The teacher is tired and tempted to offer quick advice so the conversation can end.
+  *What could the teacher do instead to make their colleague feel supported?*

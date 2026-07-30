@@ -82,8 +82,6 @@ subject: Active and Inclusive Learning
 
 * **Reflection Prompt:** When do your students seem most engaged during the day? Why?
 
-* **Quiz Item:** Knowing your learners helps teachers: (Options: Control behavior / Plan intentional activities / Reduce long lessons)
-
 * **Teacher Voice:** "I realized I already observe my students, but I need to use that information when lesson planning."
 
 #### AIL_M6_STRAT2 / Strategy 2: Use the Space Intentionally
@@ -110,12 +108,6 @@ subject: Active and Inclusive Learning
 
 * **Reflection Prompt:** How can you adjust your classroom space to make movement easier?
 
-* **Quiz Item:**
-
-  * Active learning requires a large classroom space. (Options: True / False)
-
-  * How does organizing classroom space help reduce stress for learners? (Keywords: safe, movement, smooth transitions, predictability)
-
 * **Teacher Voice:** "Clear spaces and routines calm my class."
 
 #### AIL_M6_STRAT3 / Strategy 3: Plan for the Range of Learners in Your Class
@@ -138,8 +130,6 @@ subject: Active and Inclusive Learning
 
 * **Reflection Prompt:** How can you challenge quick learners during your next activity?
 
-* **Quiz Item:** Why is planning small adjustments important in mixed-age classrooms? (Keywords: inclusion, different needs, participation)
-
 * **Teacher Voice:** "Planning simple adjustments helps me feel more prepared before I start teaching."
 
 #### AIL_M6_STRAT4 / Strategy 4: Use Quick Checks
@@ -160,8 +150,6 @@ subject: Active and Inclusive Learning
 
 * **Reflection Prompt:** What quick check can you try in your next lesson?
 
-* **Quiz Item:** Why are quick checks useful during a lesson? (Keywords: immediate feedback, adjust teaching, understanding)
-
 * **Teacher Voice:** "I can quickly see who understands without stopping everything."
 
 #### AIL_M6_STRAT5 / Strategy 5: Close the Loop
@@ -181,8 +169,6 @@ subject: Active and Inclusive Learning
   * After summarizing the lesson, the teacher gives a challenge for students to consider (e.g. "In our story, we learned that helping others is important. Think about how you could help someone today!").
 
 * **Reflection Prompt:** What is a closing question you can ask at the end of your next lesson?
-
-* **Quiz Item:** What is the purpose of closing the lesson? (Options: To finish quickly / To summarize learning / To start a new topic)
 
 * **Teacher Voice:** "Ending the lesson as a whole class creates a sense of completion."
 
@@ -210,85 +196,52 @@ Today you explored five planning habits that make active and inclusive lessons w
 
 ---
 
-## QUIZ
+### 7. Quiz Questions
 
-> **[Deliver all 3 items in order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass.]**
-> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using the matching ALT item from QUIZ_BANK_ALT — do not wait for the teacher to ask. At most one retake per item.]**
-> **[RETAKE RULE — HARD: NEVER re-ask the original question as the retake. Always use the matching ALT item from QUIZ_BANK_ALT. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3.]**
+> **[Deliver 3 items in order: Q1 recall → Q2 understanding → Q3 application, selecting one item from each question bank below. User must get ≥2 of 3 correct to pass.]**
+> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using a different item of the same type from the same bank — do not wait for the teacher to ask. NEVER re-ask the original question. At most one retake per item.]**
 > **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
-> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT offer the main menu or pivot to Solve a Challenge. Mark AIL_M6_PAL as complete. Then: (1) If Deep Dives 4 and 5 are both also complete AND Modules 1–3 are complete → congratulate the teacher and immediately offer the Final Quiz. (2) Otherwise → show the remaining deep dive menu, listing only the deep dives not yet completed.]**
+> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT offer the main menu or pivot to Solve a Challenge. Mark AIL_M6_PAL as complete. Then: (1) If Deep Dives 4 and 5 are both also complete AND Modules 1–3 are complete → congratulate the teacher and immediately offer the Final Quiz. (2) Otherwise → show the remaining Deep Dive options, listing only the deep dives not yet completed.]**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice (Recall) |
-| **Question** | What is the purpose of closing the lesson? |
-| **Options** | A) To finish quickly / B) To summarize learning / C) To start a new topic |
-| **Correct** | B |
-| **Feedback** | Ending with a closing moment helps students connect the activity to the learning goal and gives the lesson a clear sense of completion and purpose. |
+- **What is the purpose of closing the lesson?**
+  - Options: To finish quickly / To summarize learning / To start a new topic
 
-### QUIZ_ITEM_2
+- **Knowing your learners helps _____________.**
+  - Options: Control behavior / Plan intentional activities / Reduce long lessons
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (Understanding) |
-| **Question** | Why are quick checks useful during a lesson? |
-| **Accept keywords** | immediate feedback, adjust teaching, understanding, gauge, confused, slow down, reteach, on track |
-| **Feedback** | Quick checks give teachers a fast, low-pressure way to see what students understand in the moment so they can adjust — re-explain, slow down, or move on — without stopping the lesson for a formal assessment. |
+- **Active learning requires a large classroom space.**
+  - Options: True / False
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Open-ended scenario (Application) |
-| **Question** | At the end of a lesson, students quickly pack up and leave without discussing what they learned. The teacher is not sure if they understood the purpose of the activity. How can the teacher close the lesson to help students reflect on their learning? |
-| **Accept** | Any response that describes a brief closing routine (asking students to share one thing they learned, restating the learning goal, a quick final question); and explains — even briefly — how it connects students to the lesson's purpose |
-| **Feedback** | Strong responses describe a short whole-class closing moment — such as asking students to share what they learned, restating the goal, or answering a final question — and link it to giving students a sense of completion and understanding. |
+- **Why is planning small adjustments important in mixed-age classrooms?**
+  - Keywords: inclusion, different needs, participation
 
----
+- **Why are quick checks useful during a lesson?**
+  - Keywords: immediate feedback, adjust teaching, understanding
 
-## QUIZ_BANK_ALT
+- **How does organizing a classroom space help reduce stress for learners?**
+  - Keywords: safe, movement, smooth transitions, predictability
 
-> **[Use these items for retakes only — offered automatically after a wrong answer. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3. At most one retake per item.]**
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  At the end of a lesson, students quickly pack up and leave without discussing what they learned. The teacher is not sure if they understood the purpose of the activity.
+  *How can the teacher close the lesson to help students reflect on their learning?*
 
-> **[Use when teacher answers QUIZ_ITEM_1 incorrectly. Same type: Recall.]**
+- **Scenario 2:**
+  During a small group activity, students crowd into one area and begin pushing and arguing over space. The activity becomes noisy and some students stop participating.
+  *How can the teacher use classroom space to address this challenge for the next lesson?*
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Knowing your learners helps teachers: |
-| **Options** | A) Control behavior / B) Plan intentional activities / C) Reduce long lessons |
-| **Correct** | B |
-| **Feedback** | When teachers understand their learners — strengths, needs, and interests — they can plan activities that feel meaningful and inclusive for every student. |
-
-### ALT_ITEM_2
-
-> **[Use when teacher answers QUIZ_ITEM_2 incorrectly. Same type: Understanding.]**
-
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer |
-| **Question** | Why is planning small adjustments important in mixed-age or mixed-level classrooms? |
-| **Accept keywords** | inclusion, different needs, participation, range, all learners, challenge, support, struggling, quick learners |
-| **Feedback** | Small planning adjustments keep both struggling and quick learners engaged — preventing boredom or frustration so every student can participate meaningfully. |
-
-### ALT_ITEM_3
-
-> **[Use when teacher answers QUIZ_ITEM_3 incorrectly. Same type: Application scenario.]**
-
-| Field | Value |
-|-------|-------|
-| **Type** | Open-ended scenario |
-| **Question** | During a small group activity, students crowd into one area and begin arguing over space. The activity becomes noisy and some students stop participating. How can the teacher use classroom space to prevent this challenge in the next lesson? |
-| **Accept** | Any response that describes a space planning strategy (pre-assigning group areas, creating pathways, taking the lesson outside, setting movement rules); and explains — even briefly — why it would reduce conflict or support learning |
-| **Feedback** | Strong responses suggest a specific space adjustment — assigning groups to different areas, creating clear pathways, or setting movement rules before the activity — and connect it to reducing confusion and keeping students focused. |
+- **Scenario 3:**
+  A teacher notices the same few students answer every question, while others stay quiet and keep their heads down. When planning the next lesson, the teacher is unsure how to get more students to participate.
+  *How can they plan differently based on what they observed?*
 
 ---
 
-### 7. DIY Activity Element
+### 8. DIY Activity Element
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | ----- | ----- | ----- | ----- | ----- |

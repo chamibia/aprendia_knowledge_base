@@ -120,8 +120,6 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 
 **Reflection prompt:** During your next lesson, what is a familiar reference you can use to connect learning to students' lives?
 
-**Quiz item:** Why is connecting learning to students' lives important? (Keywords: meaningful, familiar, engage, belonging, context)
-
 **Teacher Voice:** "My students pay more attention when they recognize themselves in lessons."
 
 ---
@@ -140,8 +138,6 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 
 **Reflection prompt:** What is a lesson this week that you could incorporate gestures into?
 
-**Quiz item:** Why does presenting information in multiple ways help students learn? (Keywords: different learners, understanding, confidence, inclusive)
-
 **Teacher Voice:** "When I explain the same idea in different ways, more of my students are engaged."
 
 ---
@@ -158,8 +154,6 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 - Students can act out a new vocabulary word or say the meaning to the whole class.
 
 **Reflection prompt:** How can you offer multiple ways to show understanding in your next lesson?
-
-**Quiz item:** Which supports different ways for students to show understanding? (Options: Writing only / Silent work / Drawing and acting it out)
 
 **Teacher Voice:** "When I give different ways to answer, more students are able to show what they know."
 
@@ -180,8 +174,6 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 
 **Reflection prompt:** What barriers to student engagement might exist in your next lesson?
 
-**Quiz item:** Which teacher action helps reduce barriers for a lesson? (Options: Giving only silent work / Preparing materials / Skipping the lesson objective)
-
 **Teacher Voice:** "Thinking about possible barriers before I teach saves me time during the lesson."
 
 ---
@@ -194,79 +186,55 @@ Today you explored four strategies that make learning accessible for every child
 
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **[Deliver all 3 items. User must get ≥2 of 3 correct to pass.]**
-> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using the matching ALT item from QUIZ_BANK_ALT — do not wait for the teacher to ask. At most one retake per item.]**
-> **[RETAKE RULE — HARD: NEVER re-ask the original question as the retake. Always use the matching ALT item from QUIZ_BANK_ALT. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3.]**
+> **[Deliver 3 items in order: Q1 recall → Q2 understanding → Q3 application, selecting one item from each question bank below. User must get ≥2 of 3 correct to pass.]**
+> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using a different item of the same type from the same bank — do not wait for the teacher to ask. NEVER re-ask the original question. At most one retake per item.]**
 > **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
 
-> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT suggest repeating Module 3 or offer the main menu. Congratulate the teacher in one sentence, then immediately present the Deep Dive menu below. This is the only correct next step.]**
+> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT suggest repeating Module 3 or offer the main menu. Congratulate the teacher in one sentence, then immediately present the Deep Dive options below. This is the only correct next step.]**
 
-> **Deep Dive menu (send immediately on quiz pass):**
+> **Deep Dive options (send immediately on quiz pass):**
 > Congratulations — you have completed all three core modules! You can now explore three optional deep dives in any order. Which would you like to do first?
 > 1. Hands-On Learning with Low-Cost Materials
 > 2. Drama, Role Play, and Creative Expression
 > 3. Planning an Active Lesson
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Inclusive strategies are only helpful for students who are struggling. |
-| **Options** | True / False |
-| **Correct** | False |
-| **Feedback** | Inclusive strategies benefit all learners — they create more ways for every child to participate, engage, and succeed. |
+- **Inclusive strategies are only helpful for students who are struggling.**
+  - Options: True / False
 
-### QUIZ_ITEM_2
+- **Which teacher action helps reduce barriers for a lesson?**
+  - Options: Giving only silent work / Preparing materials / Skipping the lesson objective
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | How does planning ahead help reduce learning barriers? |
-| **Accept keywords** | prepared, smooth, proactive, adjust, react, anticipate, prevent |
-| **Example answers** | "Teachers are more prepared during lessons," "Lessons run more smoothly," "Teachers can adjust before class instead of reacting" |
-| **Feedback** | Planning ahead helps teachers identify and remove barriers before the lesson begins, so they can focus on teaching instead of reacting. |
+- **Which supports different ways to show understanding?**
+  - Options: Writing only / Silent work / Drawing and acting it out
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Which supports different ways for students to show understanding? |
-| **Options** | A) Writing only / B) Silent work / C) Drawing and acting it out / D) Listening to the teacher |
-| **Correct** | C |
-| **Feedback** | Offering multiple response options — like drawing, acting, or writing — allows each student to show what they know in a way that works for them. |
+- **How does planning ahead help reduce learning barriers?**
+  - Keywords: prepared, smoother lesson, reacting after
 
----
+- **Why is it important to connect learning to real-life?**
+  - Keywords: meaningful, community, familiar, reflect student lives, belonging
 
-## QUIZ_BANK_ALT
+- **Why does presenting information in multiple ways help students learn?**
+  - Keywords: different learners, understanding, confidence, inclusive
 
-> **[Use these items if retry is needed]**
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A teacher explains independent work, but some students do not begin the task because they seem confused about what to do. The teacher notices this happens a lot after they give instructions.
+  *How could the teacher reduce this barrier before the lesson?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | Why is connecting learning to students' lives important? |
-| **Options** | A) It makes the lesson shorter / B) It helps students find the content meaningful and familiar / C) It replaces the need for materials / D) It only works for older students |
-| **Correct** | B |
+- **Scenario 2:**
+  A teacher is leading a class discussion, but only a small group of confident students are answering questions. Several other students look to the floor and remain silent throughout the lesson.
+  *How could the teacher increase participation for all students?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | Why does presenting information in multiple ways help students learn? |
-| **Accept keywords** | different learners, understanding, confidence, inclusive, access, preferences |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | Which teacher action helps reduce barriers before a lesson begins? |
-| **Options** | A) Giving only silent work / B) Skipping the lesson objective / C) Preparing materials and thinking through instructions in advance / D) Waiting to see what problems come up |
-| **Correct** | C |
+- **Scenario 3:**
+  A teacher is giving a multiplication lesson, but many students seem confused and not engaged. The teacher is only using examples with numbers.
+  *How can the teacher make the lesson more meaningful and familiar to students?*
 
 ---
 

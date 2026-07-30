@@ -43,7 +43,7 @@ Match the user input to one of these and return the corresponding keywords:
 |---|---|
 | "Learn a skill" / "1" / "📘" / "Learn step by step" / "guided course" | `pathway selection learn a skill course menu math reading wellbeing classroom management selected_course` |
 | "Solve a challenge" / "2" / "🔧" / "Get help now" / "classroom problem" | `solve a challenge quick help classroom problem action plan teacher problem-solving` |
-| "Classroom toolkit" / "3" / "🧰" / "activity" / "routine" / "lesson idea" | `classroom toolkit energizers wellbeing moments routines low-resource activities` |
+| "Classroom toolkit" / "3" / "🧰" / "activity" / "routine" / "lesson idea" | `classroom toolkit energizers wellbeing moments lesson planning routines low-resource activities` |
 
 If ambiguous, return: `pathway selection agent learn a skill solve a challenge classroom toolkit step 4`
 
@@ -75,7 +75,7 @@ Check History to determine which menu was most recently displayed, then return t
 |---|---|
 | "1" | `pathway selection learn a skill course menu math reading wellbeing classroom management` |
 | "2" | `solve a challenge quick help classroom problem action plan` |
-| "3" | `classroom toolkit energizers wellbeing moments routines` |
+| "3" | `classroom toolkit energizers wellbeing moments lesson planning routines` |
 
 - **If no clear menu context in History:**
 
@@ -195,6 +195,9 @@ When delivering module content, ALWAYS include pathway-specific keywords to retr
 - Module 6 / Deep Dive: Planning an Active Lesson (AIL_M6_PAL) → "active lesson planning", "quick checks", "close the loop", "know your learners", "use space intentionally"
 - **AIL Summative / Final Quiz trigger** → "summative_quiz_active_inclusive_learning", "AIL final quiz", "8 questions", "all six modules complete" — load `summative_quiz_active_inclusive_learning.md`; do NOT apply the 3-question module quiz format
 - **Math Summative / Final Quiz trigger** → "summative_quiz_math_for_every_learner", "Math final quiz", "8 questions", "all seven modules complete", "MATH_M1 MATH_L2 MATH_L3 MATH_L4 MATH_L5 MATH_L6 MATH_L7 complete" — load `summative_quiz_math_for_every_learner.md`; do NOT apply the 3-question module quiz format
+- **Classroom Management Summative / Final Quiz trigger** → "summative_quiz_classroom_management", "HC final quiz", "8 questions", "all four modules complete", "HC_M1_CSP HC_M2_BBR HC_M3_RPS HC_M4_EILR complete" — load `summative_quiz_classroom_management.md`; do NOT apply the 3-question module quiz format
+- **Building Strong Readers Summative / Final Quiz trigger** → "summative_quiz_building_strong_readers", "Reading final quiz", "8 questions", "all seven modules complete", "READING_M1 READING_M2 READING_M3 READING_M4 READING_M5 READING_M6 READING_M7 complete" — load `summative_quiz_building_strong_readers.md`; do NOT apply the 3-question module quiz format
+- **Teacher Wellbeing Summative / Final Quiz trigger** → "summative_quiz_teacher_wellbeing", "TWB final quiz", "8 questions", "all four modules complete", "TWB_M1_UTWB TWB_M2_BRM TWB_M3_BRB TWB_M4_CWP complete" — load `summative_quiz_teacher_wellbeing.md`; do NOT apply the 3-question module quiz format
 
 ---
 
@@ -227,6 +230,7 @@ All search terms should be in **English**, even if the user asks in French or Ha
 When user selects "Classroom Toolkit":
 - **Energizers** → "classroom energizers", "student energy", "focus calm transition", "attention routines", "low-resource activities", "no materials"
 - **Wellbeing moments** → "teacher wellbeing moment", "non-clinical reset", "calm body", "release tension", "clear head", "small encouragement", "teacher self-care"
+- **Lesson Planning** → "lesson plan", "plan a lesson", "warm-up activity", "I do we do you do", "performance objective", "ready-to-teach plan"
 
 **Note:** Classroom Toolkit uses Direct LLM generation (no RAG). Use these keywords when RAG is invoked for related queries (e.g., user asks about energizer ideas before selecting the toolkit, or for context retrieval).
 

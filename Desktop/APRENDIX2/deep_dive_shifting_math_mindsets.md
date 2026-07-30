@@ -82,6 +82,14 @@ Safe, predictable, and joyful math environments support wellbeing and learning. 
 
 > **Agent:** Generate narrative scenes at runtime. **Show only strategies to the user.** Concepts guide your framing but are never delivered explicitly. Use this mapping to know which strategy belongs in each scene. **Pacing:** Scene 3 has 3 strategies—deliver one strategy per message; do not compress into one scene. Use `<break>` between them.
 
+**Per-scene delivery structure (apply to every strategy in every scene):**
+1. Open with the strategy name and a relevant emoji (e.g. "💬 Use Inclusive Language"). This is the first line of the message.
+2. Deliver the narrative scene — a story showing the strategy in action (3–4 sentences, plain text, no definitions).
+3. Add one short sentence on how this strategy helps in the classroom (practical benefit — not a definition).
+4. Ask the reflection question for that scene. Wait for the teacher's response before moving to the next scene.
+
+Use `<break>` tags between steps if the combined message exceeds 400 characters. Never skip or compress any of the four steps. Scene 3 has 3 strategies — deliver one per message; do not compress into one turn.
+
 | Scene | Strategy | Concept (guides delivery; do not show) | Narrative brief |
 |-------|----------|----------------------------------------|-----------------|
 | Scene 1 | STRAT1 (Use Inclusive Language) | CON1 | A teacher shifts from identity labels to process-focused language when students struggle. Include sentence frames ("I noticed…," "I tried…," "Next time I will…") and Stars & Steps feedback. Show the strategy in action—no concept definitions. |
@@ -120,8 +128,6 @@ Safe, predictable, and joyful math environments support wellbeing and learning. 
 
 **Reflection prompt:** What is one phrase you could replace with more supportive language?
 
-**Quiz item:** What is the effect of using inclusive math language? (Keywords: value, motivation, belonging)
-
 ---
 
 ### MATH_M3_STRAT2 — Make Math Relevant
@@ -141,8 +147,6 @@ Safe, predictable, and joyful math environments support wellbeing and learning. 
 
 **Reflection prompt:** What local example could you use for your next math lesson?
 
-**Quiz item:** Why is making math relevant important? (Keywords: connection, motivation, real life)
-
 ---
 
 ### MATH_M3_STRAT3 — Celebrate Multiple Strategies
@@ -158,8 +162,6 @@ Safe, predictable, and joyful math environments support wellbeing and learning. 
 - Strategy poster showing options: model, draw, write, act
 
 **Reflection prompt:** How could you show your class there are many ways to solve a problem?
-
-**Quiz item:** Why should teachers celebrate multiple math strategies? (Keywords: confidence, flexibility, ownership)
 
 ---
 
@@ -178,8 +180,6 @@ Safe, predictable, and joyful math environments support wellbeing and learning. 
 
 **Reflection prompt:** What classroom routine could help your students work together?
 
-**Quiz item:** How do collaborative routines support learning? (Keywords: trust, risk-taking, SEL)
-
 ---
 
 ### MATH_M3_STRAT5 — Choice & Voice for Agency
@@ -196,75 +196,50 @@ Safe, predictable, and joyful math environments support wellbeing and learning. 
 
 **Reflection prompt:** Where could you add a student choice in tomorrow's lesson?
 
-**Quiz item:** Why does learner choice support a positive classroom environment? (Keywords: control, ownership, persistence, agency)
-
 ---
 
-## QUIZ
-
-> **Agent:** Deliver all 3 items (recall → understanding → application). User must get **≥2 of 3** correct to pass the module. Provide correct answer + 1-sentence explanation after each item. If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (system prompt §9).
+## 7. Quiz Questions
 
 📷 Send this image first, then deliver the module recap, then the quiz:
 ![](https://i.imgur.com/aqR5zp4.jpeg)
 
-### QUIZ_ITEM_1
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | What is the effect of using inclusive math language? |
-| **Options** | A) It makes lessons longer / B) It values effort, builds motivation, and promotes belonging / C) It only helps advanced students / D) It replaces the need for feedback |
-| **Correct** | B |
-| **Feedback** | Inclusive language helps all learners feel valued and supports motivation and belonging. |
+#### Question 1: Recall
 
-### QUIZ_ITEM_2
+- **Giving students small choices in math helps them:**
+  - Options: Avoid work / Feel ownership / Ask the teacher more questions
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | Why is making math relevant important? |
-| **Accept keywords** | connection, motivation, real life, meaningful, useful, everyday |
-| **Example answers** | "Students see the connection to daily life," "It increases motivation," "Math feels useful" |
-| **Feedback** | Relevant math connects to students' lives and increases motivation and engagement. |
+- **Teachers should encourage multiple ways to solve a problem.**
+  - Options: True / False
 
-### QUIZ_ITEM_3
+- **What is the effect of using inclusive math language?**
+  - Options: Builds motivation / Focuses on the current answer / Reduces participation
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Why should teachers celebrate multiple math strategies? |
-| **Options** | A) To make lessons longer / B) To build confidence, flexibility, and ownership / C) To identify the fastest students / D) To reduce the number of methods students use |
-| **Correct** | B |
-| **Feedback** | Celebrating multiple strategies builds confidence, flexibility, and ownership of learning. |
+#### Question 2: Understanding
 
----
+- **Why should students learn multiple ways to solve a problem?**
+  - Keywords: different strategies, confidence, connections, understanding
 
-## QUIZ_BANK_ALT
+- **How do shared routines support student learning?**
+  - Keywords: trust, collaboration, risk-taking, participation
 
-> **Agent:** Use these items if retry is needed.
+- **How can you rephrase "you are wrong" using inclusive language?**
+  - Keywords: try another way, check your answer again
 
-### ALT_ITEM_1
+#### Question 3: Application
 
-| Field | Value |
-|-------|-------|
-| **Question** | How do collaborative routines support learning? |
-| **Options** | A) They replace the need for teaching / B) They build trust, support risk-taking, and develop SEL skills / C) They only work in small classes / D) They slow down the lesson |
-| **Correct** | B |
+- **Scenario 1:**
+  A class is practicing addition using examples from a textbook. The students seem bored and ask why this lesson matters.
+  *What could the teacher do to make this math lesson more relevant to students' lives?*
 
-### ALT_ITEM_2
+- **Scenario 2:**
+  A teacher gives all students the same math problem and tells them to solve it one specific way. Some students become frustrated and stop trying.
+  *How would you advise the teacher to give students more choice?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | Why does learner choice support a positive classroom environment? |
-| **Options** | A) It reduces the teacher's workload / B) It builds control, ownership, persistence, and agency / C) It only helps older students / D) It makes grading easier |
-| **Correct** | B |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | What is one way to use inclusive language in math? |
-| **Accept keywords** | process-focused, growth, "I noticed," "I tried," "next step," avoid labels, Stars and Steps |
+- **Scenario 3:**
+  A teacher has started using group work in their math class, but noticed students do not know how to work together. The teacher wants students to participate more.
+  *What could the teacher do to build community routines so all students can participate?*
 
 ---
 

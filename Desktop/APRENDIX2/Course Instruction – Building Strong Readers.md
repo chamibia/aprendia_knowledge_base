@@ -119,6 +119,8 @@ onboarding must:
 
 ## 3. Level Structure & Unlock Rules
 
+> **IMPORTANT:** Pathways (`module_arc`) are pre-assigned per module below. The AI reads these assignments from module metadata — it does not infer pathways from user signals.
+
 **Structure overview:**
 - **Core modules (required):** Module 1, Module 2 — must be completed in order
 - **Deep Dives (optional):** Modules 3–7 — unlock after Module 2; can be completed in any order
@@ -130,7 +132,7 @@ Align all mini-quiz behavior with **`system_prompt.md` §9**, **`quiz_rationale.
 | Rule | Detail |
 |------|--------|
 | **Structure** | **3 items** per module: **Q1 recall** (MC/TF) → **Q2 understanding** (open-ended; hidden keywords) → **Q3 application** (scenario) |
-| **Pass module / unlock** | **≥2 of 3** correct; up to **1 retake per item** (new question, same type, alternate item bank) |
+| **Pass module / unlock** | **≥2 of 3** correct; up to **1 retake per item** (new question, same type, alternate item bank — **NEVER re-ask the original question**) |
 | **Course pass / explain** | **≥80%** of all quiz items in the **course** (see system prompt; `course_pass_threshold` in module YAML) |
 | **Module YAML** | `quiz_pass: 2_of_3` and `course_pass_threshold: 0.80`. Legacy `quiz_threshold: 0.80` = course-level only, not the per-module bar. |
 | **Key Concepts in modules** | For agent delivery only; **not** for quiz stem copy (§9). |
@@ -172,16 +174,14 @@ Align all mini-quiz behavior with **`system_prompt.md` §9**, **`quiz_rationale.
 
 **Module 2 - Making Reading Engaging & Inclusive**  
 - module_id: READING_M2_MREI  
-- module_arc: empathy_arc  
+- module_arc: steady_arc  
 - purpose: build teacher awareness that engagement and emotional safety increase reading participation and comprehension; unlocks Deep Dives  
 - time: ≤ 12 minutes total  
 - bot_behavior:
 
-1. Load empathy_arc pathway at module start  
-2. Introduce module with vignette: “A teacher notices that only a few students volunteer to read, while many stay silent.”  
-3. Poll: “Is this something that happens in your classroom?” (A: This happens often / B: Sometimes / C: Rarely)  
-4. Provide brief reflection based on response  
-5. Deliver each strategy in fixed order:
+1. Load steady_arc pathway at module start  
+2. Introduce module: “A few students volunteer to read, while many stay silent. Engagement and emotional safety change that.”  
+3. Deliver each strategy in fixed order:
 
    - picture walks
 
@@ -193,17 +193,13 @@ Align all mini-quiz behavior with **`system_prompt.md` §9**, **`quiz_rationale.
 
    - peer discussion
 
-6. For each strategy:
+4. For each strategy:
 
-   - scenario prompt (classroom moment story)
+   - teach (≤60s): explanation + 1 localized example (adapted to language_of_instruction)
 
-   - teacher reflection or quick poll
+   - Do (≤60s): tiny classroom action OR 1-item check
 
-   - strategy insight
-
-   - mini-check or micro-action
-
-7. Deliver mini quiz (3 items, auto-scored, recall → understanding → application) → pass = ≥2 of 3; if not passed → one retry with alternate item bank; course-level % rules in system prompt §9
+5. Deliver mini quiz (3 items, auto-scored, recall → understanding → application) → pass = ≥2 of 3; if not passed → one retry with alternate item bank; course-level % rules in system prompt §9
 
    - Multiple choice: Why is choral reading helpful? (A: builds speed only / B: confidence & fluency / C: saves time)
 
@@ -215,7 +211,7 @@ Align all mini-quiz behavior with **`system_prompt.md` §9**, **`quiz_rationale.
 
 ### Deep Dives (M3–M7)
 
-> **IMPORTANT:** Modules 3–7 are **Deep Dives**. They unlock simultaneously after Module 2 completion. The user may complete them in any order. Present the Deep Dive menu after Module 2 so the user can choose which to do first.
+> **IMPORTANT:** Modules 3–7 are **Deep Dives**. They unlock simultaneously after Module 2 completion. The user may complete them in any order. Present the Deep Dive options after Module 2 so the user can choose which to do first. This is a distinct list from the Main Menu — never call it a "menu."
 
 | Module ID | Name | Pathway | Time | Completion |
 |-----------|------|---------|------|------------|
@@ -393,14 +389,16 @@ Align all mini-quiz behavior with **`system_prompt.md` §9**, **`quiz_rationale.
 
 **Module 7 - Deep Dive: Texts & Materials for Reading Instruction**  
 - module_id: READING_M7_TMRI  
-- module_arc: steady_arc  
+- module_arc: empathy_arc  
 - purpose: maximize reading instruction using limited materials  
 - time: ≤ 12 minutes total  
 - bot_behavior:
 
-1. Load steady_arc pathway at module start  
-2. Introduce module: “Even with few books, strong reading instruction is possible.”  
-3. Deliver each strategy in fixed order:
+1. Load empathy_arc pathway at module start  
+2. Introduce module with vignette: “A teacher has only one worn book to share with 40 students, but her class keeps finding new things to notice each time they open it.”  
+3. Poll: “Is this something that happens in your classroom?” (A: This happens often / B: Sometimes / C: Rarely)  
+4. Provide brief reflection based on response  
+5. Deliver each strategy in fixed order:
 
    - one text, four ways
 
@@ -412,13 +410,19 @@ Align all mini-quiz behavior with **`system_prompt.md` §9**, **`quiz_rationale.
 
    - let children be authors
 
-4. For each strategy:  
-   - personalize examples based on materials_available
+6. For each strategy:
 
-   - if primary_spoken_language ≠ language_of_instruction → elevate bridging suggestions  
-   - teach (≤60s): explanation + 1 localized example  
-   - Do (≤60s): tiny classroom action OR 1-item check  
-5. Deliver mini quiz (3 items, auto-scored, recall → understanding → application) → pass = ≥2 of 3; if not passed → one retry with alternate item bank; course-level % rules in system prompt §9
+   - scenario prompt (classroom moment story)
+
+   - teacher reflection or quick poll
+
+   - strategy insight
+
+   - mini-check or micro-action
+
+   - personalize examples based on materials_available; if primary_spoken_language ≠ language_of_instruction → elevate bridging suggestions
+
+7. Deliver mini quiz (3 items, auto-scored, recall → understanding → application) → pass = ≥2 of 3; if not passed → one retry with alternate item bank; course-level % rules in system prompt §9
 
    - Multiple choice: Environmental print includes (A: store signs / B: food labels / C: newspapers / D: all of the above)
 
@@ -427,6 +431,8 @@ Align all mini-quiz behavior with **`system_prompt.md` §9**, **`quiz_rationale.
    - Open-ended: How could you use one short text across several days of reading instruction?
 
 ## **4. Personalization & Routing Rules**
+
+> **Note:** These signals drive example selection, bridging emphasis, and Deep Dive suggestions — **NOT** pathway/arc selection (pathways are pre-assigned; see §3).
 
 The bot should continuously track and update:  
 - primary_language_spoken  
@@ -524,36 +530,26 @@ After Module 2 completion, suggest Deep Dives based on signals
 
 - limited materials indicators → suggest Module 7
 
-Menu should display only incomplete Deep Dive modules
+Deep Dive options should display only incomplete Deep Dive modules
 
 ## **5. Module Construction Schema**
 
-A lesson uses ONE module_arc for its entire sequence of strategies. 
+A module uses ONE arc for its entire strategy sequence. The arc is pre-assigned in the module metadata. The agent must load the arc at module start, follow its flow consistently for every strategy, and maintain the same interaction rhythm until the mini-quiz.
 
-The bot must:  
-- load the module_arc at module start  
-- follow the arc’s flow consistently for every strategy  
-- maintain the same interaction rhythm until the mini-quiz
+See `global_pathway_instructions.md` for full arc delivery specifications. Course-specific notes below.
 
-arc flows:  
-- steady_arc prioritizes clarity, modeling, and instructional precision  
-- clear introduction → concept/strategy explanation → localized example → reflection or micro-action → mini-quiz at module end  
-- empathy_arc prioritizes teacher relatability, emotional safety, and perspective shifts  
-- classroom vignette or story → poll or reflection → teacher response → insight or reframing → strategy micro-action → mini-quiz at module end
+| Arc | Flow Summary |
+|-----|-------------|
+| `steady_arc` | Introduction → for each strategy: explanation + 1 localized example → brief reflection or micro-action → [repeat] → mini-quiz |
+| `empathy_arc` | Vignette intro + poll → brief reflection → for each strategy: vignette continues → reflection/poll → strategy insight → micro-action → story debrief → mini-quiz |
 
-General module requirements:
+**Course-specific requirements:**
 
-- have clear title and metadata
-
-- follow the defined arc consistently
-
-- include 3-item mini-quiz (≥2 of 3 to pass; see system prompt §9)
-
-- adapt examples to language_of_instruction and reading_materials_available
-
-- respect microlearning constraints
-
-- no mixing arc structures within a module
+- Every module must have a clear title and metadata, including its pre-assigned `module_arc`
+- Adapt examples to `language_of_instruction` and `reading_materials_available`
+- Respect microlearning constraints: ≤12 minutes per module
+- Include the 3-item mini-quiz (≥2 of 3 to pass; see system prompt §9)
+- Do not mix arc structures within a module
 
 ## **6. Assessments & Unlocks**
 
@@ -562,6 +558,17 @@ General module requirements:
 - Module 2 unlock → Deep Dives: 3-item quiz (≥2 of 3); one retry
 
 - Deep Dive completion: completion is modular; no fixed order. Mark a deep dive “complete” when 3-item mini-quiz is passed (≥2 of 3); if not passed → 1 retry with alternate item (see `quiz_rationale.md`); if still not passed → offer review recap
+
+- **Summative Quiz:** Offer proactively when all seven modules are confirmed complete (`READING_M1_HWLR`, `READING_M2_MREI`, `READING_M3_BBWR`, `READING_M4_MMVFC`, `READING_M5_CJHRE`, `READING_M6_SAL`, `READING_M7_TMRI`). Follow `summative_quiz_building_strong_readers.md` exactly. **Do not offer until all seven modules are done.**
+
+### Summative Quiz Rules
+
+- **Source of truth:** `summative_quiz_building_strong_readers.md` — load and follow it in full.
+- **8 questions**, fixed sequence: Q1–Q2 Recall → Q3–Q4 Understanding → Q5–Q6 Application → Q7 Observation (image) → Q8 Best Practice.
+- **This is not a module quiz.** The module quiz rules from §9 of the system prompt (3 items, recall → understanding → application cycle) do NOT apply. The summative has its own delivery rules, scoring, and retake logic defined in its file.
+- **Scoring:** ≥80% (7–8 of 8) = pass; 50–79% (4–6 of 8) = 1 shortened retry (4 questions); <50% = Course Review then full retake.
+- **Q7 requires an image.** Send the image before asking the observation question. Do not skip Q7.
+- **Q8 is Best Practice**, not Application. Do not label or treat Q8 as an Application question.
 
 scoring principles:
 

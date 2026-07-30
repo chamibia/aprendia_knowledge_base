@@ -81,8 +81,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** Which part of your day feels least predictable right now?
 
-* **Quiz Item:** Why does a daily routine help students feel calm? (Key words: safety, reduce anxiety/stress, predictability)
-
 * **Teacher Voice:** “When students know what to expect, they are more engaged in class because they feel safe and prepared.”
 
 #### **HC_M1_STRAT2 / Strategy 2: Morning Greeting**
@@ -101,8 +99,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** Which students would benefit most from a daily greeting?
 
-* **Quiz Item:** When are morning greetings most effective? (Keywords: arrival, morning, before teaching, at the door)
-
 * **Teacher Voice:** “My students feel like they belong when I greet them.”
 
 #### **HC_M1_STRAT3 / Strategy 3: Teacher Modeling**
@@ -118,12 +114,6 @@ subject: Healing Classrooms
   * Use modeling to clarify and reset expectations when classroom behaviors become inconsistent 
 
 * **Reflection Prompt:** Which of your classroom skills or routines would benefit most from modeling?
-
-* **Quiz Item:** 
-
-  * Why is teacher modeling effective for teaching expectations? (Keywords: practice, efficient, safe, predictable)
-
-  * What is the purpose of having the whole class practice the skill together? (Keywords: feedback, coaching, exact expectations)
 
 * **Teacher Voice:**  “My students feel safe and ready to learn when expectations are clearly modeled and practiced.”
 
@@ -147,8 +137,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** Why is it important for our rules to be positive?
 
-* **Quiz Item:** Why is it important to phrase rules positively?? (Keywords: modeling, example, positive behavior)
-
 * **Teacher Voice:** “When students help create the rules, they follow them better.”
 
 #### **HC_M1_STRAT5 / Strategy 5: Consistent, Non-Violent Consequences**
@@ -168,12 +156,6 @@ subject: Healing Classrooms
   * Keep a consistent, fair process for all students.
 
 * **Reflection Prompt:** What is a predictable consequence you could use in your classroom?
-
-* **Quiz Item:** 
-
-  * Why is it important for classroom consequences to be consistent? (Keywords: predictable, safe, fair, linked to behavior)
-
-  * Choose the logical consequence for this behavior: A child wrote on his desk. (Choice: clean the desk; practice raising hand before speaking; move seats)
 
 * **Teacher Voice:** “Being consistent helped me stop reacting emotionally.”
 
@@ -195,12 +177,52 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** What helps you stay calm during stressful moments?
 
-* **Quiz Item:** What is a calming behavior you can model to students? (Keywords: deep breaths, drinking water, positive affirmations)
-
 * **Teacher Voice:** “When I show how to calm down, students copy it.”
 
 
-### **7\. DIY Activity Element**
+### **7. Quiz Questions**
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **Classroom rules should be phrased positively.**
+  - Options: True / False
+
+- **What is an example of a calm teacher response?**
+  - Options: Ignoring behavior / Taking deep breaths / Raising voice
+
+- **Teacher modeling helps students learn expectations because:**
+  - Options: Students sit silently / Students memorize rules / Students see and practice the behavior
+
+#### Question 2: Understanding
+
+- **How does a predictable routine support student behavior?**
+  - Keywords: safe, know what to expect, reduce stress, everyday
+
+- **Why is greeting students by name important?**
+  - Keywords: belonging, valued, safe, connection
+
+- **Why does involving students in creating classroom rules increase positive behaviors?**
+  - Keywords: ownership, responsibility, understanding, engagement
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  A teacher wants students to clean up the classroom before leaving for the day, but many students leave a small mess. The teacher decides to teach the clean-up routine more clearly.
+  *How can the teacher use modeling to help students learn the clean-up routine?*
+
+- **Scenario 2:**
+  Some students enter the classroom quietly and do not engage with the teacher or their peers at the start of the school day. The teacher wants to build a stronger sense of connection and comfort.
+  *What could the teacher do during arrival time to support students?*
+
+- **Scenario 3:**
+  A class just returned from a long break. The teacher reminds students of the classroom rules by reading them aloud, but students are still forgetting them during lessons.
+  *What could the teacher do to help students take more ownership of the classroom rules?*
+
+---
+
+### **8. DIY Activity Element**
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -209,7 +231,7 @@ subject: Healing Classrooms
 
 ---
 
-### **8\. Media References**
+### **9\. Media References**
 
 | Media Type | File Name | Notes |
 | ----- | ----- | ----- |

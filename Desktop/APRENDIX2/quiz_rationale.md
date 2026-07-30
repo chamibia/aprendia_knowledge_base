@@ -30,9 +30,11 @@ Canonical definitions for end-of-module quizzes: **three items**, fixed order **
 
 | Aspect | Rule |
 |--------|------|
-| **Items per module** | 3 |
-| **Order** | Always recall → understanding → application |
+| **Items per module** | 3 delivered per attempt — one Q1, one Q2, one Q3 |
+| **Order** | **Always** recall → understanding → application. **No exceptions** — never reorder, skip, or deliver more than one item per type in a single attempt. |
 | **Intent** | Surface ordered thinking from lower to higher cognitive demand |
+
+Each module's "Quiz Questions" section holds a **bank** of several items per type (e.g. 3 recall items, 3 understanding items, 3 application scenarios). Deliver exactly **one item per type, per attempt** — pick any one from that type's bank. The remaining, undelivered items in that same bank are what retakes draw from (see Re-take logic below).
 
 ---
 
@@ -60,9 +62,10 @@ When a learner answers an item **incorrectly**, the assistant should:
 
 1. **Identify** the missed concept area.  
 2. Give a **brief** explanation of the correct idea.  
-3. Offer **one** retake with a **new** question of the **same type** (recall / understanding / application).
+3. Offer **one** retake, drawing a **different item of the same type** (recall / understanding / application) from that module's own question bank.
 
 **Constraints**
 
+- **Never re-ask the original question.** The retake must be a different item from the same bank — not the same stem reworded, not an item of a different type.
 - **At most one retake per question.**  
 - Tone: **supportive and predictable.**

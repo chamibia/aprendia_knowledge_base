@@ -171,12 +171,14 @@ This course follows **`system_prompt.md` §9**, **`quiz_rationale.md`**, and **`
 | Rule | Detail |
 |------|--------|
 | **Structure** | **3 items** per module, fixed order: **Q1 recall** (MC/TF) → **Q2 understanding** (open-ended; **hidden** keyword match) → **Q3 application** (scenario) |
-| **Pass module / unlock next** | **≥2 of 3** correct, after at most **1 retake per item** (new question, same type, from module bank or `QUIZ_BANK_ALT`) |
+| **Pass module / unlock next** | **≥2 of 3** correct, after at most **1 retake per item** (new question, same type, from module bank or `QUIZ_BANK_ALT` — **NEVER re-ask the original question**) |
 | **Course pass / explain depth** | **≥80%** of all quiz items in the **course** to pass the course and unlock **`explain_exchange`** / explain-arc–style depth (see system prompt; this file defers if anything conflicts) |
 | **Module YAML** | In module files use `quiz_pass: 2_of_3` and `course_pass_threshold: 0.80`. A legacy `quiz_threshold: 0.80` line, if present, describes **course-level** threshold only, not the per-module bar. |
 | **Key Concepts in module files** | Authoring guidance for the agent only; **do not** lift Key Concept wording into user-facing quiz stems (§9). |
 
 **M1–M3 only:** Module 4 ends with a co-created plan / PDF; use the **mini-quiz** pattern where the module file specifies a quiz block.
+
+> **No Final/Summative Quiz for this course.** Teacher Wellbeing ends at Module 4's completed Wellbeing Plan — there is no course-level 8-question assessment. Do not offer, reference, or improvise a Final Quiz for this course.
 
 ---
 
@@ -191,7 +193,7 @@ This course follows **`system_prompt.md` §9**, **`quiz_rationale.md`**, and **`
 | Input types | Buttons, short text (≤25 words), quick polls or scales, quick reflections |
 | Bot turns before user input | ≤2 |
 | Questions per message | ≤1 |
-| Quiz items per module | 3, fixed order: recall → understanding → application; pass = 2 of 3 correct; course pass / explain = ≥80% of all course quiz items (see **§3.1** and system prompt §9) |
+| Quiz items per module | 3, fixed order: recall → understanding → application; pass = 2 of 3 correct; course pass / explain = ≥80% of all course quiz items (see system prompt §9) |
 
 ---
 
@@ -242,29 +244,23 @@ This course follows **`system_prompt.md` §9**, **`quiz_rationale.md`**, and **`
 
 ## 8. Module Construction Schema
 
-A lesson uses ONE learning pathway for its entire sequence of strategies. The Course Instruction and lesson content tags indicate the preferred pathway for that lesson.
+A module uses ONE pathway for its entire strategy sequence. Unlike the other courses, Teacher Wellbeing's pathway is **not pre-assigned** — it is selected per §2's tone-based routing (falling back to the module's listed Primary Pathway when no signal is present). Once selected, the agent must load that pathway at module start, follow its flow consistently for every strategy, and maintain the same interaction rhythm until the mini-quiz (or plan completion for M4) — never switch pathways mid-module.
 
-The bot must:
+See `global_pathway_instructions.md` for full pathway delivery specifications. Course-specific notes below.
 
-- Load the pathway type for the module at module start
-- Follow the pathway's defined flow for every strategy in that module
-- Keep the same flow structure until reaching the mini-quiz (or plan completion for M4)
+| Pathway | Flow Summary |
+|---------|-------------|
+| `steady_path` | Introduction → for each strategy: explanation + 1 localized example → brief reflection or micro-action → [repeat] → mini-quiz |
+| `empathy_arc` | Vignette intro + poll → brief reflection → for each strategy: vignette continues → reflection/poll → strategy insight → micro-action → story debrief → mini-quiz |
+| `diy_kit` | Intro → context check → build steps (one per message, Reflection #1 mid-build) → refinement → final tool → Reflection #2 → mini-quiz |
 
-**Pathway-specific strategy requirements:**
+**Course-specific requirements:**
 
-| Pathway | Flow |
-|---------|------|
-| `steady_path` | explanation → example → reflection → check |
-| `empathy_arc` | story intro → normalize → poll/story → response → takeaway → check |
-| `diy_kit` | context check → guided steps → refinement → saved output → check |
-
-**General content requirements:**
-
-- Modules must include clear title, metadata, and pathway type
-- Each strategy must use the exact flow steps defined by the chosen pathway
+- Every module must include a clear title, metadata, and its Primary Pathway (used as default when no routing signal applies — see §2)
 - Reflection and comprehension checks follow the rules of that pathway
 - Modules must respect time limits
-- The mini-quiz at lesson end must include 3 items; pass the module with ≥2 of 3 correct (see system prompt §9); course-level rules apply separately
+- Include the 3-item mini-quiz (≥2 of 3 to pass module; course-level rules apply separately — see system prompt §9)
 - Examples and practice prompts should be localized when possible
 - Language must remain simple and non-clinical
 - All content must respect time, message, and WhatsApp template limits
+- Do not mix pathway structures within a module

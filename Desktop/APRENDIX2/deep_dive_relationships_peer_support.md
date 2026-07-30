@@ -89,12 +89,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** What group role could help quieter students participate more?
 
-* **Quiz Item:** 
-
-  * Why do clear roles matter in group work? (Options: reduce conflict / save time only / makes work harder)
-
-  * Why should the teacher walk around the room during group work? (Keywords: monitoring behavior, reminding, support, encourage)
-
 * **Teacher Voice:** “When I added roles, students argued less and stayed focused.”
 
 #### HC_M3_STRAT2 / Strategy 2: Mixed-Ability Grouping
@@ -114,12 +108,6 @@ subject: Healing Classrooms
   * Students may change seating for some tasks, then return to their regular seats
 
 * **Reflection Prompt:** In what ways does mixed grouping honor different strengths students bring to the classroom?
-
-* **Quiz Item:** 
-
-  * Why does mixed-ability grouping support learning? (Keywords: Peer support, belonging, confidence, different skills)
-
-  * How can you form productive mixed groups? (Keywords: assessments, test scores, participation, observations)
 
 * **Teacher Voice:** “When students worked in mixed groups, they started helping instead of comparing.”
 
@@ -141,12 +129,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** When could a quick turn-and-talk help students feel heard?
 
-* **Quiz Item:** 
-
-  * Turn-and-talk gives every student a chance to participate. (Options: true/false)
-
-  * Why does turn-and-talk help students feel safe sharing ideas? (Options: they talk to one peer first/only confident students speak/the teacher gives the answer)
-
 * **Teacher Voice:** “Quiet students started sharing their thoughts when they talked to a partner”
 
 #### HC_M3_STRAT4 / Strategy 4: Structured Peer Support
@@ -164,10 +146,6 @@ subject: Healing Classrooms
   * Model how to use calming strategies when you feel frustrated that you do not understand (belly breathing) and how to ask a peer for help.
 
 * **Reflection Prompt:** How can I model positive support for my students tomorrow?
-
-* **Quiz Item:** 
-
-  * Which phrase supports respectful peer help? (Options: “Let me do it.”/ “Can I show you my strategy?”/ “You are wrong.”)
 
 * **Teacher Voice:** “When students explain ideas to each other, understanding improves.”
 
@@ -189,16 +167,52 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** What is a real-life example you could use in class this week?
 
-* **Quiz Item:** 
-
-  * What increases when lessons connect to students’ lives? (Keywords: participation, engagement, sharing, responsiveness)
-
-  * Why do lessons connected to students’ lives increase participation? (Options: They are easier to grade / they take more time / they feel familiar and safe)
-
 * **Teacher Voice:** “Students opened up more when lessons connected to their daily experience.”
 
 
-### 7. DIY Activity Element
+### 7. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **Which phrase models respectful peer support?**
+  - Options: "Let me do it" / "Can I show you my strategy?" / "You are wrong"
+
+- **Turn-and-talk gives students a chance to share ideas with a partner before speaking to the whole class.**
+  - Options: True / False
+
+- **Why do clear roles matter in group work?**
+  - Options: Reduce conflict / Save time only / Makes work harder
+
+#### Question 2: Understanding
+
+- **How does mixed-ability grouping support learning?**
+  - Keywords: peer support, belonging, confidence, different skills
+
+- **Why do real-world connections increase student engagement?**
+  - Keywords: participation, comfort, relevant, familiar
+
+- **Why is it important to model peer support before asking students to do it?**
+  - Keywords: expectations, respect, behavior, guidance
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  A teacher asks a question to the whole class, but only a few students respond while many stay quiet. The teacher wanted to hear more student ideas.
+  *What could the teacher do to encourage more students to participate?*
+
+- **Scenario 2:**
+  A teacher asks students to work in groups, but some students argue while others do not participate. The teacher wants to improve collaboration and make sure all students are involved.
+  *How can the teacher structure the group work to support better participation?*
+
+- **Scenario 3:**
+  Students frequently call the teacher for help during independent work instead of asking each other. The teacher wants to build respectful peer support.
+  *What could the teacher model or introduce to encourage students to help one another?*
+
+---
+
+### 8. DIY Activity Element
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | --------- | ----- | --------- | ----------- | ---- |
@@ -207,7 +221,7 @@ subject: Healing Classrooms
 
 ---
 
-### 8. Media References
+### 9. Media References
 
 | Media Type | File Name | Notes |
 | ----- | ----- | ----- |

@@ -5,7 +5,7 @@
 ```yaml
 module_id: READING_M7_TMRI
 title: Texts & Materials for Reading Instruction
-pathway: steady_arc
+pathway: empathy_arc
 duration_target: 12-15 minutes
 unlock_requires: READING_M2_MREI
 unlocks: —
@@ -26,7 +26,7 @@ subject: Reading
 | Subject / Topic | Reading |
 | Grade level(s) | Primary 1-6 (with notes for multi-age/multi-grade classes) |
 | Estimated Module Duration | 12-15 minutes (5 strategies x 2-3 minutes) |
-| Pathway Fit | steady_arc |
+| Pathway Fit | empathy_arc |
 
 ### 2. Learning Objectives (2–3)
 
@@ -68,9 +68,6 @@ subject: Reading
   * Class uses different voices to reread the text (e.g. loud, quiet, whisper) and practice fluency
   * Teacher uses texts that reflect the students communities (e.g. familiar names, settings, activities)
 * **Reflection Prompt:** How can you make rereading feel purposeful rather than repetitive?
-* **Quiz Item:**
-  * Name two skills that are strengthened by using the same text throughout the week. (Keywords: comprehension, decoding, fluency, vocabulary, expression)
-  * What happens on the final day of the one text, four ways strategy? (Options: Students stop paying attention/Students draw pictures/Students shift from decoding to comprehension)
 * **Teacher Voice:** "By the end of the week, my struggling readers feel more confident."
 
 #### READING_M7_STRAT2 / Strategy 2: Class Decodable Sentences
@@ -83,9 +80,6 @@ subject: Reading
   * Students write the sentences in a notebook or on a slate
   * Teacher uses new vocabulary words to create sentences, or words that feature new blends or digraphs (e.g. bl, br, gh, ch, ck)
 * **Reflection Prompt:** What is a simple sentence you could decode and write with your class?
-* **Quiz Item:**
-  * If students struggle with a word, what should the teacher do? (Keywords: stretch, decode, segment and blend, chop, clap)
-  * Why are simple sentences important when introducing decodable sentences? (Options: They prevent fluency/They make the lesson faster/They are less overwhelming)
 * **Teacher Voice:** "Reading together as a class made my students comfortable trying to read independently."
 
 #### READING_M7_STRAT3 / Strategy 3: Environmental Print Hunt
@@ -98,9 +92,6 @@ subject: Reading
   * Teacher leads class on a community/school walk and students point out different words or letters they see
   * Students create labels for objects in the classroom or their homes
 * **Reflection Prompt:** What environmental print exists around my classroom or community?
-* **Quiz Item:**
-  * Which of the following is environmental print? (Options: Math notes/A blank page/A store sign)
-  * How does environmental print increase student motivation? (Keywords: connect to real-world, daily life, represents community)
 * **Teacher Voice:** "Students were excited to share the print from their homes."
 
 #### READING_M7_STRAT4 / Strategy 4: Create Letter/Word Cards
@@ -115,9 +106,6 @@ subject: Reading
   * Students determine if words are real or made-up/nonsense words
   * Use letter cards to create a word in language of instruction and then say it in a familiar language
 * **Reflection Prompt:** How can I use letters and word cards to make reading practice more active?
-* **Quiz Item:**
-  * Why do manipulatives help students build reading skills? (Keywords: interactive, hands-on, visible)
-  * What happens when students rearrange letters to build new words? (Options: They memorize/They strengthen letter-sound understanding/They don't recognize patterns)
 * **Teacher Voice:** "Building words help my students understand how sounds connect."
 
 #### READING_M7_STRAT5 / Strategy 5: Let Children be Authors
@@ -133,8 +121,6 @@ subject: Reading
   * Students draw pictures then label it with words or a simple sentence
   * Teacher encourages students to use decoding skills to spell words, or use vocabulary words they have learned during reading class
 * **Reflection Prompt:** Do my students believe they are capable of writing a book?
-* **Quiz Item:**
-  * Why display student-created books? (Keywords: pride, ownership, reading resource, confidence)
 * **Teacher Voice:** "Students kept reading their books to each other."
 
 ### 6. DIY Activity Element
@@ -145,3 +131,43 @@ subject: Reading
 | Echo and Partner Reread | Decodable sentence | 1. Teacher reads the sentence with expression 2. Class echo reads together 3. Students reread in pairs 4. Partners give one complement to one another 5. Teacher invites volunteers to read the sentence aloud to the class | Younger: Sentences include familiar words Older: Use multiple sentences or short story | Students build fluency. Students listen to peers read and provide encouragement. | 10 minutes |
 
 ---
+
+### 7. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **What happens on the final day of the one text, four ways strategy?**
+  - Options: Students stop paying attention / Students draw pictures / Students shift from decoding to comprehension
+
+- **Which of the following is environmental print?**
+  - Options: Math notes / A blank page / A store sign
+
+- **If a student struggles to decode a word, the teacher should tell them the word immediately.**
+  - Options: True / False
+
+#### Question 2: Understanding
+
+- **How do letter or word cards help students build reading skills?**
+  - Keywords: interactive, hands-on, visible
+
+- **How does creating their own books help students see themselves as readers and writers?**
+  - Keywords: pride, ownership, motivation, confidence
+
+- **Why should teachers use simple sentences when practicing decoding skills?**
+  - Keywords: manageable, focus, not overwhelming, understanding
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  Students are creating their own small books. Some students are excited and begin right away, other students say they don't know what to write or draw.
+  *What could the teacher do to help all students get started and feel confident creating their own book?*
+
+- **Scenario 2:**
+  A teacher asks students to give examples of print from their homes, but only a few students share. Other students sit quietly during the activity.
+  *How can the teacher adjust the activity so all students participate in reading real-world print?*
+
+- **Scenario 3:**
+  Students are working together in small groups to build sentences using word cards. Some groups are creating sentences quickly and not checking their work.
+  *How can the teacher help students build sentences that make sense?*

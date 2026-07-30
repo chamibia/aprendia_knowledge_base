@@ -60,6 +60,14 @@ A growth mindset emphasizes learning, effort, and improvement over time. This mi
 
 > **Agent:** Generate narrative scenes at runtime. **Show only strategies to the user.** Concepts guide your framing but are never delivered explicitly. Use this mapping to know which strategy belongs in each scene. **Pacing:** Scene 3 has 2 strategies—deliver one strategy per message; do not compress into one scene. Use `<break>` between them. Do not send Scene 2 and Scene 3 back-to-back; allow user to absorb each scene.
 
+**Per-scene delivery structure (apply to every strategy in every scene):**
+1. Open with the strategy name and a relevant emoji (e.g. "💭 Name Emotions"). This is the first line of the message.
+2. Deliver the narrative scene — a story showing the strategy in action (3–4 sentences, plain text, no definitions).
+3. Add one short sentence on how this strategy helps in the classroom (practical benefit — not a definition).
+4. Ask the reflection question for that scene. Wait for the teacher's response before moving to the next scene.
+
+Use `<break>` tags between steps if the combined message exceeds 400 characters. Never skip or compress any of the four steps. Scene 3 has 2 strategies — deliver one per message; do not compress into one turn.
+
 | Scene | Strategy | Concept (guides delivery; do not show) | Narrative brief |
 |-------|----------|----------------------------------------|-----------------|
 | Scene 1 | STRAT1 (Name Emotions) | CON1 | A teacher feels overwhelmed after a difficult morning. She pauses to name what she feels ("frustrated," "tired"). She notices a pattern—certain situations lower her energy. Naming creates space to choose her next step. Show the strategy in action—no concept definitions. |
@@ -101,63 +109,42 @@ Replace discouraging thoughts with growth-oriented alternatives (e.g., "This is 
 
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **Agent:** Deliver all 3 items (recall → understanding → application). User must get **≥2 of 3** correct to unlock the next module. Provide correct answer + 1-sentence explanation after each item. If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (system prompt §9).
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Over time, naming emotions helps teachers notice… |
-| **Options** | A: Which emotions are acceptable / B: Emotional patterns that impact energy and motivation / C: How to avoid hard feelings / D: Which emotions to ignore |
-| **Correct** | B |
-| **Feedback** | Naming emotions over time reveals patterns that affect energy and motivation, helping teachers make more intentional choices. |
+- **Over time, naming emotions helps teachers notice:**
+  - Options: Which emotions are acceptable / Emotional patterns that impact energy and motivation / How to avoid hard feelings / Which emotions to ignore
 
-### QUIZ_ITEM_2
+- **Which statement reflects a growth mindset?**
+  - Options: "I should already know how to do this" / "If this is hard, I must be bad at my job" / "This is difficult, but I can improve with practice" / "There's no point in trying"
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | What can mindfulness support? |
-| **Accept keywords** | calm, focus, perspective, balance, clarity |
-| **Feedback** | Mindfulness can support calm, focus, and perspective—helping teachers regain steadiness and clarity. |
+- **A motivation check focuses on big achievements only.**
+  - Options: True / False
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Which statement reflects a growth mindset? |
-| **Options** | A: "I should already know how to do this" / B: "If this is hard, I must be bad at my job" / C: "This is difficult, but I can improve with practice" / D: "There's no point in trying" |
-| **Correct** | C |
-| **Feedback** | A growth mindset emphasizes that effort and practice lead to improvement over time. |
+- **What can mindfulness support?**
+  - Keywords: calm, focus, perspective, balance
 
----
+- **How does naming emotions support motivation?**
+  - Keywords: awareness, patterns, response
 
-## QUIZ_BANK_ALT
+- **How can an end-of-day reflection support a growth mindset?**
+  - Keywords: effort, improvement, notice positive
 
-> **Agent:** Use these items if retry is needed.
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  During a math lesson, several students begin talking and not following directions. The teacher notices they are about to raise their voice.
+  *How might naming the emotion change the teacher's reaction?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | A motivation check helps teachers remember that their work has _____, even when it's hard. |
-| **Accept keywords** | meaning, purpose, value, impact, support |
+- **Scenario 2:**
+  At the end of a long day, a teacher feels discouraged and believes their lessons did not go well. Then, they remember that one student who usually struggles in reading class decoded a new word.
+  *How could the teacher use this moment for motivation?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | What is one benefit of naming emotions? |
-| **Accept keywords** | understand, pattern, space, choose, manage, intensity |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | Why is a brief mindfulness moment helpful for teachers? |
-| **Options** | A: It replaces the need for rest / B: It can help restore perspective and create clarity / C: It only works when stress is low / D: It requires special training |
-| **Correct** | B |
+- **Scenario 3:**
+  Right before starting a reading lesson, the teacher feels overwhelmed after a noisy transition back from break. They are struggling to focus and give instructions clearly.
+  *What could the teacher do to reset and continue the lesson?*

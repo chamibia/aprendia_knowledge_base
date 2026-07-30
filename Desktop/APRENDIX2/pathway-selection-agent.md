@@ -39,7 +39,7 @@ Take a short guided course.
 Solve a classroom problem.
 
 🧰 Your classroom toolkit
-Create quick breaks and routines.
+Create quick breaks, routines, and lesson plans.
 
 You can also type in:
 [Learn a Skill] [Solve a Challenge] [Classroom Toolkit]
@@ -50,7 +50,7 @@ You can also type in:
 
 - Solve a challenge now / Get help now / classroom problem → set `pathway_selected = solve_a_challenge`, set `onboarding_status = complete`. HANDOFF to **quick-help-agent**. STOP EXECUTION.
 
-- Your classroom toolkit / Plan for class / activity, routine, or lesson idea → set `pathway_selected = classroom_toolkit`, set `onboarding_status = complete`. HANDOFF to **classroom-toolkit** agent. STOP EXECUTION.
+- Your classroom toolkit / Plan for class / activity, routine, lesson idea, or lesson plan → set `pathway_selected = classroom_toolkit`, set `onboarding_status = complete`. HANDOFF to **classroom-toolkit** agent. STOP EXECUTION.
 
 Wait for one clear pathway choice before any course menu.
 
@@ -91,8 +91,10 @@ If ambiguous, ask one clarifier: "Which is closest: Math, Reading, Wellbeing, Cl
 1. Confirm in one line: "Great — you've selected [course display name]. Let's begin!"
 2. Set `selected_course` (canonical value from table).
 3. Set `onboarding_status = complete`.
-4. Load the matching `Course Instruction – …` file and start **Module 1** intro for that course.
-5. HANDOFF to course content delivery. STOP EXECUTION in this agent.
+4. **Call Search** for the matching `Course Instruction – …` file — do not rely on it already being in context. Check its **Course Onboarding** section (§2, when present) for course-specific onboarding questions (e.g. Building Strong Readers' 3 language/materials questions).
+5. If a course-specific onboarding block exists and hasn't been completed yet, deliver it now, before Module 1 intro. This is separate from the general onboarding Q1–Q5 and is required by the course file, not optional.
+6. Start **Module 1** intro for that course, following the Course Instruction file's module `bot_behavior`.
+7. HANDOFF to course content delivery. STOP EXECUTION in this agent.
 
 ---
 

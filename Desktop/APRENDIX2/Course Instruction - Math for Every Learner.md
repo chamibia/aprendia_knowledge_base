@@ -63,7 +63,7 @@ Affirming, practical, and warm. Normalize math difficulty without discouraging t
 | Rule | Detail |
 |------|--------|
 | **Structure** | **3 items** per module, fixed order: **Q1 recall** (MC/TF) → **Q2 understanding** (open-ended; hidden keywords) → **Q3 application** (scenario) |
-| **Pass module / unlock next** | **≥2 of 3** correct; up to **1 retake per item** (new question, same type, from module bank) |
+| **Pass module / unlock next** | **≥2 of 3** correct; up to **1 retake per item** (new question, same type, from module bank — **NEVER re-ask the original question**) |
 | **Course pass / explain depth** | **≥80%** of all quiz items in the course to pass and unlock explain-arc–style depth (see system prompt §9) |
 | **Module YAML** | `quiz_pass: 2_of_3` and `course_pass_threshold: 0.80` |
 | **Key Concepts in module files** | For agent delivery only; **not** for quiz stem copy (§9) |
@@ -93,7 +93,7 @@ Affirming, practical, and warm. Normalize math difficulty without discouraging t
 
 | `MATH_L4_MPS` | Math Process Skills | `empathy_arc` | `explain_exchange` | `user_mastery >= 0.90` |
 
-| `MATH_L5_MHO` | Making Math Hands-On | `diy_kit` | `empathy_arc` | `user_requests_example` |
+| `MATH_L5_MHO` | Making Math Hands-On | `empathy_arc` | `diy_kit` | `user_requests_example` |
 
 | `MATH_L6_IMI` | Inclusive Math Instruction | `empathy_arc` | `diy_kit` | `user_requests_tool` |
 
@@ -219,7 +219,7 @@ If multiple fallback conditions are true simultaneously, apply in this order:
 |-----------|------|---------|------|
 | `MATH_L3_SMM` | Shifting Math Mindsets | `empathy_arc` | ≤10 min |
 | `MATH_L4_MPS` | Math Process Skills | `empathy_arc` | ≤10 min |
-| `MATH_L5_MHO` | Making Math Hands-On | `diy_kit` | ≤10 min |
+| `MATH_L5_MHO` | Making Math Hands-On | `empathy_arc` | ≤10 min |
 | `MATH_L6_IMI` | Inclusive Math Instruction | `empathy_arc` | ≤10 min |
 | `MATH_L7_AML` | Assessment for Math Learning | `diy_kit` | ≤10 min |
 
@@ -239,7 +239,33 @@ If multiple fallback conditions are true simultaneously, apply in this order:
 
 ---
 
-## 4. Message & Time Constraints
+## 4. Module Construction Schema
+
+A module uses ONE pathway for its entire strategy sequence. The pathway is pre-assigned in the module metadata. The agent must load the pathway at module start, follow its flow consistently for every strategy, and maintain the same interaction rhythm until the mini-quiz.
+
+See `global_pathway_instructions.md` for full pathway delivery specifications. Course-specific notes below.
+
+| Pathway | Flow Summary |
+|---------|-------------|
+| `steady_path` | Introduction → for each strategy: explanation + 1 localized example → brief reflection or micro-action → [repeat] → mini-quiz |
+| `empathy_arc` | Vignette intro + poll → brief reflection → for each strategy: vignette continues → reflection/poll → strategy insight → micro-action → story debrief → mini-quiz |
+| `diy_kit` | Intro → context check → build steps (one per message, Reflection #1 mid-build) → refinement → final tool → Reflection #2 → mini-quiz |
+| `explain_exchange` | Recap → Socratic opening question → [wait] → 1–2 rounds of follow-up questions → peer example → action plan → reflection → mini-quiz |
+
+**Course-specific requirements:**
+
+- Every module must include a clear title, metadata, and its pre-assigned pathway type
+- Reflection and comprehension checks follow the rules of that pathway
+- Modules must respect time limits
+- Include the 3-item mini-quiz (≥2 of 3 to pass module; course-level rules apply separately — see system prompt §9)
+- Examples and practice prompts should be localized when possible
+- Language must remain simple and non-clinical
+- All content must respect time, message, and WhatsApp template limits
+- Do not mix pathway structures within a module
+
+---
+
+## 5. Message & Time Constraints
 
 | Constraint | Value |
 |------------|-------|
@@ -252,7 +278,7 @@ If multiple fallback conditions are true simultaneously, apply in this order:
 
 ---
 
-## 5. Personalization Signals
+## 6. Personalization Signals
 
 > **Note:** Track these for example selection and pacing—NOT for pathway selection.
 
@@ -282,7 +308,7 @@ If multiple fallback conditions are true simultaneously, apply in this order:
 
 ---
 
-## 6. Tone Requirements
+## 7. Tone Requirements
 
 | ✅ Do | ❌ Don't |
 
@@ -302,7 +328,7 @@ If multiple fallback conditions are true simultaneously, apply in this order:
 
 ---
 
-## 7. Safety & Feasibility Constraints
+## 8. Safety & Feasibility Constraints
 
 - Prefer no-cost or found materials
 
@@ -316,7 +342,7 @@ If multiple fallback conditions are true simultaneously, apply in this order:
 
 ---
 
-## 8. Media & Image Output
+## 9. Media & Image Output
 
 Math modules can attach images to specific moments (module start, a concept, or a strategy). The **module file** is the source of truth — see each file's **MEDIA OUTPUT** table.
 
@@ -338,7 +364,7 @@ Math modules can attach images to specific moments (module start, a concept, or 
 
 ---
 
-## 9. Assessments & Unlocks
+## 10. Assessments & Unlocks
 
 ### Per-Module Quizzes
 

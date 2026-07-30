@@ -86,12 +86,6 @@ subject: Active and Inclusive Learning
 
 * **Reflection Prompt:** What materials exist around your classroom that you can start collecting today?
 
-* **Quiz Item:**
-
-  * Which is an example of a local learning material? (Options: Fabric / Computers / Textbooks)
-
-  * How can collecting materials reduce stress for teachers? (Keywords: no cost, always available, prepared)
-
 * **Teacher Voice:** "I did not realize I have free resources around me."
 
 #### AIL_M4_STRAT2 / Strategy 2: Give Every Child a Material to Hold
@@ -114,8 +108,6 @@ subject: Active and Inclusive Learning
 
 * **Reflection Prompt:** How can you make sure every child participates in your next lesson?
 
-* **Quiz Item:** What is one benefit of giving every child a material to hold? (Options: It makes the class quieter / It increases participation / It reduces lesson time)
-
 * **Teacher Voice:** "My students stay more focused when everyone has a resource."
 
 #### AIL_M4_STRAT3 / Strategy 3: Connect the Materials to the Learning Objective
@@ -133,8 +125,6 @@ subject: Active and Inclusive Learning
   * If the learning goal is "I can describe the members of my family," materials can be sentence frames or picture cards with family vocabulary words.
 
 * **Reflection Prompt:** What material could you use to make your next learning objective more concrete for students?
-
-* **Quiz Item:** What should guide your choice of materials for a lesson? (Options: What looks the most fun / What connects to the learning objective / What is easiest to collect)
 
 * **Teacher Voice:** "Materials have to match the lesson to actually help students learn."
 
@@ -155,8 +145,6 @@ subject: Active and Inclusive Learning
   * The teacher splits the class into two teams and writes the same incorrect sentence on the board. Each team sends one student up at a time to correct the sentence, but each student can only fix one thing. The team that corrects the entire sentence first wins.
 
 * **Reflection Prompt:** What is a simple game you could add to your next math lesson?
-
-* **Quiz Item:** How do games support learning, not just fun? (Keywords: practice, repeat skills, engagement, motivation)
 
 * **Teacher Voice:** "My students become excited to learn when we play a game."
 
@@ -181,8 +169,6 @@ subject: Active and Inclusive Learning
   * Students practice using a voice level appropriate for group work.
 
 * **Reflection Prompt:** What routine could save your class time when using materials?
-
-* **Quiz Item:** Why are routines important when using materials in a large class? (Keywords: calm, predictable, safe learning, reduce confusion, clear expectations)
 
 * **Teacher Voice:** "Setting expectations and having a routine makes using materials calmer and faster."
 
@@ -210,85 +196,52 @@ Today you explored five strategies for making learning hands-on with low-cost ma
 
 ---
 
-## QUIZ
+### 7. Quiz Questions
 
-> **[Deliver all 3 items in order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass.]**
-> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using the matching ALT item from QUIZ_BANK_ALT — do not wait for the teacher to ask. At most one retake per item.]**
-> **[RETAKE RULE — HARD: NEVER re-ask the original question as the retake. Always use the matching ALT item from QUIZ_BANK_ALT. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3.]**
+> **[Deliver 3 items in order: Q1 recall → Q2 understanding → Q3 application, selecting one item from each question bank below. User must get ≥2 of 3 correct to pass.]**
+> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using a different item of the same type from the same bank — do not wait for the teacher to ask. NEVER re-ask the original question. At most one retake per item.]**
 > **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
-> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT offer the main menu or pivot to Solve a Challenge. Mark AIL_M4_HLLCM as complete. Then: (1) If Deep Dives 5 and 6 are both also complete AND Modules 1–3 are complete → congratulate the teacher and immediately offer the Final Quiz. (2) Otherwise → show the remaining deep dive menu, listing only the deep dives not yet completed. Example: "Great work! You have one more deep dive available — which would you like to explore next? [list remaining options]".]**
+> **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT offer the main menu or pivot to Solve a Challenge. Mark AIL_M4_HLLCM as complete. Then: (1) If Deep Dives 5 and 6 are both also complete AND Modules 1–3 are complete → congratulate the teacher and immediately offer the Final Quiz. (2) Otherwise → show the remaining Deep Dive options, listing only the deep dives not yet completed. Example: "Great work! You have one more deep dive available — which would you like to explore next? [list remaining options]".]**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice (Recall) |
-| **Question** | What is one benefit of giving every child a material to hold? |
-| **Options** | A) It makes the class quieter / B) It increases participation / C) It reduces lesson time |
-| **Correct** | B |
-| **Feedback** | When every child has something to interact with, all students stay focused and involved — reducing waiting time and passive behavior. |
+- **What is one benefit of giving every child a material?**
+  - Options: It makes the class quieter / It increases participation / It reduces lesson time
 
-### QUIZ_ITEM_2
+- **What looks the most fun should guide your choice of materials.**
+  - Options: True / False
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (Understanding) |
-| **Question** | Why are routines important when using materials in a large class? |
-| **Accept keywords** | calm, predictable, safe learning, reduce confusion, clear expectations, organized, efficient |
-| **Feedback** | Without clear routines, materials can cause noise, conflict, and wasted learning time — predictable systems help students know what to do and reduce disruption. |
+- **Which is an example of a local learning material?**
+  - Options: Fabric / Computers / Textbooks
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Open-ended scenario (Application) |
-| **Question** | A class is learning about place value in their textbooks. Halfway through the lesson, students begin to lose focus and start talking to each other. How could the teacher adjust the activity so every child is involved? |
-| **Accept** | Any response that names or clearly describes a hands-on strategy from this module (giving every child a material, using a game, connecting objects to the learning objective); and explains — even briefly — how it would re-engage students |
-| **Feedback** | Strong responses suggest a concrete adjustment — such as giving each student stones or sticks to represent place value, adding a quick partner activity, or introducing a sorting game — and link it to keeping students active and focused. |
+- **Why are routines important when using materials in a large class?**
+  - Keywords: calm, predictable, safe learning, reduce confusion, clear expectations
 
----
+- **How can collecting materials reduce stress for teachers?**
+  - Keywords: no cost, always available, prepared
 
-## QUIZ_BANK_ALT
+- **How do games support learning, not just fun?**
+  - Keywords: practice, repeat skills, engagement, motivation
 
-> **[Use these items for retakes only — offered automatically after a wrong answer. ALT_ITEM_1 retakes Q1, ALT_ITEM_2 retakes Q2, ALT_ITEM_3 retakes Q3. At most one retake per item.]**
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A class is learning about place value in their textbooks. Halfway through the lesson, students begin to lose focus and start talking to each other.
+  *How could the teacher adjust the activity so every child is involved?*
 
-> **[Use when teacher answers QUIZ_ITEM_1 incorrectly. Same type: Recall.]**
+- **Scenario 2:**
+  A teacher spends a lot of time handing out and collecting materials. The lessons feel rushed and students argue about who gets materials first.
+  *What routine would you advise the teacher to use?*
 
-| Field | Value |
-|-------|-------|
-| **Type** | True / False |
-| **Question** | What looks the most fun should guide your choice of materials for a lesson. |
-| **Options** | True / False |
-| **Correct** | False |
-| **Feedback** | Materials should be chosen based on what connects to the learning objective — not what looks fun. Fun and learning can go together, but the objective must guide the choice. |
-
-### ALT_ITEM_2
-
-> **[Use when teacher answers QUIZ_ITEM_2 incorrectly. Same type: Understanding.]**
-
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer |
-| **Question** | How do games support learning, not just fun? |
-| **Accept keywords** | practice, repeat skills, engagement, motivation, active, consolidate |
-| **Feedback** | Structured games help students practice and repeat skills while staying motivated — making learning active without losing academic purpose. |
-
-### ALT_ITEM_3
-
-> **[Use when teacher answers QUIZ_ITEM_3 incorrectly. Same type: Application scenario.]**
-
-| Field | Value |
-|-------|-------|
-| **Type** | Open-ended scenario |
-| **Question** | A teacher spends a lot of time handing out and collecting materials. The lessons feel rushed and students argue about who gets materials first. What routine would you advise the teacher to use? |
-| **Accept** | Any response that suggests a clear system for distributing or collecting materials (assigned roles, signals, group cartons, practicing the routine); and explains why it would save time or reduce conflict |
-| **Feedback** | Strong responses suggest a specific routine — such as assigning a materials manager, using a signal to start and stop, or having groups collect into a shared container — and link it to calmer, more predictable lesson transitions. |
+- **Scenario 3:**
+  A teacher is preparing tomorrow's lesson, but realized they have no materials in their classroom. The lesson needs each student to have a couple of small sticks to help blend and segment words.
+  *What could the teacher do to ensure each student has these materials?*
 
 ---
 
-### 7. DIY Activity Element
+### 8. DIY Activity Element
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -297,7 +250,7 @@ Today you explored five strategies for making learning hands-on with low-cost ma
 
 ---
 
-### 8. Media References
+### 9. Media References
 
 | Media Type | File Name | Notes |
 | ----- | ----- | ----- |

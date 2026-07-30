@@ -64,9 +64,6 @@ subject: Reading
   * Repeat a rhyme sentence with echo and choral reading (e.g. "The goat wears a coat on a boat.")
   * Teacher places hands face up slightly apart, lifts left hand says /m/, lifts right hand says /et/, brings hands together says "met," "What was the first sound?... Yes, it was /m/")
 * **Reflection Prompt:** What is a sound game that could help your students?
-* **Quiz Item:**
-  * Why should students play with sounds? (Options: Hear sounds/Memorize words/Practice spelling)
-  * I need books to do sound games with students (Options: True/False).
 * **Teacher Voice:** "Sound games helped my quieter students join in."
 
 #### READING_M3_STRAT2 / Strategy 2: Connect Sounds to Letters (Phonics)
@@ -80,8 +77,6 @@ subject: Reading
   * Students draw a picture of an object that starts with a given letter or write a word the begins with a given letter
   * Teacher reviews previously learned letters and sounds before introducing a new sound
 * **Reflection Prompt:** Which letter sounds might be most challenging for students?
-* **Quiz Item:**
-  * Why is saying the letter name with the sound important? (Keywords: connect to letter to sounds, help decode)
 * **Teacher Voice:** "Reviewing letter sounds every day helped my students stop guessing."
 
 #### READING_M3_STRAT3 / Strategy 3: Model Blending and Segmenting (Phonics)
@@ -94,9 +89,6 @@ subject: Reading
   * Teacher works with small groups of students of mixed ability to allow students to help teach and learn from each other
   * Teacher uses objects, drawings, or picture cards to create words from those objects (e.g. Teacher draws a cat. "What is this animal called? Yes, it is a cat. Let's break the word into sounds…" )
 * **Reflection Prompt:** Do my students try breaking down words they do not know? Why or why not?
-* **Quiz Item:**
-  * Why should teachers model blending sounds slowly? (Options: To show steps/To read faster/To test memory)
-  * Why is learning blending and segmenting better than memorizing whole words? (Keywords: break down, take apart words, read new word, figure out, decode)
 * **Teacher Voice:** "When I slowed down and blended out loud, students saw how reading works."
 
 #### READING_M3_STRAT4 / Strategy 4: Teach How Print Works (Print Concepts, Oral Language)
@@ -110,9 +102,6 @@ subject: Reading
   * Teacher invites students to consider how pictures can support the text or tell readers more about the story (e.g. "Does the picture match the words we read? What do you notice is happening in the picture?")
   * Students create their own books or short stories with title, spacing, and clear text direction
 * **Reflection Prompt:** How often do I point out print concepts to students?
-* **Quiz Item:**
-  * A student writes a story with no spaces between words. What print concept needs more practice? (Keywords: spacing, word separation, clarity)
-  * Which is a skill students gain from print concepts? (Options: Tracking text/Guessing words/Memorizing)
 * **Teacher Voice:** "I didn't realize some students didn't know where to start reading."
 
 #### READING_M3_STRAT5 / Strategy 5: Word Building with Manipulatives
@@ -126,9 +115,6 @@ subject: Reading
   * Teacher ties a string from one end of the classroom to the other and place letter cards that fold on the line to create a blending line
   * Students work in groups to create a word then share and blend it with the class
 * **Reflection Prompt:** How can using manipulatives to build words change student confidence?
-* **Quiz Item:**
-  * Why is changing one letter at a time important during word building? (Keywords: see patterns, decoding, recognizing real or non-sense words)
-  * Which is a skill word building builds? (Options: Blending sounds/Story meaning/Memorization)
 * **Teacher Voice:** "My students treated reading like a puzzle instead of a test." or "Seeing the word change made decoding click."
 
 ### 6. DIY Activity Element
@@ -137,4 +123,46 @@ subject: Reading
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | Stretch the Word | Large letter cards | 1. Teacher preps large letter cards 2. Teacher gives 3-4 students one letter card each 3. Students stand in order to build a word and stand arms length apart from one another 4. Teacher and class say each sound then students step closer to one another 5. Repeat until students with the letter cards are standing shoulder to shoulder 6. Students blend sounds a final time and say the word | Younger: Teacher places students is word order Older: Students place themselves in the word order | Students blend words Movement increases engagement | 10 minutes |
 | Word Family | Chalk and Board/Pen and poster | 1. Teacher writes a common word ending on the board (e.g. "-op") 2. Class says the word ending sound 3. Class brainstorms beginning sounds that could make real words with the word ending 4. Write and blend each student idea (e.g. "/m/mop as a real word, /w/wop as a non-word") | Younger: Teacher provides the beginning letter sound of real words in the word family Older: Make a sentence with two or more of the words. | Students recognize patterns | 10 to 15 minutes |
+
+---
+
+### 7. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **Phonics instruction helps students connect sounds to letters.**
+  - Options: True / False
+
+- **Which is a skill students gain from print concepts?**
+  - Options: Tracking text / Guessing words / Memorizing words
+
+- **Why should students play with sounds?**
+  - Options: Hear sounds / Memorize words / Practice spelling
+
+#### Question 2: Understanding
+
+- **Why is changing one letter at a time important during word building?**
+  - Keywords: see patterns, decoding, recognizing real or non-sense words
+
+- **Why is learning blending and segmenting better than memorizing whole words?**
+  - Keywords: break down, take apart words, read new word, figure out, decode
+
+- **How does using manipulatives help students better understand how words work?**
+  - Keywords: hands-on, patterns, active learning, decoding
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  A teacher notices that some students are unsure where to start reading on a page and lose their place while reading aloud. The teacher starts pointing to the beginning of lines during shared reading.
+  *What else could this teacher do to support students' understanding of print?*
+
+- **Scenario 2:**
+  A teacher gives students bottle caps with letters written on them and has students form simple words. Students then change one letter at a time to create new words.
+  *How could the teacher extend this activity to help students learn how words are built?*
+
+- **Scenario 3:**
+  While reading, a student sees a new word and tries to guess it quickly. The teacher slows down, models breaking the word into sounds and then putting it back together.
+  *What should this teacher do next to support the student?*
 

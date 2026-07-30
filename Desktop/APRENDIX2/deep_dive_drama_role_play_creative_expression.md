@@ -86,8 +86,6 @@ subject: Active and Inclusive Learning
 
 * **Reflection Prompt:** What concept could you turn into a story featuring a local place this week?
 
-* **Quiz Item:** What is one benefit of using storytelling to teach? (Options: It makes the lesson longer / It replaces learning / It helps students understand and remember)
-
 * **Teacher Voice:** "My students remember the story better than the explanation."
 
 #### AIL_M5_STRAT2 / Strategy 2: Let Children Create and Tell Their Own Stories
@@ -107,8 +105,6 @@ subject: Active and Inclusive Learning
   * Students create a story and share it with a partner, not the whole class.
 
 * **Reflection Prompt:** How can you give students more opportunities to create their own stories?
-
-* **Quiz Item:** Why does creating their own stories help children learn more deeply? (Keywords: connect ideas, ownership, thinking, engagement)
 
 * **Teacher Voice:** "I was surprised how creative my students were."
 
@@ -130,12 +126,6 @@ subject: Active and Inclusive Learning
 
 * **Reflection Prompt:** What roles could students act out in your next lesson?
 
-* **Quiz Item:**
-
-  * What does drama help children practice? (Options: Perspective-taking / Sitting quietly / Copying only)
-
-  * How does role play help children understand different perspectives? (Keywords: act, experience, viewpoints, empathy, roles)
-
 * **Teacher Voice:** "Even quiet students joined when we acted it out."
 
 #### AIL_M5_STRAT4 / Strategy 4: Create an Audience
@@ -155,12 +145,6 @@ subject: Active and Inclusive Learning
   * Small groups create a mini-text to read and act out. The groups practice, perform for the class, and then perform for another class at the school.
 
 * **Reflection Prompt:** How can you create simple opportunities for students to share their work?
-
-* **Quiz Item:**
-
-  * Creating audiences for student work helps students build confidence. (Options: True / False)
-
-  * Why does sharing work with others increase student effort? (Keywords: motivation, pride, preparation, seen)
 
 * **Teacher Voice:** "My students take pride when others see their work."
 
@@ -213,83 +197,51 @@ Today you explored four strategies that use storytelling, drama, and creative ex
 
 ---
 
-## QUIZ
+### 7. Quiz Questions
 
-> **[Deliver all 3 items in order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass.]**
-> **[After each incorrect answer: (1) name the concept area the teacher missed in one short phrase — do NOT restate or give the correct answer, (2) immediately offer the matching ALT item from QUIZ_BANK_ALT as the retake. Never re-ask the same question the teacher just answered incorrectly. At most one retake per item.]**
+> **[Deliver 3 items in order: Q1 recall → Q2 understanding → Q3 application, selecting one item from each question bank below. User must get ≥2 of 3 correct to pass.]**
+> **[After each incorrect answer: (1) name the concept area the teacher missed in one short phrase — do NOT restate or give the correct answer, (2) immediately offer one retake using a different item of the same type from the same bank. Never re-ask the same question the teacher just answered incorrectly. At most one retake per item.]**
 > **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice (Recall) |
-| **Question** | What is one benefit of using storytelling to teach? |
-| **Options** | A) It makes the lesson longer / B) It replaces learning / C) It helps students understand and remember |
-| **Correct** | C |
-| **Feedback** | Stories help children visualize and follow ideas step by step, making concepts easier to understand and remember. |
+- **What is one benefit of using storytelling?**
+  - Options: It makes the lesson longer / It replaces learning / It helps students understand and remember
 
-### QUIZ_ITEM_2
+- **What does drama help children practice?**
+  - Options: Perspective-taking / Sitting quietly / Copying only
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (Understanding) |
-| **Question** | Why does letting students create their own stories help them learn more deeply? |
-| **Accept keywords** | connect ideas, ownership, thinking, engagement, creative, experience, meaningful |
-| **Feedback** | Creating their own stories requires children to actively connect new ideas to what they already know — using higher-order thinking, not just memorizing. |
+- **Creating audiences for student work helps students build confidence.**
+  - Options: True / False
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Open-ended scenario (Application) |
-| **Question** | A teacher writes "32 - 13 =" on the board. Students copy it, but they cannot explain what it means and just guess the answer. How could the teacher turn this into a story to help students understand? |
-| **Accept** | Any response that describes turning the equation into a story or scenario (e.g. a character who has objects and gives some away); and explains — even briefly — how the story would help students understand the meaning of the problem |
-| **Feedback** | Strong responses create a simple story around the equation (e.g. "Fatou had 32 mangoes and gave 13 to her neighbor — how many does she have left?") and connect it to helping students understand what subtraction means, not just calculate it. |
+- **How does role play help children understand different perspectives?**
+  - Keywords: act, experience, viewpoints, empathy, roles
 
----
+- **Why does creating their own stories help children learn more deeply?**
+  - Keywords: connect ideas, ownership, thinking, engagement
 
-## QUIZ_BANK_ALT
+- **Why does sharing work with others increase effort?**
+  - Keywords: motivation, pride, preparation, seen
 
-> **[Use these items for retakes only — offered automatically after a wrong answer. ALT_ITEM_1 retakes Q1, ALT_ITEM_2 retakes Q2, ALT_ITEM_3 retakes Q3. Never re-ask the same question the teacher already answered incorrectly. At most one retake per item.]**
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A teacher notices most of their older students answer questions while younger students stay quiet during reading lessons. The teacher wants more students to participate and share ideas.
+  *How could the teacher use student-created stories?*
 
-> **[Use when teacher answers QUIZ_ITEM_1 incorrectly. Same type: Recall.]**
+- **Scenario 2:**
+  A teacher writes "32 - 13 =" on the board. Students copy it, but they cannot explain what it means and guess the answer.
+  *How could the teacher turn this question into a story?*
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | What does drama help children practice? |
-| **Options** | A) Perspective-taking / B) Sitting quietly / C) Copying only |
-| **Correct** | A |
-| **Feedback** | Drama lets children step into different roles and see situations from different points of view — building empathy and critical thinking. |
-
-### ALT_ITEM_2
-
-> **[Use when teacher answers QUIZ_ITEM_2 incorrectly. Same type: Understanding.]**
-
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer |
-| **Question** | How does role play help children understand different perspectives? |
-| **Accept keywords** | act, experience, viewpoints, empathy, roles, embody, feel |
-| **Feedback** | Role play lets children step into a character's situation and experience it — making it easier to understand different viewpoints than simply being told about them. |
-
-### ALT_ITEM_3
-
-> **[Use when teacher answers QUIZ_ITEM_3 incorrectly. Same type: Application scenario.]**
-
-| Field | Value |
-|-------|-------|
-| **Type** | Open-ended scenario |
-| **Question** | A teacher notices that older students answer questions during reading lessons, but younger students stay quiet. The teacher wants all students to participate and share ideas. How could the teacher use student-created stories to include more students? |
-| **Accept** | Any response that describes inviting all students to create or share a story (e.g. drawing a story, telling it to a partner, acting it out); and explains how this would give quieter or younger students a lower-pressure way to engage |
-| **Feedback** | Strong responses suggest having students create stories in pairs or draw their versions, which gives every child a way to participate — not just those who are confident speaking to the whole class. |
+- **Scenario 3:**
+  Some students in a class solve math problems correctly, but do not share their answers with the class. They avoid speaking, even when they understand the work.
+  *How could the teacher create a safe audience so more students feel comfortable sharing?*
 
 ---
 
-### 7. DIY Activity Element
+### 8. DIY Activity Element
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -298,7 +250,7 @@ Today you explored four strategies that use storytelling, drama, and creative ex
 
 ---
 
-### 8. Media References
+### 9. Media References
 
 | Media Type | File Name | Notes |
 | ----- | ----- | ----- |

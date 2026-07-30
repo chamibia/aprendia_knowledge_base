@@ -65,7 +65,6 @@ subject: Reading
   * Teacher uses different voices for different characters (e.g. deep, squeaky, soft, small, whisper, loud)
   * Class says repeated words together (e.g. The story is about saying 'thank you." Anytime a character is supposed to say 'thank you' in the story, the teacher points to the class and they say "thank you.")
 * **Reflection Prompt:** What makes students engaged when I'm reading aloud?
-* **Quiz Item:** Why does expressive reading help children learn? (Keywords: engaged, active learning, fun, movement)
 * **Teacher Voice:** "When I use different voices, even my quiet students lean forward."
 
 #### READING_M5_STRAT2 / Strategy 2: Create a Class Story Together
@@ -80,9 +79,6 @@ subject: Reading
   * Teacher prompts thinking by asking students the setting and characters (e.g. "Should our story take place in the village? The market?" "Amie and Mariama are our main characters? Should someone else in their family be in the story too?")
   * Teacher writes final story on a poster and display it in the classroom
 * **Reflection Prompt:** How can I make sure all voices are included?
-* **Quiz Item:**
-  * When creating a class story, it is important to: (Options: Correct every small mistake/Focus on teacher contributions/Value student ideas)
-  * How do class stories make reading relevant? (Keywords: connect real life to reading, student ideas, familiar, ownership)
 * **Teacher Voice:** "My students feel proud hearing their class story read aloud."
 
 #### READING_M5_STRAT3 / Strategy 3: Invite Creative Expression
@@ -96,9 +92,6 @@ subject: Reading
   * Students draw a scene from the story and class does a "gallery walk" around the classroom viewing each other's work
   * Students write how the story connected to their life or experiences
 * **Reflection Prompt:** What ways do my students like to share their ideas?
-* **Quiz Item:**
-  * What is an example of creative expression? (Options: Copy sentences/Practice spelling/Drawing a favorite scene)
-  * Creative expression helps students process their emotions. (Options: True/False)
 * **Teacher Voice:** "One quiet student shared a powerful story reflection through their writing."
 
 #### READING_M5_STRAT4 / Strategy 4: Choose Questions that Reflect Children's World
@@ -112,9 +105,6 @@ subject: Reading
   * Teacher invites students to learn a story a traditional story at home and retell it to the class
   * If a text is not reflective of students' communities, teacher invites the students to collaborate and change the story to reflect local problems and solutions
 * **Reflection Prompt:** Do I use stories that reflect the real lives of my students?
-* **Quiz Item:**
-  * How might students feel when stories reflect their world? (Keywords: proud, seen, respected, excited)
-  * When adapting a story, you can: (Options: Give characters local names/Avoid using familiar language/Only change the setting)
 * **Teacher Voice:** "My students laughed when they recognized the local market in the story."
 
 #### READING_M5_STRAT5 / Strategy 5: Reader's Theater
@@ -128,9 +118,6 @@ subject: Reading
   * Students create small props to use during their performance
   * Students practice and perform for their class, then perform for other classes in the school
 * **Reflection Prompt:** How might performing a text for classmates change the way students practice reading?
-* **Quiz Item:**
-  * Why do students read from a script instead of memorizing? (Keywords: focus on decoding, expression, develop reading skills)
-  * During practice, students improve fluency skills by: (Options: memorizing the script/skipping difficult words/rereading their lines)
 * **Teacher Voice:** "When I introduced Reader's Theater, I noticed students reading with more expression and excitement."
 
 ### 6. DIY Activity Element
@@ -141,4 +128,44 @@ subject: Reading
 | Sound Effects Story | No materials needed (optional: notebook/slate) | 1. Students are placed in small groups of 3-4 2. Each group is given a sound effect (e.g. footsteps, rain, knock, laughing) 3. Students create a short story that uses their sound effect 4. Share the story through telling and drawing or acting it out | Younger: Completed as a whole class instead of groups Older: Write the story in notebook/on slate. | Classroom energy increases. Students engage in creative storytelling. | 10-15 minutes |
 
 ---
+
+### 7. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **When adapting a story, you can:**
+  - Options: Give characters local names / Avoid using familiar language / Only change the setting
+
+- **Creative expression helps students process their emotions.**
+  - Options: True / False
+
+- **Why does expressive reading help children learn?**
+  - Options: It makes reading faster / It keeps students engaged / It reduces vocabulary
+
+#### Question 2: Understanding
+
+- **How can using voice, gestures, or questions during reading support student engagement?**
+  - Keywords: active, fun, attention, participate
+
+- **How do class stories make reading relevant?**
+  - Keywords: connect real life to reading, student ideas, familiar, ownership
+
+- **Why is it important to give students different ways to share their ideas in reading class?**
+  - Keywords: choice, participation, confidence, different abilities, creative
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  After reading a story, a teacher asks all students to write a summary. Some students struggle to write and do not complete the task.
+  *How could the teacher provide other ways for students to show their understanding?*
+
+- **Scenario 2:**
+  A teacher introduces a short script for students to perform, but some students are unsure of their roles. During practice, a few students stay quiet while others do most of the reading.
+  *How could the teacher support students to feel more comfortable and engaged in the activity?*
+
+- **Scenario 3:**
+  A teacher reads a story aloud in a slow, regular voice while students sit quietly. After a few minutes, several students begin to lose focus and stop paying attention.
+  *What could the teacher do to make the read aloud more expressive and engaging?*
 

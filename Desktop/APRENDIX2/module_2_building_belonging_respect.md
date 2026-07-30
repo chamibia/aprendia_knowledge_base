@@ -82,12 +82,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** What are some classroom tasks that your students can help do as a job?
 
-* **Quiz Item:**
-
-  * Why do classroom jobs support positive behaviors? (Key words: responsibility, belonging, pride, ownership)
-
-  * Why might rotating classroom jobs benefit all students? (Key words: fairness, experience, skills, opportunity, engagement)
-
 * **Teacher Voice:** “When students have jobs, they feel like an important member of the class and learn responsibility.”
 
 
@@ -113,12 +107,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** When during your lessons could you invite all students to respond at once?
 
-* **Quiz Item:** 
-
-  * Why do whole-class responses help students feel they belong? (Options: Everyone gets to participate/Only fast students answer/It saves time)
-
-  * How do whole-class responses support quieter or less confident students? (key words: reduce pressure, mistakes are okay, respond together)
-
 * **Teacher Voice:** “More students try when everyone answers together.”
 
 
@@ -141,12 +129,6 @@ subject: Healing Classrooms
   * Give quiet, individual feedback during work time ( kneel beside a student and say, “You stayed focused the whole time we were writing”).
 
 * **Reflection Prompt:** When you give feedback to students, what do you typically say? How can you improve?
-
-* **Quiz Item:** 
-
-  * Which feedback is more effective? (Options: “Good job”/ “You shared your materials.”) 
-
-  * Which response promotes student wellbeing? (Options: “You took a deep breath to calm down instead of giving up” or “Nice try”)
 
 * **Teacher Voice:** “I say exactly what positive things I notice and students repeat them.”
 
@@ -173,8 +155,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** What is one small goal your class could work on this week?
 
-* **Quiz Item:** Why should goals be small and realistic? (Keywords: confidence, success, motivation)
-
 * **Teacher Voice:** “Small goals helped my students believe they could succeed.”
 
 
@@ -196,12 +176,52 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** What is one phrase you could use to highlight a student’s effort or progress in class?
 
-* **Quiz Item:** Which phrase supports growth and respect? (Options: “Try again” / “You always do this wrong”)
-
 * **Teacher Voice:** “I did not realize how much my words shaped how students see themselves.”
 
 
-### 7. DIY Activity Element
+### 7. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **Why do classroom jobs support positive behavior?**
+  - Options: They keep students busy / They build responsibility / They reduce lesson time
+
+- **Whole-class responses can help quieter students participate.**
+  - Options: True / False
+
+- **Why should class goals be small and achievable?**
+  - Options: To finish quickly / To build confidence / To keep students busy
+
+#### Question 2: Understanding
+
+- **Why is specific feedback more effective than general praise?**
+  - Keywords: clear, repeat behavior, specific, understanding
+
+- **How does teacher language influence how students see themselves?**
+  - Keywords: motivation, encouragement, self-belief
+
+- **Why is it important to rotate classroom jobs?**
+  - Keywords: inclusion, experience, opportunity
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  A teacher asks questions during a lesson, but only the same few students raise their hands to answer. Many students stay quiet, even when they know the answer.
+  *What could the teacher do to involve more students in responding?*
+
+- **Scenario 2:**
+  A student is struggling with a task, and the teacher says, "You are not trying hard enough." The student becomes quiet and stops participating.
+  *What could the teacher do differently to better support the student? Why?*
+
+- **Scenario 3:**
+  A teacher notices that only a few students help with the classroom tasks, like erasing the board and collecting textbooks. The teacher wants more students to feel responsible and included in the classroom.
+  *What could the teacher do to increase student responsibility and participation?*
+
+---
+
+### 8. DIY Activity Element
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -210,7 +230,7 @@ subject: Healing Classrooms
 
 ---
 
-### 8. Media References
+### 9. Media References
 
 | Media Type | File Name | Notes |
 | ----- | ----- | ----- |

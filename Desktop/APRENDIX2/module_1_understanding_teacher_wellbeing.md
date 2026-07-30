@@ -86,8 +86,6 @@ Not all stressors can be changed immediately. Stressors like delayed salaries or
 
 **Reflection prompt:** What signals in your body or behavior tell you that you are becoming stressed?
 
-**Quiz item:** Which of the following is an early stress signal for many teachers? (Options: A: Forgetting lessons / B: Tight shoulders or frequent headaches / C: Feeling calm and focused / D: Having extra energy | Correct: B)
-
 ---
 
 ### TWB_M1_STRAT2 — Mental Reset
@@ -104,8 +102,6 @@ Not all stressors can be changed immediately. Stressors like delayed salaries or
 
 **Reflection prompt:** When would a one-minute reset help most during your day?
 
-**Quiz item:** What is one benefit of pausing? (Keywords: calm, focus)
-
 ---
 
 ### TWB_M1_STRAT3 — Understand Stressors
@@ -119,8 +115,6 @@ Not all stressors can be changed immediately. Stressors like delayed salaries or
 - Delayed salary → grounding breath and colleague chat; large class → simplified lesson plan; no materials → adapt with local objects
 
 **Reflection prompt:** Which stressor drains you the most right now and what can you do to support yourself?
-
-**Quiz item:** Which stressor is usually outside a teacher's control? (Options: A: Choosing a calming response / B: Planning a lesson goal / C: Delayed salary payments / D: Taking a short pause | Correct: C)
 
 ---
 
@@ -137,8 +131,6 @@ Not all stressors can be changed immediately. Stressors like delayed salaries or
 - Rest eyes for 20 seconds
 
 **Reflection prompt:** What small wellbeing action feels most doable today?
-
-**Quiz item:** Which action best fits a "micro wellbeing moment"? (Options: A: Taking a full day off / B: Stretching shoulders between lessons / C: Attending a training workshop / D: Writing a long reflection | Correct: B)
 
 ---
 
@@ -161,65 +153,42 @@ You learned how stress affects teaching, that stress reactions are normal, and t
 
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **[Deliver all 3 items. User must get ≥2 of 3 correct to unlock the next module.]**  
-> **[Provide correct answer + 1-sentence explanation after each item.]**  
-> **[If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (§9)]**
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Which of the following is an early stress signal for many teachers? |
-| **Options** | A: Forgetting lessons / B: Tight shoulders or frequent headaches / C: Feeling calm and focused / D: Having extra energy |
-| **Correct** | B |
-| **Feedback** | Early stress signals often show up in the body—tight shoulders, headaches, irritability—before we notice them. |
+- **Which of the following is an early stress signal for many teachers?**
+  - Options: Forgetting lessons / Tight shoulders / Feeling calm and focused / Having extra energy
 
-### QUIZ_ITEM_2
+- **Which stressor is usually outside a teacher's control?**
+  - Options: Choosing a calming response / Planning a lesson goal / Delayed salary payments / Taking a short pause
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | What is one benefit of pausing? |
-| **Accept keywords** | calm, focus, reset, slow down, breathe |
-| **Feedback** | Pausing helps interrupt stress escalation and can restore focus and calm. |
+- **Which action best fits a "micro wellbeing moment"?**
+  - Options: Taking a full day off / Stretching shoulders between lessons / Attending a training workshop / Writing a long reflection
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Which stressor is usually outside a teacher's control? |
-| **Options** | A: Choosing a calming response / B: Planning a lesson goal / C: Delayed salary payments / D: Taking a short pause |
-| **Correct** | C |
-| **Feedback** | Delayed salary, large class sizes, and policy decisions are often outside a teacher's control. |
+- **What is one benefit of pausing?**
+  - Keywords: calm, focus, reduce anxiety
 
----
+- **Why does identifying what is in your control reduce stress?**
+  - Keywords: focus, energy, action, reduce frustration
 
-## QUIZ_BANK_ALT
+- **How can a short mental reset support teachers during stress?**
+  - Keywords: pause, calm, focus
 
-> **[Use these items if retry is needed]**
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A teacher notices they feel impatient and distracted by the middle of the school day, but they usually ignore these feelings. The teacher wants to better understand their stress earlier.
+  *What is a small action the teacher can take during the middle of the day?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | Which action best fits a "micro wellbeing moment"? |
-| **Options** | A: Taking a full day off / B: Stretching shoulders between lessons / C: Attending a training workshop / D: Writing a long reflection |
-| **Correct** | B |
+- **Scenario 2:**
+  A teacher feels frustrated about large class sizes and their delayed salary. The teacher wants to reduce this stress and focus their energy more effectively.
+  *How can the teacher reframe their situation to protect their wellbeing?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | What does "survival mode" mean when we talk about stress? |
-| **Accept keywords** | focus, foggy, reactive, brain, overwhelm |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | Why is it helpful to distinguish stressors within vs. outside your control? |
-| **Accept keywords** | energy, focus, redirect, control, support |
+- **Scenario 3:**
+  A teacher feels overwhelmed before the start of reading class and notices their heart is beating fast. They want to calm themselves so they can continue with the lesson.
+  *What could the teacher do to support themself in that moment?*

@@ -62,9 +62,6 @@ subject: Reading
   * Teacher allows students to answer questions using words, drawing, or actions (e.g. "What did our character feel when they realized their jacket at school? Tell me with words, drawing or actions…. Yes, Modou is pretending to cry and Ebrima wrote sad on his slate.")
   * Teacher writes a sentence and draws a picture to explain the meaning
 * **Reflection Prompt:** How do I use different teaching pathways to teach my students a new skill?
-* **Quiz Item:**
-  * Why is it helpful to ask students which learning pathway helped them most? (Keywords: reflection, awareness, teacher growth, future planning)
-  * When introducing a new word, I should: (Options: Only spell it/ Skip examples/ Connect it to a picture or movement)
 * **Teacher Voice:** "I realized some students needed to see what I was teaching, not just hear it."
 
 #### READING_M6_STRAT2 / Strategy 2: Use Quick Checks
@@ -77,9 +74,6 @@ subject: Reading
   * "Show me a thumbs up if you are ready to move on or a thumbs down if you want another example."
   * "Point to the picture that matches the word."
 * **Reflection Prompt:** How often do I check understanding during a lesson?
-* **Quiz Item:**
-  * How do quick checks help teachers? (Keywords: adjust, assess learning, real-time, active teaching)
-  * Quick checks are more effective when they are: (Options: Long and detailed/Graded/Frequent and simple)
 * **Teacher Voice:** "I realized most of the class wanted more practice even though I thought they were ready to move on."
 
 #### READING_M6_STRAT3 / Strategy 3: Focus Groups
@@ -95,9 +89,6 @@ subject: Reading
   * A group of high-level students read a new text and answer comprehension questions
   * Multilingual learners preview new vocabulary in their focus group
 * **Reflection Prompt:** How can focus groups help me respond more to support students' specific needs?
-* **Quiz Item:**
-  * Why should focus groups be flexible instead of permanent? (Keywords: growth, change, responsive)
-  * How do focus groups increase student confidence? (Keywords: small group, safe practice, ask questions, specific feedback)
 * **Teacher Voice:** "I noticed students felt safer asking questions when we worked in focus groups."
 
 #### READING_M6_STRAT4 / Strategy 4: Support Language Use
@@ -111,9 +102,6 @@ subject: Reading
   * Students create picture cards for new vocabulary words
   * Teacher allows partner or small group sharing to be done in a familiar language, or a combination of familiar and school language
 * **Reflection Prompt:** How do I treat home languages as strengths?
-* **Quiz Item:**
-  * Gestures help multilingual learners because they: (Options: Replace the word/Add meaning/Slow the lesson)
-  * How do sentence frames help students? (Keywords: organize ideas, guide thinking, structure)
 * **Teacher Voice:** "Students answered with more confidence when they shared ideas with a partner in their home language first."
 
 #### READING_M6_STRAT5 / Strategy 5: Use Peer Support
@@ -127,9 +115,6 @@ subject: Reading
   * "Ask 3 before me," students ask three different peers a question before they can ask the teacher
   * Teacher displays sentence starters to frame supportive peer language ("This is my thinking…" "I am confused, can you help me…?")
 * **Reflection Prompt:** How do my students support each other respectfully?
-* **Quiz Item:**
-  * Peer learning works best when students: (Options: Compete/Collaborate/Work silently)
-  * How does peer support help struggling learners? (Options: Increases isolation/Replaces teacher guidance/Provides practice in a safe place)
 * **Teacher Voice:** "Students began asking peers for support instead of only asking me."
 
 ### 6. DIY Activity Element
@@ -140,3 +125,43 @@ subject: Reading
 | How do they feel? | Short story, sentence frame cards | 1. Teacher begins reading a story 2. During the story, the teacher pauses and shares a sentence frame (e.g. "The character feels….. because…..") 3. Students share their thinking with a partner using the sentence frame structure. 4. A few students share with the class. 5. Teacher continues reading and repeats after the next event in the story. | Older: Teacher introduces two sentence frames (e.g. "The character feels….. because….." and "This is different/the same as earlier in the story by…..") Younger and older: Use familiar language to share ideas with a partner | Students provide clear answers. Students use familiar language to help structure their ideas. | 10 minutes |
 
 ---
+
+### 7. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **Quick checks are more effective when they are:**
+  - Options: Long and detailed / Graded / Frequent and simple
+
+- **Gestures help multilingual learners because they:**
+  - Options: Replace the word / Add meaning / Slow the lesson
+
+- **Why should focus groups be flexible instead of permanent?**
+  - Options: To save time / To match student growth / To keep the same groups
+
+#### Question 2: Understanding
+
+- **How can peer support help both the student giving help and the student receiving help?**
+  - Keywords: explain thinking, deepen understanding, practice, collaboration
+
+- **How do quick checks help teachers adjust their teaching during a lesson?**
+  - Keywords: student understanding, review, move on, support, practice
+
+- **How do sentence frames help students when sharing their ideas?**
+  - Keywords: structure, organize thinking, confidence, language support
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  A teacher asks a question during reading, and only a few students raise their hands while others stay quiet. During independent work, some students seem confused but do not ask for help.
+  *How could the teacher use peer support in this situation?*
+
+- **Scenario 2:**
+  A teacher introduces the new vocabulary word "dance" by saying it aloud and asking students to repeat it. Some students repeat the word, but others look unsure and do not respond.
+  *What could the teacher do next to help more students understand the word?*
+
+- **Scenario 3:**
+  A teacher asks students to explain what happened in a story using complete sentences. Some students understand the story, but struggle to respond in the language of instruction.
+  *How could the teacher support students expressing themselves in their home language?*

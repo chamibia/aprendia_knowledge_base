@@ -89,8 +89,6 @@ Number Sense — understanding what numbers mean, how they relate to each other,
 
 **Reflection prompt:** What is one daily routine where your students already practice counting?
 
-**Quiz item:** What does number sense mean? (Keywords: quantity, order, comparison)
-
 ---
 
 ### MATH_M1_CON2 — Operations
@@ -108,8 +106,6 @@ Operations — addition, subtraction, multiplication, and division show up in ev
 
 **Reflection prompt:** What real-life activity could you use to practice addition?
 
-**Quiz item:** Give one example of a real-life division activity. (Keywords: share, split, divide, fair, equal, groups, distribute)
-
 ---
 
 ### MATH_M1_CON3 — Measurement & Data
@@ -125,8 +121,6 @@ Operations — addition, subtraction, multiplication, and division show up in ev
 - Create a class pictograph or bar chart (e.g., favorite fruits/games)
 
 **Reflection prompt:** What object in your classroom could be used to compare length?
-
-**Quiz item:** Measurement helps students connect math to what? (Keywords: world, compare, quantify)
 
 ---
 
@@ -153,8 +147,6 @@ Quick reflection: What is one daily routine where your students already practice
 
 **Reflection prompt:** What shapes do your students already see daily?
 
-**Quiz item:** Geometry helps students understand what? (Keywords: space, shape, position)
-
 ---
 
 ### MATH_M1_CON5 — Mathematical Reasoning & Problem Solving
@@ -175,8 +167,6 @@ Mathematical Reasoning cuts across all math domains — it's how students explai
 - Quick reasoning checks (e.g., "too small / about right / too big" line on the floor)
 
 **Reflection prompt:** How can you ask your students to explain their answers?
-
-**Quiz item:** What is math reasoning? (Keywords: explain, logic, thinking)
 
 ---
 
@@ -201,70 +191,45 @@ Today you learned the five math domains: Number Sense, Operations, Measurement &
 
 ---
 
-## QUIZ
+## 6. Quiz Questions
 
-> **[Deliver all 3 items. User must get ≥2 of 3 correct to unlock the next module.]**  
-> **[Provide correct answer + 1-sentence explanation after each item.]**  
-> **[If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (§9)]**
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | What does number sense mean? |
-| **Options** | A) Memorizing number facts quickly / B) Understanding what numbers mean and how they relate to each other / C) Counting as fast as possible / D) Writing numbers neatly |
-| **Correct** | B |
-| **Feedback** | Number sense is about understanding quantity, order, and comparison—not speed or memorization. |
+- **Mathematical reasoning is the bridge between:**
+  - Options: Writing and reading numbers / Answers and understanding / Counting and memorizing
 
-### QUIZ_ITEM_2
+- **Operations include actions like joining, taking away, grouping, and sharing.**
+  - Options: True / False
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | Give one example of a real-life activity that practices division. |
-| **Accept keywords** | share, split, divide, fair, equal, groups, distribute |
-| **Example answers** | "Sharing mangoes equally," "Splitting students into groups," "Distributing pencils fairly" |
-| **Feedback** | Division shows up whenever we share or split things into equal parts. |
+- **Which is a nonstandard measurement tool?**
+  - Options: Ruler / Scale / Hand spans
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Mathematical reasoning is: |
-| **Options** | A) A separate domain that comes after geometry / B) A skill that cuts across all math domains / C) Only for advanced students / D) The same as memorizing formulas |
-| **Correct** | B |
-| **Feedback** | Reasoning connects all domains—it's how students explain their thinking and check their work. |
+- **What real-life activity could you use to practice addition?**
+  - Keywords: add, total, join
 
----
+- **Why should students explain their answers?**
+  - Keywords: understanding, reasoning, explain thinking
 
-## QUIZ_BANK_ALT
+- **What does number sense mean?**
+  - Keywords: quantity, order, comparison
 
-> **[Use these items if retry is needed]**
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A teacher asks students to count from 0 to 20. Most can say the numbers, but when asked to show the number 12 using bottlecaps, they struggle.
+  *What activity could the teacher use to help students build number sense?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | Geometry helps students understand: |
-| **Options** | A) Only shapes they draw in notebooks / B) Spatial relationships like position and direction / C) How to memorize shape names / D) Nothing related to daily life |
-| **Correct** | B |
+- **Scenario 2:**
+  A class has been learning about shapes, but recognizing the shapes in their classroom is confusing. The teacher wants to help students see shapes in their everyday environment.
+  *What activity could the teacher use to help students recognize shapes in their environment?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | What is one tool you could use to measure length without a ruler? |
-| **Accept keywords** | string, rope, hand, span, foot, stick, arm |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | Operations include which of these? |
-| **Options** | A) Addition, subtraction, multiplication, division / B) Only addition and subtraction / C) Shapes and patterns / D) Telling time |
-| **Correct** | A |
+- **Scenario 3:**
+  A student solves a math problem and says, "The three girls will each get 4 mangoes," but when the teacher asks how they know, the student cannot explain their thinking.
+  *How could the teacher help the student explain their answer using the "claim-because-check" strategy?*
 
 ---
 

@@ -10,14 +10,16 @@
 
 - **UNLOCK GATE (HARD):** Do NOT offer this quiz unless all seven modules are confirmed complete: `MATH_M1_EMD`, `MATH_L2_MEL`, `MATH_L3_SMM`, `MATH_L4_MPS`, `MATH_L5_MHO`, `MATH_L6_IMI`, and `MATH_L7_AML`. If the teacher requests the quiz before all modules are done, do not offer it — tell them which module(s) remain and redirect them there.
 - **Use only the questions in this bank.** Do not generate or paraphrase new questions.
+- **⚠️ SYSTEM PROMPT OVERRIDE:** This summative quiz supersedes all module quiz rules in §9 of the system prompt. The module quiz rule of "3 items, recall → understanding → application" does NOT apply here. Do not apply that cycle to this quiz in any form.
 - **This is NOT a 3-question module quiz. It has 8 questions. Do not stop at 3. Do not stop at any number fewer than 8.**
 - **Do NOT apply the module quiz sequence (Q1 recall → Q2 understanding → Q3 application in 3 questions) to this quiz.** This quiz has its own sequence: Q1–Q2 Recall, Q3–Q4 Understanding, Q5–Q6 Application, Q7 Observation, Q8 Best Practice. Follow this sequence exactly.
-- **Q3 and Q4 are Understanding questions (open-ended). Q5 and Q6 are Application questions (scenario-based).** Never deliver Q3 or Q4 as an Application question, and never deliver Q5 or Q6 as an Understanding question.
+- **Q3 and Q4 are Understanding questions (open-ended). Q5 and Q6 are Application questions (scenario-based). Q8 is a Best Practice question.** Never deliver Q3 or Q4 as an Application question. Never deliver Q5 or Q6 as an Understanding question. Never deliver Q8 as an Application question. The type assignment is fixed by position — it does not cycle or reset.
+- **After Q4 (Understanding), Q5 AND Q6 are BOTH Application questions — this is correct and intentional. Do not revert to Understanding for Q6.**
 - **Deliver all 8 questions in order before any scoring, feedback, summary, or options.** Do not score, give feedback, offer a summary, or offer next steps until all 8 answers are collected.
 - After each question is answered: say one brief acknowledgment only ("Got it" / "Thank you" — one phrase, nothing more), then immediately ask the next question. No feedback. No options. No praise beyond a brief "thank you."
 - **Do not reveal example answers, model responses, or keyword hints before or during the quiz.** All feedback is given after the full score is calculated.
 - **Do not apply module-level per-question retake logic here.** Collect all 8 answers first, then follow the retake rules in the Scoring section below.
-- **Q7 requires an image.** Send the image for the selected Q7 option before asking the question.
+- **Q7 is REQUIRED and must never be skipped.** Send the image for the selected Q7 option before asking the question. Do not proceed to Q8 without receiving a Q7 answer.
 - Keep tone warm and low-stakes throughout. Frame this as a chance to reflect, not a high-stakes test.
 
 **Delivery sequence (strictly follow this order):**
@@ -67,7 +69,7 @@ Each bank section contains 3 items. The bot selects from them as follows — and
 
 ---
 
-### Q3 - Q4: Understanding Questions
+### Q3 - Q4: Understanding Questions (Q3 and Q4 are UNDERSTANDING — not Application)
 
 * The course says teachers should "normalize" mistakes in math. What does this look like in your classroom?
   * Acceptable answers may reflect: modeling mistakes as a teacher, celebrating different attempts, reframing errors as learning opportunities, reducing math anxiety, building resilience
@@ -83,7 +85,7 @@ Each bank section contains 3 items. The bot selects from them as follows — and
 
 ---
 
-### Q5 - Q6: Application Questions
+### Q5 - Q6: Application Questions (Q5 and Q6 are BOTH APPLICATION — not Understanding)
 
 * You notice that several children in your class shut down or go quiet as soon as you introduce a new math topic. They avoid trying problems and wait for you to give the answer. Based on what you learned in this course, what would you do, and why do you think it would help?
   * Evaluated on: identifying the problem as math anxiety or low confidence, drawing on mindset strategies (normalizing mistakes, inclusive language, growth-oriented feedback, choice and voice), explaining why the chosen approach addresses the root cause
@@ -123,7 +125,7 @@ Each bank section contains 3 items. The bot selects from them as follows — and
 
 ---
 
-### Q8: Best Practice Question
+### Q8: Best Practice Question (Q8 is BEST PRACTICE — not Application, not Recall, not Understanding)
 
 * Your colleague Amara teaches a multi-grade class and tells you: "I feel like I'm always just teaching to the middle. The children who are ahead are bored, and the children who are behind are lost, and I don't know how to reach everyone at once." Based on what you learned in this course, what advice would you give her?
   * Evaluated on: using inclusive math strategies (multiple ways to respond, visuals and gestures, varied assessment, peer support, choice and voice), reasoning about why differentiation doesn't require different lesson plans, practical and grounded advice

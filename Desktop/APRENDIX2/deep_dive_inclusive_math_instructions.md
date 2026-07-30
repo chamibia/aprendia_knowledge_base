@@ -77,6 +77,14 @@ Assessment should guide instruction and celebrate growth, not punish mistakes. F
 
 > **Agent:** Generate narrative scenes at runtime. **Show only strategies to the user.** Concepts guide your framing but are never delivered explicitly. Use this mapping to know which strategy belongs in each scene. **Pacing:** Scene 3 has 3 strategies—deliver one strategy per message; do not compress into one scene. Use `<break>` between them.
 
+**Per-scene delivery structure (apply to every strategy in every scene):**
+1. Open with the strategy name and a relevant emoji (e.g. "🎨 Use Visuals, Objects & Gestures"). This is the first line of the message.
+2. Deliver the narrative scene — a story showing the strategy in action (3–4 sentences, plain text, no definitions).
+3. Add one short sentence on how this strategy helps in the classroom (practical benefit — not a definition).
+4. Ask the reflection question for that scene. Wait for the teacher's response before moving to the next scene.
+
+Use `<break>` tags between steps if the combined message exceeds 400 characters. Never skip or compress any of the four steps. Scene 3 has 2 strategies — deliver one per message; do not compress into one turn.
+
 | Scene | Strategy | Concept (guides delivery; do not show) | Narrative brief |
 |-------|----------|----------------------------------------|-----------------|
 | Scene 1 | STRAT1 (Use Visuals, Objects & Gestures) | CON1 | A teacher models with local items (caps, beans, sticks) or quick sketches, pairing each operation with a mini-gesture. Key words paired with pictures on the board. Show the strategy in action—no concept definitions. |
@@ -115,8 +123,6 @@ Assessment should guide instruction and celebrate growth, not punish mistakes. F
 
 **Reflection prompt:** What gesture could you use to explain addition?
 
-**Quiz item:** Why use visuals/gestures? (Keywords: reduce language barrier, clarity)
-
 ---
 
 ### MATH_M6_STRAT2 — Encourage Different Languages
@@ -133,8 +139,6 @@ Assessment should guide instruction and celebrate growth, not punish mistakes. F
 - Think time and whisper rehearsal before sharing
 
 **Reflection prompt:** How could you let students use their home language in math?
-
-**Quiz item:** How does using different languages help learners? (Keywords: confidence, equity, deeper understanding)
 
 ---
 
@@ -155,8 +159,6 @@ Assessment should guide instruction and celebrate growth, not punish mistakes. F
 
 **Reflection prompt:** What low-stress way could you check learning?
 
-**Quiz item:** Why use low-stress assessments? (Keywords: confidence, reduce fear, inclusion)
-
 ---
 
 ### MATH_M6_STRAT4 — Give Feedback that Celebrates Effort
@@ -174,70 +176,47 @@ Assessment should guide instruction and celebrate growth, not punish mistakes. F
 
 **Reflection prompt:** What phrase could you use to celebrate effort in your next lesson?
 
-**Quiz item:** Why celebrate effort in math? (Keywords: growth, confidence, motivation)
-
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **Agent:** Deliver all 3 items (recall → understanding → application). User must get **≥2 of 3** correct to pass the module. Provide correct answer + 1-sentence explanation after each item. If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (system prompt §9).
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | Why use visuals and gestures in math? |
-| **Accept keywords** | reduce language barrier, clarity, support understanding, multilingual |
-| **Feedback** | Visuals and gestures reduce language load and support comprehension for all learners. |
+- **Low-stress assessments help students build confidence in their math skills.**
+  - Options: True / False
 
-### QUIZ_ITEM_2
+- **Why is using visuals, objects, and gestures important in math?**
+  - Options: To make lessons longer / To reduce language barriers / To test memory
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | How does using different languages help learners? |
-| **Options** | A) It slows down the lesson / B) It builds confidence, equity, and deeper understanding / C) It only helps advanced students / D) It replaces the need for the classroom language |
-| **Correct** | B |
-| **Feedback** | Familiar languages for planning support confidence and understanding; scaffolding helps learners share in the classroom language. |
+- **Why should teachers celebrate effort in math?**
+  - Options: To motivate students / To reduce participation / To finish lessons quickly
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Why use low-stress assessments? |
-| **Options** | A) To replace written tests entirely / B) To build confidence, reduce fear, and support inclusion / C) To identify struggling students for remediation / D) To save time |
-| **Correct** | B |
-| **Feedback** | Low-stress checks reduce fear, support inclusion, and give useful information without high-stakes pressure. |
+- **Why is it helpful for students to use familiar languages when learning math?**
+  - Keywords: confidence, understanding, participation, connection
 
----
+- **What is an example of feedback that focuses on effort?**
+  - Examples: You showed your answers with stones. Your drawing shows the answer.
 
-## QUIZ_BANK_ALT
+- **How do visuals, objects, or gestures help students understand math?**
+  - Keywords: reduce language barrier, clear, make connections
 
-> **Agent:** Use these items if retry is needed.
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A student solves part of a problem correctly, but makes a mistake at the end. The teacher wants to respond in a way that builds confidence and encourages the student to keep trying.
+  *What could the teacher say to give effort-focused feedback?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | Why celebrate effort in math? |
-| **Accept keywords** | growth, confidence, motivation, persistence |
+- **Scenario 2:**
+  In a class with multiple languages, some students struggle to explain their thinking in the classroom language and stay quiet during discussions. The teacher wants to support participation.
+  *What could the teacher do to support students using familiar languages?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | What is one low-stress way to check learning? |
-| **Accept keywords** | fingers, slates, exit poll, floor number line, Simon Says |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | How should peer translation be used? |
-| **Options** | A) Whenever a student doesn't understand / B) Time-bound and rotated so the translator's learning isn't affected / C) Only for whole-class sharing / D) Only for written work |
-| **Correct** | B |
+- **Scenario 3:**
+  A teacher is reviewing addition, but many students seem unsure and do not answer during the lesson. The teacher wants to quickly assess who understands without giving a written test.
+  *What could the teacher do to check student understanding in a low-stress way during the lesson?*
 
 ---
 

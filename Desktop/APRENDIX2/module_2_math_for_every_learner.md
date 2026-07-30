@@ -87,6 +87,14 @@ Assessment during learning produces more useful information than long tests afte
 
 > **Agent:** Generate narrative scenes at runtime. **Show only strategies to the user.** Concepts guide your framing but are never delivered explicitly. Use this mapping to know which strategy belongs in each scene. **Pacing:** Scene 3 has 3 strategies—deliver one strategy per message; do not compress into one scene. Use `<break>` between them.
 
+**Per-scene delivery structure (apply to every strategy in every scene):**
+1. Open with the strategy name and a relevant emoji (e.g. "🔄 Normalize Mistakes"). This is the first line of the message.
+2. Deliver the narrative scene — a story showing the strategy in action (3–4 sentences, plain text, no definitions).
+3. Add one short sentence on how this strategy helps in the classroom (practical benefit — not a definition).
+4. Ask the reflection question for that scene. Wait for the teacher's response before moving to the next scene.
+
+Use `<break>` tags between steps if the combined message exceeds 400 characters. Never skip or compress any of the four steps. Scene 3 has 3 strategies — deliver one per message; do not compress into one turn.
+
 | Scene | Strategy | Concept (guides delivery; do not show) | Narrative brief |
 |-------|----------|----------------------------------------|-----------------|
 | Scene 1 | STRAT1 (Normalize Mistakes) | CON1 | A teacher models a mistake on purpose and shows the class how she fixes it. Students see that mistakes are information, not failure. Show the strategy in action—no concept definitions. |
@@ -125,8 +133,6 @@ Assessment during learning produces more useful information than long tests afte
 
 **Reflection prompt:** What's one problem you could solve wrong on purpose tomorrow?
 
-**Quiz item:** Why should teachers celebrate mistakes? (Keywords: learning, reduce anxiety, resilience, information)
-
 ---
 
 ### MATH_M2_STRAT2 — Use Real-World Problems
@@ -140,8 +146,6 @@ Assessment during learning produces more useful information than long tests afte
 - Use bottle caps to model; ask pairs to explain using "Each child gets ___ because ___"
 
 **Reflection prompt:** What daily activity could you turn into tomorrow's math problem?
-
-**Quiz item:** Give one example of a real-world math task. (Keywords: share, sharing, food, water, measure, divide, mangoes, groundnuts)
 
 ---
 
@@ -160,8 +164,6 @@ Assessment during learning produces more useful information than long tests afte
 
 **Reflection prompt:** Where could movement replace talk in your next math lesson?
 
-**Quiz item:** Why is movement helpful for teaching math? (Keywords: concrete, physical, includes learners, low language)
-
 ---
 
 ### MATH_M2_STRAT4 — Model Math Talk
@@ -178,8 +180,6 @@ Assessment during learning produces more useful information than long tests afte
 - Pairs practice with the frame; share with another pair
 
 **Reflection prompt:** What sentence starter could you try tomorrow?
-
-**Quiz item:** Why do sentence frames help students explain their thinking? (Keywords: vocabulary, structure, confidence, express ideas)
 
 ---
 
@@ -198,72 +198,47 @@ Assessment during learning produces more useful information than long tests afte
 
 **Reflection prompt:** Where could a "Show Me" check fit into your next lesson?
 
-**Quiz item:** What is the main benefit of a "Show Me" check? (Keywords: see all students, instant, whole class, adjust teaching)
-
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **Agent:** Deliver all 3 items (recall → understanding → application). User must get **≥2 of 3** correct to unlock Deep Dives. Provide correct answer + 1-sentence explanation after each item. If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (system prompt §9).
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Why should teachers celebrate mistakes? |
-| **Options** | A) To embarrass students into trying harder / B) To show that mistakes are part of learning and reduce anxiety / C) To identify which students are struggling / D) To save time during lessons |
-| **Correct** | B |
-| **Feedback** | Celebrating mistakes helps students see errors as learning opportunities, which builds resilience and reduces math anxiety. |
+- **Quick checks during a lesson help teachers:**
+  - Options: Give final grades / Decide what to do next / End the lesson early
 
-### QUIZ_ITEM_2
+- **Celebrating mistakes supports learning and reduces fear.**
+  - Options: True / False
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | Give one example of a real-world math task you could use in your classroom. |
-| **Accept keywords** | share, sharing, food, water, measure, seating, time, budget, divide, pencils, materials, groundnuts, mangoes |
-| **Example answers** | "Sharing 12 pencils among 4 groups," "Measuring water for drinking," "Figuring out seating for the class" |
-| **Feedback** | Real-world problems help students see why math matters and keep them engaged. |
+- **Movement in math lessons helps students:**
+  - Options: Feel and see the math / Sit still / Listen to the teacher
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | What is the main benefit of a "Show Me" check? |
-| **Options** | A) It gives students a grade / B) It lets the teacher see what all students are thinking at once / C) It replaces the need for teaching / D) It only works with small classes |
-| **Correct** | B |
-| **Feedback** | "Show Me" checks give instant, whole-class data so teachers can adjust their teaching in real time. |
+- **What does the "show, then name" strategy mean in teaching math?**
+  - Keywords: model first, drawing, understanding
 
----
+- **How do real-world problems help students learn math?**
+  - Keywords: engaged, apply, useful, real-life
 
-## QUIZ_BANK_ALT
+- **Why is it helpful to celebrate mistakes in math class?**
+  - Keywords: learning, try again, resilience, reduce anxiety
 
-> **Agent:** Use these items if retry is needed.
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  During a math lesson, a teacher is not sure if students understand and thinks some students look confused. The teacher wants a quick way to check everyone's understanding before moving on.
+  *How could the teacher quickly check student understanding?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | Why is movement helpful for teaching math? |
-| **Options** | A) It tires students out so they sit still later / B) It makes math concrete and includes students who hesitate to speak / C) It's only for young children / D) It replaces the need for explanation |
-| **Correct** | B |
+- **Scenario 2:**
+  When a teacher gives a word problem to their students, they become quiet and do not respond. The students do not understand the math language in the question.
+  *How could the teacher help students understand by modeling math talk?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | Why do sentence frames help students explain their thinking? |
-| **Options** | A) They give students the vocabulary and structure to express ideas / B) They make answers shorter / C) They only help students who speak English / D) They replace the need for understanding |
-| **Correct** | A |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | What is one way to normalize mistakes in your classroom? |
-| **Accept keywords** | model, teacher mistake, celebrate, favorite mistake, fix, correct, circle error |
+- **Scenario 3:**
+  A teacher introduces subtraction by writing "10 - 4 =" on the board, but students seem confused. The teacher wants students to better understand the idea before trying it by themselves.
+  *What could the teacher do using a "show, then name" approach?*
 
 ---
 

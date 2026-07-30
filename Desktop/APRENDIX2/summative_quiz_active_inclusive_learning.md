@@ -10,9 +10,12 @@
 
 - **UNLOCK GATE (HARD):** Do NOT offer this quiz unless all six modules are confirmed complete: `AIL_M1_TTEAL`, `AIL_M2_ALA`, `AIL_M3_ALEC`, `AIL_M4_HLLCM`, `AIL_M5_DRPCE`, and `AIL_M6_PAL`. If the teacher requests the quiz before all modules are done, do not offer it — tell them which module(s) remain and redirect them there.
 - **Use only the questions in this bank.** Do not generate or paraphrase new questions.
+- **⚠️ SYSTEM PROMPT OVERRIDE:** This summative quiz supersedes all module quiz rules in §9 of the system prompt. The module quiz rule of "3 items, recall → understanding → application" does NOT apply here. Do not apply that cycle to this quiz in any form.
 - **This is NOT a 3-question module quiz. It has 8 questions. Do not stop at 3. Do not stop at any number fewer than 8.**
 - **Do NOT apply the module quiz sequence (Q1 recall → Q2 understanding → Q3 application in 3 questions) to this quiz.** This quiz has its own sequence: Q1–Q2 Recall, Q3–Q4 Understanding, Q5–Q6 Application, Q7 Observation, Q8 Best Practice. Follow this sequence exactly.
-- **Q3 and Q4 are Understanding questions (open-ended). Q5 and Q6 are Application questions (scenario-based).** Never deliver Q3 or Q4 as an Application question, and never deliver Q5 or Q6 as an Understanding question.
+- **Q3 and Q4 are Understanding questions (open-ended). Q5 and Q6 are Application questions (scenario-based). Q8 is a Best Practice question.** Never deliver Q3 or Q4 as an Application question. Never deliver Q5 or Q6 as an Understanding question. Never deliver Q8 as an Application question. The type assignment is fixed by position — it does not cycle or reset.
+- **After Q4 (Understanding), Q5 AND Q6 are BOTH Application questions — this is correct and intentional. Do not revert to Understanding for Q6.**
+- **Q7 is REQUIRED and must never be skipped.** It is an Observation question with an image. Send any available AIL or related course image, then ask the Q7 prompt. Do not proceed to Q8 without receiving a Q7 answer. Q7 is not optional.
 - **Deliver all 8 questions in order before any scoring, feedback, summary, or options.** Do not score, give feedback, offer a summary, or offer next steps until all 8 answers are collected.
 - After each question is answered: say one brief acknowledgment only ("Got it" / "Thank you" — one phrase, nothing more), then immediately ask the next question. No feedback. No options. No praise beyond a brief "thank you."
 - **Do not reveal example answers, model responses, or keyword hints before or during the quiz.** All feedback is given after the full score is calculated.
@@ -50,7 +53,7 @@
 | Assigning a materials manager to organize learning materials at the end of the school day is an example of: | Giving students free time / Preparing for a special activity / Establishing a material routine | **Establishing a material routine** |
 | What are the three elements of active learning? | Games, movement, and group work / Clear learning objective, engagement with peers and materials, and a positive and safe environment / Lesson planning, clear learning objective, and student assessment | **Clear learning objective, engagement with peers and materials, and a positive and safe environment** |
 
-### Q3–Q4 Bank: Understanding Questions
+### Q3–Q4 Bank: Understanding Questions (Q3 and Q4 are UNDERSTANDING — not Application)
 
 * This course describes several ways to put active learning into your everyday teaching practice. Describe how teachers can find opportunities during lesson planning to build active learning into their lessons  
   * Acceptable answers may reflect: writing a clear learning objective first and then designing a playful learning experience, gathering local materials ahead of time to support hands-on learning, anticipating barriers, planning inclusion ways for all learners to participate  
@@ -62,7 +65,7 @@
   * Acceptable answers may reflect: asking students to bring in items from home, inviting families or communities to contribute, collaborating with other teachers, asking local shops for scrap materials, going on a nature walk with students to collect stones, sticks, leaves, etc.  
   * *Keywords (do not reveal): collect, community, family, local, share, contribute, together, materials*
 
-### Q5–Q6 Bank: Application Questions
+### Q5–Q6 Bank: Application Questions (Q5 and Q6 are BOTH APPLICATION — not Understanding)
 
 * You are planning a sorting activity using bottlecaps and small stones. Before the lesson begins, you realize the instructions are long and some students may not have materials. What steps would you take to eliminate these barriers before the lesson starts and why?  
   * Evaluated on: identifying gathering and preparing materials before the lesson, breaking instructions into simple steps for students to understand and follow, reasoning that addressing these barriers will allow the lesson to run smoothly and with higher student participation  
@@ -84,7 +87,7 @@
 * Evaluated on: naming or describing a recognizable active learning strategy, explaining the teacher's intent or purpose, connecting the strategy to student learning or participation
 * *Keywords (do not reveal): active, strategy, engage, participate, materials, movement, peer, learn, include*
 
-### Q8: Best Practice Question
+### Q8: Best Practice Question (Q8 is BEST PRACTICE — not Application, not Recall, not Understanding)
 
 * A new teacher at your school says: “I want all my students to participate, but some children are shy, some are ahead, and some are struggling to catch up. I don’t know how to plan one lesson that works for everyone.” What would you tell him, based on what you learned in this course?  
   * Evaluated on: focusing on proactive planning for active lessons, knowing the learners in the classroom and planning for variability instead of reacting during a lesson, offering multiple ways to participate so every child can contribute  

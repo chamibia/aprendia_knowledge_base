@@ -34,11 +34,18 @@ subject: Reading
 * Teachers ask varied questions to strengthen fluency and deepen comprehension.
 * Teachers utilize inclusive ways for students to show understanding and connect reading to their own experiences.
 
-### 3. Module Rules
+### 3. Teacher Motivations & Pain Points
+
+* "My students can read words, but they don't know what they mean."
+* "Not all students can explain their thinking in writing."
+* "Some students copy answers from others instead of sharing their own ideas."
+* "My students get nervous when I ask comprehension questions."
+
+### 4. Module Rules
 
 * Encourage teachers to provide choice, allowing students to answer, or show what they know, using different methods ( e.g. writing, drawing, act it out)
 
-### 4. Key Concepts
+### 5. Key Concepts
 
 * **READING_M4_CON1 / Vocabulary unlocks meaning**. Students may be able to decode words, but they do not know what they mean. Building a strong repertoire of vocabulary gives students access to the ideas, events, and emotions in a story. Introducing new, important vocabulary terms allows students to understand a text. Teaching vocabulary clearly through real-life examples and repetition allows students to add new words to their own spoken language. Students feel capable and engaged when they understand what they read.
 
@@ -48,7 +55,7 @@ subject: Reading
 
 * **READING_M4_CON4 / Meaning grows from connection**. Comprehension strengthens when students connect new readings to what they already know. Prior knowledge helps students make sense of and relate to new, unfamiliar topics. Allowing discussion in familiar languages can bridge understanding into the language of instruction. Connecting stories to students' lives makes reading experiences relevant and meaningful. When teachers value student experience, classrooms become inclusive and new ideas connect to familiar ones.
 
-### 5. Strategies
+### 6. Strategies
 
 #### READING_M4_STRAT1 / Strategy 1: Teach New Words in Context (Vocabulary)
 
@@ -62,7 +69,6 @@ subject: Reading
   * Class acts out new vocabulary words
   * Class creates sentences or stories using new vocabulary
 * **Reflection Prompt:** How can students show they understand a new word?
-* **Quiz Item:** Why is reviewing new vocabulary before a story important? (Keywords: comprehension, understand story, critical thinking, connections)
 * **Teacher Voice:** "When we review new words throughout the week, students begin using them in discussions."
 
 #### READING_M4_STRAT2 / Strategy 2: Use Retelling to Check Understanding (Comprehension)
@@ -75,9 +81,6 @@ subject: Reading
   * Separate groups work together to retell specific events within the story (beginning, middle, end or rising action, climax, falling actions, resolution)
   * Student groups read different texts and have to teach other students about their text through retelling strategies
 * **Reflection Prompt:** Why might retelling be an important skill for life outside the classroom?
-* **Quiz Item:**
-  * What does retelling a story show? (Options: Comprehension/Reading speed/Memorization)
-  * What are two different ways students can retell a text? (Keywords: drawing, writing, oral retelling, acting)
 * **Teacher Voice:** "Retelling helped me see which students are understanding and which need more support."
 
 #### READING_M4_STRAT3 / Strategy 3: Build Fluency through Weekly Text Studies (Fluency)
@@ -91,9 +94,6 @@ subject: Reading
   * Students draw a picture to show the meaning of the text, or act it out
   * Students work in small groups or pairs to practice reading the text
 * **Reflection Prompt:** How can weekly text studies reduce anxiety around reading?
-* **Quiz Item:**
-  * What should teachers focus on the last days of a weekly text? (Options: Decoding/Memorization/Expression)
-  * Why should weekly text studies be short (2 to 4 sentences)? (Keywords: manageable, mastery, focus on decoding and vocabulary)
 * **Teacher Voice:** "My students get excited each week when I introduce the new text study."
 
 #### READING_M4_STRAT4 / Strategy 4: Ask Good Questions (Comprehension)
@@ -112,9 +112,6 @@ subject: Reading
   * Teacher invites students to ask a question to the whole class
   * Teacher asks students to predict how the story will end before reading, then after reading asks, "Was your prediction correct?"
 * **Reflection Prompt:** What type of question do I ask students most?
-* **Quiz Item:**
-  * Write a connection question to ask students after a story. (Keywords: connect, relate, own life)
-  * When should teachers ask questions while reading a text? (Keywords: before, during, and after)
 * **Teacher Voice:** "Changing my questions changed my students' thinking."
 
 #### READING_M4_STRAT5 / Strategy 5: Use Background Knowledge
@@ -128,10 +125,9 @@ subject: Reading
   * Teacher models how they relate personal experiences to classroom ideas and instruction
   * Teacher pauses during shared reading to ask connection questions (e.g. "Have you experienced something like this?")
 * **Reflection Prompt:** How do I connect reading to students' experiences?
-* **Quiz Item:** How does connecting a text to students' experiences help comprehension? (Keywords: relevant, relatable, old and new information connect)
 * **Teacher Voice:** "My students understood more when we connected reading to their own lives."
 
-### 6. DIY Activity Element
+### 7. DIY Activity Element
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -139,3 +135,52 @@ subject: Reading
 | Same or different? | Short text | 1. Teacher reads a short text/story 2. While reading, the teacher asks, "Is this the same or different from your life?" 3. Students turn and share with a partner in familiar language 4. Teacher invites students to share with class in familiar language 5. Teacher helps translate words to terms students know in language of instruction 6. Teacher connects student ideas back to the story | Younger: Student use thumbs up or thumbs down motion before sharing with a partner Older: Explain why the similarity or difference is important to the story | Students participate more willingly. Students use their experience to understand the text. | 15 minutes |
 
 ---
+
+### 8. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **Reading the same text multiple times helps build fluency.**
+  - Options: True / False
+
+- **Teachers should ask questions:**
+  - Options: Only before reading / Before, during, and after / Only at the end
+
+- **Retelling a story helps students:**
+  - Options: Comprehension / Reading speed / Handwriting
+
+#### Question 2: Understanding
+
+- **How does learning new vocabulary help students understand a story?**
+  - Keywords: meaning, comprehension, understand text, connect ideas
+
+- **Why does connecting reading to students' own experience improve understanding?**
+  - Keywords: relate, relevant, meaning, background knowledge
+
+- **How can reading the same text multiple times during a week help students?**
+  - Keywords: fluency, confidence, practice, smooth reading
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  A teacher notices they mostly ask students to recall facts from stories they read as a class. Students answer, but do not share deeper ideas or connections.
+  *What are some questions the teacher could ask to help students think deeply?*
+
+- **Scenario 2:**
+  Before reading a story about going to a market, a teacher asks, "Have you ever been to a market?" Several students raise their hands and begin sharing their experiences.
+  *How could the teacher build on this to support students' understanding of the story?*
+
+- **Scenario 3:**
+  A teacher introduces a story about a family preparing food. Before reading, the teacher tells students that prepare means "to get something ready," and asks students to act it out.
+  *What else could the teacher do to help students understand and remember new vocabulary?*
+
+---
+
+### 9. Media References
+
+| Media Type | File Name | Notes |
+| ----- | ----- | ----- |
+| Image |  |  |
+| Audio |  |  |

@@ -149,66 +149,45 @@ Line labeled Too Small / About Right / Too Big. Students point, place pebble, or
 
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **Agent:** Deliver all 3 items (recall → understanding → application). User must get **≥2 of 3** correct to pass the module. Provide correct answer + 1-sentence explanation after each item. If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (system prompt §9).
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | What does having students analyze an error do for you as a teacher? |
-| **Accept keywords** | misunderstanding, misconception, reasoning, next steps, reteach |
-| **Feedback** | Analyzing errors reveals misconceptions and reasoning, helping you plan next steps and targeted reteaching. |
+- **The purpose of a walk-about is to gather evidence of student learning.**
+  - Options: True / False
 
-### QUIZ_ITEM_2
+- **Demonstration prompts are useful in large classes because:**
+  - Options: They increase writing / They entertain students / They show thinking
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | What is the purpose of a walk-about? |
-| **Options** | A) To keep students quiet / B) To gather evidence, adjust teaching, and provide support / C) To replace written tests / D) To grade student work |
-| **Correct** | B |
-| **Feedback** | Walk-abouts gather real-time evidence so you can adjust instruction and support students during the lesson. |
+- **Estimation replaces calculation.**
+  - Options: True / False
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Why are demonstration prompts helpful in large classes? |
-| **Options** | A) They replace the need for feedback / B) They make visible thinking low-stress, instant, and whole-class / C) They only work for geometry / D) They require extra materials |
-| **Correct** | B |
-| **Feedback** | Demonstration prompts provide instant, whole-class visibility of thinking with low stress and minimal materials. |
+- **How can exit pebbles help teachers plan their next lesson?**
+  - Keywords: data, understanding, evidence, review
 
----
+- **What does having students analyze an error do for you as a teacher?**
+  - Keywords: misunderstanding, misconception, reasoning, next steps
 
-## QUIZ_BANK_ALT
+- **What is the purpose of a walk-about?**
+  - Keywords: evidence, adjustment, support
 
-> **Agent:** Use these items if retry is needed.
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  During a busy math lesson on multiplication, students are working in groups using bottle caps to make equal groups. The teacher cannot sit with every group, but wants to understand who is correctly forming groups of 4.
+  *What should the teacher do during their walk-about to gather useful data?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | How can learning snapshots help you plan your teaching? |
-| **Accept keywords** | understanding, misunderstanding, support, data, evidence, next steps |
+- **Scenario 2:**
+  In a large classroom, students are learning how to represent four-digit numbers using a place value chart. The teacher wants to quickly see everyone's thinking at the same time without calling on students individually.
+  *How can this teacher use a demonstration prompt to understand student thinking?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | Why is estimating an important math skill? |
-| **Options** | A) It replaces calculation / B) It supports checking work, critical thinking, and reasonableness / C) It only helps advanced students / D) It makes lessons longer |
-| **Correct** | B |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | What is one low-stress way to check learning during a lesson? |
-| **Accept keywords** | pebble, exit ticket, demonstration, hold up slate, walk-about, estimation |
+- **Scenario 3:**
+  During a warm-up activity, a teacher writes "12 x 7 = 104" on the board and asks students to label it as "too small," "about right," or "too big" without solving it. Then students explain their thinking to a partner.
+  *What could this estimation activity tell teachers about student thinking?*
 
 ---
 

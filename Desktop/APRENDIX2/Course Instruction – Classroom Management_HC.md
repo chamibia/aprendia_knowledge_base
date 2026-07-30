@@ -50,7 +50,7 @@ Calm, practical, and respectful. Emphasize prevention over correction. Normalize
 | Rule | Detail |
 |------|--------|
 | **Structure** | **3 items** per module (where a quiz applies), fixed order: **Q1 recall** (MC/TF) → **Q2 understanding** (open-ended; hidden keywords) → **Q3 application** (scenario) |
-| **Pass module / unlock** | **≥2 of 3** correct; up to **1 retake per item** (new question, same type, alternate items). See `quiz_rationale.md` |
+| **Pass module / unlock** | **≥2 of 3** correct; up to **1 retake per item** (new question, same type, alternate items — **NEVER re-ask the original question**). See `quiz_rationale.md` |
 | **Course pass** | **≥80%** of all quiz items in the course for course pass and explain-style depth; system prompt §9 and module `course_pass_threshold` govern details |
 | **Module YAML** | `quiz_pass: 2_of_3` and `course_pass_threshold: 0.80` in module files; legacy `quiz_threshold: 0.80` = course-level only if still present |
 | **Key Concepts** | For agent only; not for quiz copy (§9) |
@@ -69,6 +69,8 @@ M4 (plan + PDF) does not use the same end quiz pattern; see that module’s comp
 ---
 
 ## 2. Level Structure & Unlock Rules
+
+> **IMPORTANT:** Pathways are pre-assigned per module below. The AI reads these assignments from module metadata — it does not infer pathways from user signals.
 
 **Structure overview:**
 - **Core modules (required):** Module 1, Module 2 — must be completed in order
@@ -131,7 +133,7 @@ M4 (plan + PDF) does not use the same end quiz pattern; see that module’s comp
 
 ### Deep Dives (M3–M4)
 
-> **IMPORTANT:** Modules 3 and 4 are **Deep Dives**. They unlock simultaneously after Module 2 completion. The user may complete them in any order. Present the Deep Dive menu after Module 2 so the user can choose which to do first.
+> **IMPORTANT:** Modules 3 and 4 are **Deep Dives**. They unlock simultaneously after Module 2 completion. The user may complete them in any order. Present the Deep Dive options after Module 2 so the user can choose which to do first. This is a distinct list from the Main Menu — never call it a "menu."
 
 | Module ID | Name | Pathway | Time | Completion |
 |-----------|------|---------|------|------------|
@@ -204,6 +206,8 @@ M4 (plan + PDF) does not use the same end quiz pattern; see that module’s comp
 
 ## 3. Personalization & Adaptation Rules
 
+> **Note:** These signals drive pacing and adaptation within a module — **NOT** pathway/arc selection (pathways are pre-assigned; see §2).
+
 **Signals the bot should track:**
 
 - prior_module_completion
@@ -224,27 +228,25 @@ M4 (plan + PDF) does not use the same end quiz pattern; see that module’s comp
 
 ## 4. Module Construction Schema
 
-- Each module uses one learning pathway for the full module.
-- Pathway must be loaded at module start and stay consistent.
-- Strategy flows must strictly follow pathway definitions.
+A module uses ONE pathway for its entire strategy sequence. The pathway is pre-assigned in the module metadata. The agent must load the pathway at module start, follow its flow consistently for every strategy, and maintain the same interaction rhythm until the mini-quiz.
 
-**Pathway flows:**
+See `global_pathway_instructions.md` for full pathway delivery specifications. Course-specific notes below.
 
-| Pathway | Flow |
-|---------|------|
-| `steady_path` | explanation → example → reflection → check |
-| `empathy_arc` | story → normalize → prompt → response → takeaway → check |
+| Pathway | Flow Summary |
+|---------|-------------|
+| `steady_path` | Introduction → for each strategy: explanation + 1 localized example → brief reflection or micro-action → [repeat] → mini-quiz |
+| `empathy_arc` | Vignette intro + poll → brief reflection → for each strategy: vignette continues → reflection/poll → strategy insight → micro-action → story debrief → mini-quiz |
 
-**General requirements:**
+**Course-specific requirements:**
 
-- Modules must include clear title, metadata, and pathway_type.
-- Each strategy must use the exact flow steps defined by the chosen pathway.
-- Reflection and comprehension checks follow the rules of that pathway.
-- Modules must respect time limits.
-- The mini-quiz at module end must include 3 items; pass with ≥2 of 3 correct (see system prompt §9).
-- Examples and practice prompts should be localized when possible.
-- Language must remain simple and non-clinical.
-- All content must respect time, message, and WhatsApp template limits.
+- Every module must include a clear title, metadata, and its pre-assigned pathway type
+- Reflection and comprehension checks follow the rules of that pathway
+- Modules must respect time limits
+- Include the 3-item mini-quiz (≥2 of 3 to pass; see system prompt §9)
+- Examples and practice prompts should be localized when possible
+- Language must remain simple and non-clinical
+- All content must respect time, message, and WhatsApp template limits
+- Do not mix pathway structures within a module
 
 ---
 
@@ -256,6 +258,16 @@ M4 (plan + PDF) does not use the same end quiz pattern; see that module’s comp
 | Module 2 unlock → Deep Dives (M3 & M4) | 3-item quiz: ≥2 of 3; one retry. Both M3 and M4 unlock simultaneously; user may complete in any order. |
 | Module 3 completion | Mini-quiz: ≥2 of 3; one retry. |
 | Module 4 completion | Plan completeness + PDF. Course completion when both Deep Dives are done. |
+| **Summative Quiz** | Offer proactively when all four modules are confirmed complete (`HC_M1_CSP`, `HC_M2_BBR`, `HC_M3_RPS`, `HC_M4_EILR`). Follow `summative_quiz_classroom_management.md` exactly. **Do not offer until all four modules are done.** |
+
+### Summative Quiz Rules
+
+- **Source of truth:** `summative_quiz_classroom_management.md` — load and follow it in full.
+- **8 questions**, fixed sequence: Q1–Q2 Recall → Q3–Q4 Understanding → Q5–Q6 Application → Q7 Observation (image) → Q8 Best Practice.
+- **This is not a module quiz.** The module quiz rules from §9 of the system prompt (3 items, recall → understanding → application cycle) do NOT apply. The summative has its own delivery rules, scoring, and retake logic defined in its file.
+- **Scoring:** ≥80% (7–8 of 8) = pass; 50–79% (4–6 of 8) = 1 shortened retry (4 questions); <50% = Course Review then full retake.
+- **Q7 requires an image.** Send the image before asking the observation question. Do not skip Q7.
+- **Q8 is Best Practice**, not Application. Do not label or treat Q8 as an Application question.
 
 ---
 

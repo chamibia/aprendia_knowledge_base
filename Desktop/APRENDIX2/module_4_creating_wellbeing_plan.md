@@ -120,6 +120,7 @@ Draw on these when constructing the plan. Adapt to user's context. Capture outpu
 - Confirm plan completeness with the teacher
 - Generate and offer Wellbeing Plan PDF
 - Optional revision prompt: "Is there anything you'd like to edit?"
+- **Save the final plan text to the `wellbeing_plan` user state field** (see system prompt §13). This is what makes the plan available under "My Teacher Wellbeing Plan" in the Classroom Toolkit — write it every time the plan is confirmed or revised here, so the Toolkit always reflects the latest version.
 - **Primary completion:** Plan generated and confirmed OR teacher confirms plan is usable
 
 ---
@@ -150,62 +151,42 @@ One low-effort way to connect with a colleague. No names—roles only. Examples:
 
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **Agent:** Primary completion is plan confirmation. Quiz is optional reinforcement after plan is confirmed. Deliver all 3 items if quiz is used. User must get **≥2 of 3** correct to pass the optional quiz (system prompt §9).
+> **Agent:** Primary completion is plan confirmation. Quiz is optional reinforcement after plan is confirmed. Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | You feel overwhelmed transitioning between lessons. Which planned wellbeing moment fits best? |
-| **Options** | A: Writing a long reflection / B: A few belly breaths / C: Ignoring the feeling / D: Leaving school early |
-| **Correct** | B |
-| **Feedback** | Brief, planned actions like belly breathing can help in moments of overwhelm. |
+- **Which is a good planned wellbeing moment when feeling overwhelmed between lessons?**
+  - Options: Writing a long reflection / A few belly breaths / Ignoring the feeling / Leaving school early
 
-### QUIZ_ITEM_2
+- **Which phrase reflects a growth mindset?**
+  - Options: "I should already know this" / "This is hard, but I'm learning" / "I'm not cut out for this" / "There's no point in trying"
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Which phrase reflects a growth mindset? |
-| **Options** | A: "I should already know this" / B: "This is hard, but I'm learning" / C: "I'm not cut out for this" / D: "There's no point in trying" |
-| **Correct** | B |
-| **Feedback** | A growth mindset emphasizes learning and effort over fixed ability. |
+- **Regular self-assessment focuses on energy, emotions, physical tension, and workload.**
+  - Options: True / False
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | Why is it helpful to plan responses to stressors in advance? |
-| **Accept keywords** | reduce, impact, intentional, recall, energy, decision |
-| **Feedback** | Planning ahead reduces decision-making when stressed and makes supportive actions easier to recall. |
+- **Why is it helpful to plan wellbeing responses ahead of stressors?**
+  - Keywords: ready, calm, effort, prepared
 
----
+- **Why is connecting with colleagues important?**
+  - Keywords: support, resilience, commiserating, sharing, friendship, advice, guidance
 
-## QUIZ_BANK_ALT
+- **How can planning a low-effort peer connection support wellbeing?**
+  - Keywords: community, encourage, support, understanding
 
-> **Agent:** Use these items if retry is needed.
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A teacher has not received their salary for the month and is distracted with worry. They know this is out of their control and want to manage this stress so it does not affect their teaching.
+  *How can they use the stressor and response strategy in this situation?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | Why are small plans more sustainable? |
-| **Accept keywords** | manageable, realistic, use, overwhelming, attainable |
+- **Scenario 2:**
+  A teacher has back to back lessons every morning and starts to lose patience with each lesson. They have less than two minutes before the next group of students arrives for class.
+  *How could the teacher use a wellbeing moment to reset?*
 
-### ALT_ITEM_2
-
-| Field | Value |
-|-------|-------|
-| **Question** | Why is connecting with colleagues important for wellbeing? |
-| **Accept keywords** | support, resilience, isolation, sharing, connection |
-
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | What does a weekly wellbeing check-in help teachers do? |
-| **Accept keywords** | notice, patterns, awareness, trends, plan |
+- **Scenario 3:**
+  A teacher tried a new classroom activity that did not go as planned and keeps thinking "I am not a good teacher." They want to stop this thinking before it affects their confidence.
+  *What could the teacher include in their wellbeing plan to support a moment like this?*

@@ -9,7 +9,7 @@
 | Field | Value |
 |-------|-------|
 | **Title** | Active & Inclusive Learning |
-| **Description** | This course helps teachers in crisis-affected and low-resource settings transform their everyday lessons into active, inclusive, and engaging learning experiences for every child. Three required modules build progressively — Module 1 establishes the conceptual framework for active learning, Module 2 introduces core strategies in practice, and Module 3 deepens inclusion — each unlocking the next. Completing Module 3 unlocks three optional deep dives that teachers can explore in any order based on their needs and interests. |
+| **Description** | This course helps teachers in crisis-affected and low-resource settings transform their feveryday lessons into active, inclusive, and engaging learning experiences for every child. Three required modules build progressively — Module 1 establishes the conceptual framework for active learning, Module 2 introduces core strategies in practice, and Module 3 deepens inclusion — each unlocking the next. Completing Module 3 unlocks three optional deep dives that teachers can explore in any order based on their needs and interests. |
 | **Target Experience** | Beginner to intermediate |
 | **Target Tech Literacy** | Low to medium |
 | **Typical Class Size** | 40–100 students |
@@ -108,7 +108,7 @@ Active learning is defined as structured, teacher-guided, and objective-driven �
 
 ### Deep Dives (Modules 4–6)
 
-> **IMPORTANT:** Modules 4, 5, and 6 unlock simultaneously after Module 3 completion. The user may complete them in any order. Present the Deep Dive menu after Module 3 so the user can choose which to do first.
+> **IMPORTANT:** Modules 4, 5, and 6 unlock simultaneously after Module 3 completion. The user may complete them in any order. Present the Deep Dive options after Module 3 so the user can choose which to do first. This is a distinct list from the Main Menu — never call it a "menu."
 
 | Module ID | Name | Pathway | Time |
 |-----------|------|---------|------|
@@ -249,7 +249,7 @@ See `global_pathway_instructions.md` for full arc delivery specifications. Cours
 
 The bot must maintain a persistent record of which modules are complete. This record must be checked and updated **immediately every time a module quiz is passed** — not deferred or batched.
 
-- **Deep dive menu:** After Module 3, display only the deep dives the teacher has not yet completed. Remove a deep dive from the menu as soon as its quiz is passed.
+- **Deep Dive options:** After Module 3, display only the deep dives the teacher has not yet completed. Remove a deep dive from the list as soon as its quiz is passed. This list is never called a "menu" — that word is reserved for the Main Menu.
 - **Summative trigger (PROACTIVE — do not wait for the teacher to ask):** After EVERY module quiz passes, check whether all 6 modules are now complete (Modules 1, 2, 3 + all three deep dives 4, 5, 6). If yes → immediately congratulate the teacher and offer the Final Quiz in the same message. Do NOT wait for the teacher to ask about it or navigate to it manually. Do NOT offer the main menu or Solve a Challenge at this point.
 - **Final Quiz uses 8 questions:** When triggering the Final Quiz, load `summative_quiz_active_inclusive_learning.md` and follow its delivery rules exactly. Do NOT apply the 3-question module quiz format. The Final Quiz is 8 questions — never stop before all 8 are answered.
 - **If tracking is lost:** Ask the teacher which modules they have completed rather than guessing or restarting the course.

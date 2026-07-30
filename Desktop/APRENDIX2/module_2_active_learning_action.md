@@ -107,8 +107,6 @@ Active learning creates opportunities for every child to participate. This is es
 
 **Reflection prompt:** Think of students in your classroom who observe more than they participate — what might be a barrier?
 
-**Quiz item:** When students feel included in the classroom, they are more likely to: (Options: Be off-task / Ask questions and take risks / Stay quiet and avoid making mistakes)
-
 **Teacher Voice:** "When I started planning for all learners, I noticed that more students were participating and enjoying class."
 
 ---
@@ -126,8 +124,6 @@ Active learning creates opportunities for every child to participate. This is es
 - Teacher has students turn and talk to someone next to them to share a connection they made between a story and their own lives.
 
 **Reflection prompt:** What is one moment in your next lesson where you can pause and involve students more?
-
-**Quiz item:** Which is NOT a question to ask while integrating active learning into a lesson plan? (Options: Where could children interact with a material? / Where could they work with a peer? / Where can students sit silently?)
 
 **Teacher Voice:** "Thinking about active learning during lesson planning makes my teaching more engaging."
 
@@ -148,8 +144,6 @@ Active learning creates opportunities for every child to participate. This is es
 
 **Reflection prompt:** When during the school day do your students need a simple movement activity?
 
-**Quiz item:** How does movement help children learn? (Keywords: focus, energy, memory, understanding)
-
 **Teacher Voice:** "I worry about losing control of my class, but simple movements do not have to disrupt learning."
 
 ---
@@ -168,8 +162,6 @@ Active learning creates opportunities for every child to participate. This is es
 
 **Reflection prompt:** What materials around your classroom or community could you use in a lesson this week?
 
-**Quiz item:** Why do local materials help children understand content better? (Keywords: see, touch, concrete)
-
 **Teacher Voice:** "Using materials helps my students who struggle to understand just by listening."
 
 ---
@@ -186,8 +178,6 @@ Active learning creates opportunities for every child to participate. This is es
 - Students work in pairs to draw their daily routine at school.
 
 **Reflection prompt:** How could peer interactions help your quieter students?
-
-**Quiz item:** Students working silently is an example of peer interaction. (Options: True / False)
 
 **Teacher Voice:** "Some students never speak in front of the class, but will share ideas in small groups."
 
@@ -214,82 +204,48 @@ Today you explored five strategies that make learning active and inclusive: buil
 
 ---
 
-## QUIZ
+## 7. Quiz Questions
 
-> **[Deliver all 3 items. User must get ≥2 of 3 correct to unlock the next module.]**
-> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using the matching ALT item from QUIZ_BANK_ALT — do not wait for the teacher to ask. At most one retake per item.]**
-> **[RETAKE RULE — HARD: NEVER re-ask the original question as the retake. Always use the matching ALT item from QUIZ_BANK_ALT. ALT_ITEM_1 retakes QUIZ_ITEM_1, ALT_ITEM_2 retakes QUIZ_ITEM_2, ALT_ITEM_3 retakes QUIZ_ITEM_3.]**
+> **[Deliver 3 items in order: Q1 recall → Q2 understanding → Q3 application, selecting one item from each question bank below. User must get ≥2 of 3 correct to unlock the next module.]**
+> **[After each incorrect answer: (1) briefly identify the missed concept, (2) give a 1-sentence explanation of the correct idea, (3) immediately offer one retake using a different item of the same type from the same bank — do not wait for the teacher to ask. NEVER re-ask the original question. At most one retake per item.]**
 > **[After a correct answer: give the 1-sentence feedback and move to the next item without offering a retake.]**
 > **[ON QUIZ PASS — MANDATORY TRANSITION: Do NOT offer the main menu, suggest repeating this module, or pivot to Solve a Challenge. Congratulate the teacher in one sentence, then immediately introduce Module 3: "Next up: Active Learning for Every Child — let's explore how to make your lessons work for every student." Begin Module 3 (AIL_M3_ALEC) immediately.]**
 
-### QUIZ_ITEM_1
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | When students feel included in the classroom, they are more likely to: |
-| **Options** | A) Be off-task / B) Ask questions and take risks / C) Stay quiet and avoid making mistakes |
-| **Correct** | B |
-| **Feedback** | Inclusion builds confidence and belonging, which encourages students to ask questions, take risks, and actively engage in learning. |
+- **When students feel included in the classroom, they are more likely to:**
+  - Options: Be off-task / Ask questions and take risks / Stay quiet and avoid making mistakes
 
-### QUIZ_ITEM_2
+- **Students working silently is an example of peer interaction.**
+  - Options: True / False
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | Why do local materials help children understand content better? |
-| **Accept keywords** | see, touch, concrete, tangible, hands-on, real, familiar |
-| **Example answers** | "Students can see and touch what they are learning," "Materials make ideas concrete," "Hands-on learning helps students understand" |
-| **Feedback** | Using everyday objects makes abstract concepts tangible, helping children connect ideas to something real and familiar. |
+- **Which is NOT a question to ask while you are integrating active learning strategies into a lesson plan?**
+  - Options: Where could children interact with a material? / Where could they work with a peer? / Where can students sit silently?
 
-### QUIZ_ITEM_3
+#### Question 2: Understanding
 
-| Field | Value |
-|-------|-------|
-| **Type** | Open-ended scenario (Application) |
-| **Question** | A teacher is giving a maths lesson to a large class. She explains multiplication clearly while students sit quietly. During independent practice, many students seem unsure how to answer the questions and stop trying. What is one way the teacher could improve this lesson using the three elements of active learning? |
-| **Accept** | Any response that names or clearly describes an active learning strategy from this module (peer interaction, movement, use of everyday materials, or finding an active moment in the lesson); and explains — even briefly — how it would help students engage or understand |
-| **Feedback** | Strong responses name a concrete strategy (e.g. a peer turn-and-talk to check understanding, using stones or objects to show multiplication groups, movement to act out arrays) and connect it to at least one element of active learning. |
+- **Why do local materials help children understand content better?**
+  - Keywords: see, touch, concrete
 
----
+- **How does movement help children learn?**
+  - Keywords: focus, energy, memory, understanding
 
-## QUIZ_BANK_ALT
+- **How can small moments of participation improve a lesson?**
+  - Keywords: engagement, attention, more students are involved
 
-> **[Use these items for retakes only — offered automatically after a wrong answer. ALT_ITEM_1 retakes Q1, ALT_ITEM_2 retakes Q2, ALT_ITEM_3 retakes Q3. At most one retake per item.]**
+#### Question 3: Application
 
-### ALT_ITEM_1
+- **Scenario 1:**
+  A teacher is giving a math lesson to a large class and she explains multiplication clearly while students sit quietly. During independent practice, many students seem unsure how to answer the questions and stop trying.
+  *What is one way the teacher could improve this lesson using the three elements of active learning?*
 
-> **[Use when teacher answers QUIZ_ITEM_1 incorrectly. Same type: Recall.]**
+- **Scenario 2:**
+  A teacher is introducing skip counting by 5s, but students are confused and struggling to follow. The teacher does not have any math resources in their classroom and is unsure how to help students understand this counting concept.
+  *How could the teacher use everyday materials to make the lesson clearer?*
 
-| Field | Value |
-|-------|-------|
-| **Type** | True / False |
-| **Question** | Students working silently is an example of peer interaction. |
-| **Options** | True / False |
-| **Correct** | False |
-| **Feedback** | Peer interaction requires students to talk, discuss, and share ideas — silent work does not count as peer interaction. |
-
-### ALT_ITEM_2
-
-> **[Use when teacher answers QUIZ_ITEM_2 incorrectly. Same type: Understanding.]**
-
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer |
-| **Question** | How does movement help children learn? |
-| **Accept keywords** | focus, energy, memory, understanding, engage, body, active, release |
-| **Feedback** | Movement gives children a chance to release energy while reinforcing learning — using their bodies helps make abstract ideas easier to remember and understand. |
-
-### ALT_ITEM_3
-
-> **[Use when teacher answers QUIZ_ITEM_3 incorrectly. Same type: Application scenario.]**
-
-| Field | Value |
-|-------|-------|
-| **Type** | Open-ended scenario |
-| **Question** | While reading a story, a teacher notices students begin to move around in their seats, talk to each other, or lose focus. The teacher wants to finish the lesson but does not know how to reengage students. How could the teacher use active learning strategies to reengage students? |
-| **Accept** | Any response that names a specific strategy from this module (a movement activity, peer interaction, finding an active moment, or using an everyday object); and explains — even briefly — why it would help refocus students |
-| **Feedback** | Strong responses suggest a concrete, low-prep active learning moment (e.g. a quick partner retell, acting out a scene from the story, gesturing emotions of a character) and link it to keeping students engaged and connected to the lesson. |
+- **Scenario 3:**
+  While reading a story, the teacher notices students begin to move around in their seats, talk to each other, or lose focus. The teacher wants to finish the lesson, but does not know how to reengage students.
+  *How could the teacher use active learning strategies to reengage students?*
 
 ---
 

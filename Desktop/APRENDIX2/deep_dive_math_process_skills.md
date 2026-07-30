@@ -74,6 +74,14 @@ Math as a journey = focus on thinking/explaining, not just right answers. Discou
 
 > **Agent:** Generate narrative scenes at runtime. **Show only strategies to the user.** Concepts guide your framing but are never delivered explicitly. Use this mapping to know which strategy belongs in each scene. **Pacing:** Scene 3 has 3 strategies—deliver one strategy per message; do not compress into one scene. Use `<break>` between them.
 
+**Per-scene delivery structure (apply to every strategy in every scene):**
+1. Open with the strategy name and a relevant emoji (e.g. "✋ Show-Draw-Tell"). This is the first line of the message.
+2. Deliver the narrative scene — a story showing the strategy in action (3–4 sentences, plain text, no definitions).
+3. Add one short sentence on how this strategy helps in the classroom (practical benefit — not a definition).
+4. Ask the reflection question for that scene. Wait for the teacher's response before moving to the next scene.
+
+Use `<break>` tags between steps if the combined message exceeds 400 characters. Never skip or compress any of the four steps. Scene 3 has 3 strategies — deliver one per message; do not compress into one turn.
+
 | Scene | Strategy | Concept (guides delivery; do not show) | Narrative brief |
 |-------|----------|----------------------------------------|-----------------|
 | Scene 1 | STRAT1 (Show-Draw-Tell) | CON1 | A teacher uses the SDT routine: pose a problem, learners SHOW with objects, DRAW a quick model, then TELL a partner using a sentence frame ("I think… because…"). Show the strategy in action—no concept definitions. |
@@ -112,8 +120,6 @@ Math as a journey = focus on thinking/explaining, not just right answers. Discou
 
 **Reflection prompt:** Where can you use SDT in a math lesson this week?
 
-**Quiz item:** What are the SDT steps? (Keywords: show, draw, tell)
-
 ---
 
 ### MATH_M4_STRAT2 — Use Concrete Materials
@@ -132,8 +138,6 @@ Math as a journey = focus on thinking/explaining, not just right answers. Discou
 
 **Reflection prompt:** What free material could you collect for your next lesson?
 
-**Quiz item:** Why are concrete materials important for math? (Keywords: hands-on, understanding, inclusion)
-
 ---
 
 ### MATH_M4_STRAT3 — Encourage Children to Show Thinking
@@ -149,8 +153,6 @@ Math as a journey = focus on thinking/explaining, not just right answers. Discou
 - Build on desk → create a matching drawing → describe using a sentence frame
 
 **Reflection prompt:** How could you let your students explain math without words?
-
-**Quiz item:** Give one way learners can show their thinking. (Keywords: draw, gesture, objects, act out)
 
 ---
 
@@ -170,8 +172,6 @@ Math as a journey = focus on thinking/explaining, not just right answers. Discou
 
 **Reflection prompt:** How could you ask your learners "why" more often?
 
-**Quiz item:** Why should learners justify answers? (Keywords: reasoning, logic, explanation)
-
 ---
 
 ### MATH_M4_STRAT5 — Provide Sentence Frames
@@ -187,73 +187,50 @@ Math as a journey = focus on thinking/explaining, not just right answers. Discou
 
 **Reflection prompt:** What sentence starter could you introduce in the next lesson?
 
-**Quiz item:** How do sentence frames help learners? (Keywords: clarity, communication, inclusion)
-
 ---
 
-## QUIZ
-
-> **Agent:** Deliver all 3 items (recall → understanding → application). User must get **≥2 of 3** correct to pass the module. Provide correct answer + 1-sentence explanation after each item. If not passed, offer one retry per item with alternate items from QUIZ_BANK_ALT (system prompt §9).
+## 7. Quiz Questions
 
 📷 Send this image first, then deliver the module recap and quiz:
 ![](https://i.imgur.com/HlRWscB.jpeg)
-### QUIZ_ITEM_1
 
-| Field | Value |
-|-------|-------|
-| **Type** | Short answer (accept keywords) |
-| **Question** | What are the SDT (Show-Draw-Tell) steps? |
-| **Accept keywords** | show, draw, tell |
-| **Example answers** | "Show with objects, draw a model, tell a partner" |
-| **Feedback** | SDT is show (with objects), draw (a model), tell (using a sentence frame). |
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
 
-### QUIZ_ITEM_2
+#### Question 1: Recall
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Why are concrete materials important for math? |
-| **Options** | A) They replace the need for teaching / B) They support hands-on understanding and inclusion / C) They only work in small classes / D) They make lessons longer |
-| **Correct** | B |
-| **Feedback** | Concrete materials build understanding through touch and movement and help all learners participate. |
+- **Sentence frames help students:**
+  - Options: Stay silent / Work faster / Communicate ideas
 
-### QUIZ_ITEM_3
+- **Students should not use objects, drawings, or gestures to show their thinking.**
+  - Options: True / False
 
-| Field | Value |
-|-------|-------|
-| **Type** | Multiple choice |
-| **Question** | Why should learners justify their answers? |
-| **Options** | A) To slow down the lesson / B) To strengthen reasoning and sense-making / C) To identify struggling students / D) To replace the need for practice |
-| **Correct** | B |
-| **Feedback** | Justifying answers builds reasoning, reveals misconceptions, and increases sense-making. |
+- **Why should students justify their answers?**
+  - Options: To give grades / To slow down lessons / To build reasoning skills
 
----
+#### Question 2: Understanding
 
-## QUIZ_BANK_ALT
+- **What does "show, draw, tell" help students do in math?**
+  - Keywords: show thinking, explain, model
 
-> **Agent:** Use these items if retry is needed.
+- **How do sentence frames support students in math class?**
+  - Keywords: structure, communication, language support, clear
 
-### ALT_ITEM_1
+- **Why are physical objects helpful when learning math?**
+  - Keywords: hands-on, concrete, include, feel
 
-| Field | Value |
-|-------|-------|
-| **Question** | Give one way learners can show their math thinking. |
-| **Accept keywords** | draw, gesture, objects, act out, sketch, slate |
+#### Question 3: Application
 
-### ALT_ITEM_2
+- **Scenario 1:**
+  During a lesson, students give answers quickly, but do not check if their answers make sense. The teacher wants students to slow down and think more carefully.
+  *What could the teacher do to help students justify their answers?*
 
-| Field | Value |
-|-------|-------|
-| **Question** | How do sentence frames help learners? |
-| **Options** | A) They make answers shorter / B) They support clarity, communication, and inclusion / C) They only help advanced students / D) They replace the need for thinking |
-| **Correct** | B |
+- **Scenario 2:**
+  A teacher is teaching equal groups on the board, but students seem confused and are not participating. The teacher wants to make the lesson more hands-on.
+  *How could the teacher use concrete materials in this lesson?*
 
-### ALT_ITEM_3
-
-| Field | Value |
-|-------|-------|
-| **Question** | What free material could you use for math? |
-| **Accept keywords** | bottle caps, beans, sticks, stones, string, paper, cups |
+- **Scenario 3:**
+  A teacher gives the problem "8 + 6 =" and students quickly say the answer, but cannot explain their thinking. The teacher wants students to make their thinking visible step-by-step.
+  *How could the teacher use the "show-draw-tell" routine to support students?*
 
 ---
 

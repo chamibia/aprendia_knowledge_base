@@ -63,9 +63,6 @@ subject: Reading
   * Teacher asks students to draw a picture they would like to use as the daily picture talk
   * Teacher uses locally relevant pictures/objects (e.g. Shows a picture of an umbrella after a rain storm and asks questions like "When would you use this and why?" or "Who can tell me a time when they did not have an umbrella, but needed one?")
 * **Reflection Prompt:** What is a picture talk you could do at the start of your next reading lesson?
-* **Quiz Item:**
-  * How does doing regular picture talks support children's reading development? (Keywords: oral language, understanding, background knowledge, vocabulary, connections)
-  * Why is it important to start reading lessons with a picture talk? (Options: Saves time/Builds language skills/Practice spelling)
 * **Teacher Voice:** "When we start with a picture, students are more engaged in the learning process."
 
 #### READING_M1_STRAT2 / Strategy 2: Sound Awareness Warm-Ups
@@ -83,9 +80,6 @@ subject: Reading
     * Teacher says a letter sound and students guess what letter it is (e.g. Teacher says "/m/" and students guess the letter "m")
     * Teacher says a word and students say the letter that the word ends with (e.g. Teacher says "rain" and students say "n")
 * **Reflection Prompt:** Where in the school day could you add a sound awareness warm-up?
-* **Quiz Item:**
-  * Sound awareness warm-ups require many materials (Options: True/False)
-  * What is the main purpose of sound awareness warm-ups? (Options: Play with sounds in words/ Test spelling/ Practice handwriting)
 * **Teacher Voice:** "I like to see my students have fun when practicing sounds."
 
 #### READING_M1_STRAT3 / Strategy 3: Blending and Segmenting Sounds
@@ -98,9 +92,6 @@ subject: Reading
   * Use letters cards to create real and nonsense words (e.g. Teacher displays the word "pof" using letter cards. Students segment the sounds and say the word. Teacher asks "Is this a real or nonsense word?" Students say "nonsense" and provide a way to make it real "change the /f/ to /t/, /p//o//t/ pot").
   * Use letter cards to blend and segment words in small groups (e.g. Teacher displays the word "flip." One at a time, students touch each letter card and say the corresponding sound then blend the sounds to say the word "/f//l//i//p/ flip").
 * **Reflection Prompt:** What is a resource you could create to help students practice blending and segmenting?
-* **Quiz Item:**
-  * Which teacher action shows segmenting? (Options: Reading a word quickly/Saying each sound in a word/Spelling a word)
-  * Why is segmenting helpful when students see a new word? (Keywords: sounds, parts, figure out, understand, try)
 * **Teacher Voice:** "My students feel proud when they read a word by themselves."
 
 #### READING_M1_STRAT4 / Strategy 4: Link Words to Meaning
@@ -114,9 +105,6 @@ subject: Reading
   * Ask students to draw a picture that represents a new word (e.g. student draws a picture of a kid putting notebooks into a backpack to show the word "packing")
   * Ask students to act out the meaning of a new word (e.g. students act like they are preparing tea to show the word "boil")
 * **Reflection Prompt:** When do students seem confused even after reading a word correctly?
-* **Quiz Item:**
-  * Linking words to meanings promotes (Options: Fast reading/Deeper understanding/Drawing skills)
-  * If a student reads a word correctly, they always understand it (Options: True/False)
 * **Teacher Voice:** "I realized some students were reading without understanding."
 
 #### READING_M1_STRAT5 / Strategy 5: Mini Shared Writing
@@ -131,9 +119,6 @@ subject: Reading
   * Teacher purposefully makes a mistake and asks students to check their work (e.g. Teacher writes a misspells a word, "We stretched out 'dinner' but I do not know if it is correct." "Thank you for helping me, sometimes we make mistakes when writing. When we feel unsure, it is ok to ask for help").
   * Teacher reviews how to write a nice sentence before beginning to write on the board (e.g. "When I write a sentence what should I do?. . . Yes, I need to use punctuation at the end, capital letter at the beginning, spaces in between my words, and nice handwriting.")
 * **Reflection Prompt:** How might students react when their ideas become written words?
-* **Quiz Item:**
-  * During shared writing, teachers should say sounds slowly to help students: (Options: Memorize sentences/See how words are built/Draw pictures)
-  * Why is mini shared writing important? (Options: To memorize new words/ To test spelling/To show how speaking becomes print)
 * **Teacher Voice:** "My students are excited to read sentences we make together as a class."
 
 ### 6. DIY Activity Element
@@ -142,5 +127,47 @@ subject: Reading
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | Act it out | Paper, hat/bowl | 1. Teacher writes down new words on small pieces of paper and puts them in a bowl 2. Students are divided into groups of 4 to 5 3. Each groups picks a word from the bowl and does not tell the other groups 4. Each group plans how they can act out their word 5. One group acts out their word while the other groups guess 6. Keep playing until no words remain in the bowl | Younger: Teacher reads the word with each group Older: Write a sentence using their group's word | Students show understanding of new words, not just memorization. | 10 to 15 minutes |
 | First sound only | Notebooks/slates and pens/chalk | 1. Teacher gives the class a sound (e.g. /s/) 2. Students think of a word that starts with the sound. Then write the word and draw a picture to represent it (e.g. snake, sit, sky, soupe etc.). 3. Students share their idea with a partner 4. The whole class shares their ideas | Older: Collect data on repeated words or different words. Sort the words into categories. | Students begin listening carefully to sounds and relate them to their life. | 5 to 10 minutes |
+
+---
+
+### 7. Quiz Questions
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **Linking words to meaning helps students:**
+  - Options: Read faster / Memorize spelling / Understand what they read
+
+- **Sound awareness warm-ups require many materials.**
+  - Options: True / False
+
+- **Which teacher action shows segmenting?**
+  - Options: Saying each sound in a word / Writing a sentence / Reading quickly
+
+#### Question 2: Understanding
+
+- **How does shared writing support reading development?**
+  - Keywords: connect, speaking, print, modeling, confidence
+
+- **What is the purpose of sound-awareness warm-ups?**
+  - Keywords: sounds, listening, practice, play, prepare
+
+- **How do picture talks support reading development?**
+  - Keywords: oral language, vocabulary, background knowledge, connections
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  During a lesson, a student sees the word "cat" and cannot read it. The teacher wants to help the students figure out the word instead of telling them the answer.
+  *What could the teacher do to support the student using blending or segmenting?*
+
+- **Scenario 2:**
+  A teacher notices that students struggle to hear and identify sounds in words during reading time. The teacher wants to add a short, fun activity that helps students practice listening to sounds without using materials.
+  *What could the teacher do using a sound awareness warm-up?*
+
+- **Scenario 3:**
+  A teacher reads a short story aloud, then asks students what happened, but only a few students respond. The teacher wants to involve more students and show how their spoken ideas can become written sentences.
+  *What is one way the teacher can use mini shared writing to include more student voices?*
 
 ---

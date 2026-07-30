@@ -88,10 +88,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** Which students in your class might participate more if they can choose how to respond?
 
-* **Quiz Item:** 
-
-  * How does giving students choices in how they respond help behavior? (Keywords: reduces frustration, participation, engagement)
-
 * **Teacher Voice:**  “More students stay calm and involved when they have more ways to respond.”
 
 #### HC_M4_STRAT2 / Strategy 2: Simple Teaching Aids
@@ -118,12 +114,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** What teaching aids could I add to one lesson for tomorrow?
 
-* **Quiz Item:** 
-
-  * What are simple teaching aids you can find in your community? (Keywords: cardboard, fabric, bottles, bottle caps, stones)
-
-  * How can simple teaching aids help keep students engaged? (Keywords: meaningful connections, reduce frustration, focused, better understanding, fun)
-
 * **Teacher Voice:** “Using visuals and objects helped students understand faster.”
 
 #### HC_M4_STRAT3 / Strategy 3: Different Types of Questions
@@ -146,8 +136,6 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** What is a simple and deep question I can ask during my next lesson?
 
-* **Quiz Item:** How do different questions keep students engaged? (Keywords: inclusion, confidence, critical thinking, participation)
-
 * **Teacher Voice:** “When I asked different types of questions, more students raised their hands.”
 
 #### HC_M4_STRAT4 / Strategy 4: Movement-Based Learning
@@ -165,12 +153,6 @@ subject: Healing Classrooms
   * Teacher leads class in a song before starting a lesson
 
 * **Reflection Prompt:** Is there a specific time during the school day when your students need movement most?
-
-* **Quiz Item:** 
-
-  * When is movement-based learning most helpful? (Options: When students are restless/ only during games/ during independent work)
-
-  * Movement-based learning means losing control of the class. (Options: True/ false)
 
 * **Teacher Voice:** “Using small movements during my lessons gave students a safe way to release energy and stay focused.”
 
@@ -192,16 +174,52 @@ subject: Healing Classrooms
 
 * **Reflection Prompt:** How would my class’s behavior improve with clear learning goals?
 
-* **Quiz Item:** 
-
-  * Pick the best option. I should review a lesson goal at the… (Options: beginning of a lesson only/ end of a lesson only/ beginning and end of a lesson)
-
-  * How do students feel when they know the learning goal? (Keywords: confident, prepared, ready to learn, focused)
-
 * **Teacher Voice:** “Sharing clear goals helped my students feel prepared and ready to learn.”
 
 
-### **7\. DIY Activity Element**
+### **7\. Quiz Questions**
+
+> **Deliver exactly one item per type, in this fixed order: Q1 recall → Q2 understanding → Q3 application. User must get ≥2 of 3 correct to pass. If an answer is incorrect, offer one retake using a different item of the same type from this bank — never re-ask the same question.**
+
+#### Question 1: Recall
+
+- **Movement-based learning means losing control of the classroom.**
+  - Options: True / False
+
+- **Which teacher action helps prepare students for a lesson?**
+  - Options: Saying the learning goal / Skipping instructions / Starting with group work immediately
+
+- **Which is an example of an open-ended question?**
+  - Options: "What color is the backpack?" / "What is 2 + 6?" / "What do you think will happen next?"
+
+#### Question 2: Understanding
+
+- **How do clear learning goals help students feel ready to learn?**
+  - Keywords: focus, confidence, clear, purpose
+
+- **How do different types of questions keep students engaged?**
+  - Keywords: inclusion, confidence, critical thinking, participation
+
+- **How do simple teaching aids help students understand content?**
+  - Keywords: check understanding, deeper thinking, engagement, inclusion
+
+#### Question 3: Application
+
+- **Scenario 1:**
+  A teacher asks, "What did we learn from the story?" and only a few students raise their hands. The teacher wants all students to show their understanding in a way that feels comfortable.
+  *How can the teacher adjust the activity to include more students?*
+
+- **Scenario 2:**
+  A teacher is teaching new vocabulary, but several students look confused and are not responding to questions. The teacher is only explaining the words out loud and notices students are not making connections.
+  *What could the teacher add to support student understanding?*
+
+- **Scenario 3:**
+  Students begin to talk to each other and lose focus halfway through a long lesson. The teacher notices that students have been sitting and listening for a long time without a break.
+  *What could the teacher do next to support students?*
+
+---
+
+### **8\. DIY Activity Element**
 
 | Title | Materials | Steps | Variation | Observation | Time |
 | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -210,7 +228,7 @@ subject: Healing Classrooms
 
 ---
 
-### 8. Media References
+### 9. Media References
 
 | Media Type | File Name | Notes |
 | ----- | ----- | ----- |
