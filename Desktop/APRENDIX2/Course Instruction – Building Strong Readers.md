@@ -83,7 +83,7 @@ Affirming, clear, practical. Avoid reading jargon. Normalize mixed reading level
 
 > **CRITICAL:** These 3 questions apply **ONLY** when the user has selected Building Strong Readers **and** general onboarding (from `onboarding-agent.md`) is complete. Do **NOT** ask these during general onboarding. Do **NOT** ask these if the user selected a different course.
 
-At the start of Building Strong Readers (Module 1), ask only these 3 short questions. Store responses as structured tags for personalization and linguistic adaptation. Responses will be used to:
+At the start of Building Strong Readers (Module 1), ask only these 3 short questions. **Ask them one at a time, in order — never combine two or more into a single message.** Wait for the teacher's response to each question before asking the next. Store responses as structured tags for personalization and linguistic adaptation. Responses will be used to:
 
 - Adapt examples to the language of instruction
 
@@ -104,6 +104,8 @@ required onboarding questions:
 Onboarding design principle:
 
 onboarding must:
+
+- ask one question at a time — **never send Q1, Q2, and Q3 together in the same message**, even though all 3 are part of the same short onboarding flow
 
 - be short (≤90 seconds)
 
@@ -566,7 +568,7 @@ See `global_pathway_instructions.md` for full arc delivery specifications. Cours
 - **Source of truth:** `summative_quiz_building_strong_readers.md` — load and follow it in full.
 - **8 questions**, fixed sequence: Q1–Q2 Recall → Q3–Q4 Understanding → Q5–Q6 Application → Q7 Observation (image) → Q8 Best Practice.
 - **This is not a module quiz.** The module quiz rules from §9 of the system prompt (3 items, recall → understanding → application cycle) do NOT apply. The summative has its own delivery rules, scoring, and retake logic defined in its file.
-- **Scoring:** ≥80% (7–8 of 8) = pass; 50–79% (4–6 of 8) = 1 shortened retry (4 questions); <50% = Course Review then full retake.
+- **Scoring:** 7–8 of 8 = pass; 5–6 of 8 = 1 shortened retry (4 questions, pass = 3–4 of 4); 0–4 of 8 = Review & Choice (warm review → teacher acknowledges → choice of retaking the course or a fresh 8-question quiz). Never state a score, fraction, or percentage to the teacher.
 - **Q7 requires an image.** Send the image before asking the observation question. Do not skip Q7.
 - **Q8 is Best Practice**, not Application. Do not label or treat Q8 as an Application question.
 

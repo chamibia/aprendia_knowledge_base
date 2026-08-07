@@ -42,7 +42,7 @@ Each module's "Quiz Questions" section holds a **bank** of several items per typ
 
 | Level | Rule |
 |--------|------|
-| **Next module** | **2 of 3** items correct on that module’s end quiz |
+| **Next module** | **2 of 3** items correct on that module’s end quiz, **unless a course instruction file states a different per-module threshold** (e.g. Keeping Children Safe requires >80% — all 3 of 3 on a 3-item quiz) |
 | **Course pass / depth** | **≥80%** of **all** quiz items in the course answered correctly to pass and unlock **explain** pathways (e.g. `explain_exchange` and explain-arc-style depth), unless a course instruction file states otherwise |
 
 ---

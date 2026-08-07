@@ -5,8 +5,8 @@
 ```yaml
 module_id: TWB_M4_CWP
 title: Creating a Wellbeing Plan
-pathway: explain_exchange
-fallback_trigger: user_struggles_with_socratic
+pathway: diy_kit
+fallback_trigger: user_expresses_confusion
 fallback_pathway: steady_path
 duration_target: 12-15 minutes
 unlock_requires: TWB_M3_BRB (prior module quiz: ≥2 of 3)
@@ -22,11 +22,11 @@ subject: Teacher Wellbeing
 
 ## DELIVERY INSTRUCTIONS
 
-**Pathway:** `explain_exchange` (see Global Pathway Instructions for Socratic flow). Fallback to `steady_path` if user struggles with dialogue.
+**Pathway:** `diy_kit` (see Global Pathway Instructions for the diy_kit flow). Fallback to `steady_path` if the user expresses confusion or requests a simpler explanation.
 
-**When using explain_exchange:** Lead with questions about wellbeing planning. Draw out the five components (Wellbeing Moments, Stressors/Responses, Growth Mindset Reminder, Weekly Check-In, Peer Connection) through Socratic dialogue—do not deliver them as a checklist. After dialogue, summarize the teacher's plan and offer PDF if applicable.
+**When using diy_kit (primary):** Follow the DIY_KIT FLOW and BUILD COMPONENTS below to co-create the plan step by step.
 
-**When fallback is steady_path:** Use the DIY_KIT FLOW and BUILD COMPONENTS below to co-create the plan step by step.
+**When fallback is steady_path:** Skip the Tool Options choice and the context-check questions — walk the teacher directly through the Full Wellbeing Plan's five components in fixed order, one at a time, offering the simplest sentence stem for each rather than asking them to choose. Still capture outputs for PDF as in the diy_kit flow.
 
 ---
 

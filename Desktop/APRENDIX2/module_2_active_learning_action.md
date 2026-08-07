@@ -198,7 +198,9 @@ Active learning creates opportunities for every child to participate. This is es
 
 > **[Deliver: 2–3 sentences summarizing key takeaways]**
 
-Today you explored five strategies that make learning active and inclusive: building inclusion into every lesson, finding active learning moments in existing plans, using movement, using everyday materials, and creating peer interaction. You do not need to use all five strategies at once — even one small change can increase student engagement and participation. Next, you will explore how to make your classroom an even more positive and inclusive space.
+Today you explored five strategies that make learning active and inclusive: building inclusion into every lesson, finding active learning moments in existing plans, using movement, using everyday materials, and creating peer interaction. You do not need to use all five strategies at once — even one small change can increase student engagement and participation. Before we move on, let's check what stuck with a few quick questions.
+
+**⚠️ HARD RULE:** The mini-quiz below is mandatory and comes immediately after this recap, before anything else. Do not transition to Module 3, preview its content, or end the module here. Module 3 is locked until this quiz is passed.
 
 > **[After the teacher acknowledges or replies to the recap — even a short reply like "ok" or 👍 — immediately begin the quiz. Do not wait for the teacher to ask for it. Do not offer optional enrichment before the quiz.]**
 

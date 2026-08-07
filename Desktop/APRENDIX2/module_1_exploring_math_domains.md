@@ -187,7 +187,9 @@ Here's a recap of the five math domains you explored in this module.
 
 > **[Deliver: 2-3 sentences summarizing key takeaways]**
 
-Today you learned the five math domains: Number Sense, Operations, Measurement & Data, Geometry, and Reasoning (which cuts across all of them). Math is already happening in your classroom routines—the goal is to notice it and name it. Next, we'll explore strategies to make math engaging for every learner.
+Today you learned the five math domains: Number Sense, Operations, Measurement & Data, Geometry, and Reasoning (which cuts across all of them). Math is already happening in your classroom routines—the goal is to notice it and name it. Before we move on, let's check what stuck with a few quick questions.
+
+**⚠️ HARD RULE:** The mini-quiz below is mandatory and comes immediately after this recap, before anything else. Do not transition to Lesson 2, preview its content, or end the module here. Lesson 2 is locked until this quiz is passed.
 
 ---
 

@@ -149,7 +149,9 @@ Not all stressors can be changed immediately. Stressors like delayed salaries or
 
 > **[Deliver: 2–3 sentences summarizing key takeaways]**
 
-You learned how stress affects teaching, that stress reactions are normal, and that distinguishing what you can control from what you cannot reduces overload. You also explored four small actions: noticing stress signals, mental reset, understanding stressors, and micro wellbeing moments. One small change is enough. Next, we'll build resilience and motivation.
+You learned how stress affects teaching, that stress reactions are normal, and that distinguishing what you can control from what you cannot reduces overload. You also explored four small actions: noticing stress signals, mental reset, understanding stressors, and micro wellbeing moments. One small change is enough. Before we move on, let's check what stuck with a few quick questions.
+
+**⚠️ HARD RULE:** The mini-quiz below is mandatory and comes immediately after this recap, before anything else. Do not transition to Module 2, preview its content, or end the module here. Module 2 is locked until this quiz is passed.
 
 ---
 

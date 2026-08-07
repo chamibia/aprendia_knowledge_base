@@ -93,19 +93,70 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 
 ### TWB_M2_STRAT1 — Name Emotions
 
-Use short statements that identify feelings ("feeling overwhelmed," "feeling discouraged") to reduce intensity and guide responses. Naming emotions helps teachers understand what they are experiencing, reveals patterns over time, and creates space between feeling and response. Examples: silent emotion naming, end-of-day emotion check, connecting with a colleague.
+**Description:** Use short statements that identify feelings ("feeling overwhelmed," "feeling discouraged") to reduce intensity and guide responses.
+
+**Expanded explanation:** Emotions strongly influence motivation and energy. Naming emotions using simple words ("discouraged," "frustrated," "tired," "overwhelmed," "excited") helps teachers understand what they are experiencing rather than pushing feelings aside. Over time, this practice reveals patterns: certain situations may consistently lower motivation, while others restore it. Naming emotions also creates space between the feeling and the response, so instead of reacting automatically, teachers can pause and choose how to proceed. This supports emotional resilience and helps teachers protect their energy. This strategy is not about fixing emotions or forcing positivity, but rather understanding emotional experiences so they can guide decisions about boundaries, support, and self-care.
+
+**Examples / Variations:**
+- Silent emotion naming
+- End-of-day emotion check
+- Connecting with a colleague
+
+**Reflection prompt:** What emotions show up most often during your day?
+
+**Teacher Voice:** "When I name it, it feels easier to manage."
+
+---
 
 ### TWB_M2_STRAT2 — Mindfulness Moment
 
-Select a brief mindfulness activity (e.g., belly breathing, contract and release) to settle the mind and body. Short practices help restore perspective, reduce mental noise, and create clarity to continue teaching with intention. Examples: belly breathing, contract and release muscles, focus on one sound.
+**Description:** Select a brief mindfulness activity (e.g. Belly Breathing or Contract & Release) to settle the mind and body.
+
+**Expanded explanation:** Mindfulness can be used to restore perspective. Short mindfulness practices (e.g. slow breathing or gentle body awareness) can help teachers step back from discouragement and reconnect with steadiness and purpose. This can be especially helpful when motivation feels low or challenges feel endless. Mindfulness supports teachers in noticing thoughts and emotions without being overwhelmed by them. Even one or two minutes can help shift perspective, reduce mental noise, and create enough clarity to continue teaching with intention. These practices are quiet, flexible, and require no materials, making them realistic even for busy school days.
+
+**Examples / Variations:**
+- Belly breathing
+- Contract and release muscles
+- Focus on one sound
+
+**Reflection prompt:** Which mindfulness practice helps you regain calm and perspective?
+
+**Teacher Voice:** "Having a mindfulness moment helps me pause and see things more clearly."
+
+---
 
 ### TWB_M2_STRAT3 — Motivation Check
 
-Identify one daily moment that strengthens purpose or hope (e.g., a child's progress or a small success). Motivation grows from noticing small, meaningful moments rather than waiting for major changes. Examples: notice progress, end-of-day reflection, write one positive moment, share a small win with a colleague.
+**Description:** Identify one daily moment that strengthens purpose or hope (e.g. a child's progress or a small success).
+
+**Expanded explanation:** Motivation often grows from noticing small, meaningful moments rather than waiting for major changes. In crisis-affected contexts especially, progress may feel slow or difficult to see. Identifying small motivators helps teachers anchor motivation in daily experiences, such as a child's effort, a moment of connection, or completing a challenging task. By intentionally noticing these moments, teachers counter discouragement and remind themselves why their work matters. Over time, this practice builds a sense of purpose that does not depend on constant energy or ideal conditions. The goal is not to ignore difficulties, but to balance them with reminders of meaning and impact.
+
+**Examples / Variations:**
+- Notice progress
+- End-of-day reflection
+- Write one positive moment each day
+- Share a small win with a colleague
+
+**Reflection prompt:** What gave you a sense of purpose today?
+
+**Teacher Voice:** "Small wins remind me why I teach."
+
+---
 
 ### TWB_M2_STRAT4 — Mindset Reframe
 
-Replace discouraging thoughts with growth-oriented alternatives (e.g., "This is challenging, but I can improve with practice"). Stress and fatigue can trigger negative thoughts; reframing helps respond with persistence and self-compassion. Examples: personal mantra ("I can do hard things"), journaling, coping ahead.
+**Description:** Replace discouraging thoughts with growth-oriented alternatives (e.g. "This is challenging, but I can improve with practice").
+
+**Expanded explanation:** Stress and fatigue can trigger negative thoughts (e.g. "I'm not good enough" or "This will never improve"). These thoughts drain motivation and increase burnout. Mindset reframing helps teachers respond to challenges with persistence and self-compassion rather than self-criticism. Growth-oriented statements (e.g. "This is difficult, but I am learning," "I can improve with practice") reinforce the idea that effort leads to growth over time. This mindset helps teachers stay engaged, adapt strategies, and continue learning even when conditions are hard. Over time, reframing supports a professional identity rooted in growth.
+
+**Examples / Variations:**
+- Personal mantra (e.g. "I can do hard things")
+- Journaling
+- Coping ahead: think of an upcoming stressor and reframe it as an opportunity and/or plan a coping strategy
+
+**Reflection prompt:** What can you tell yourself when you need to persevere through challenges?
+
+**Teacher Voice:** "Reframing helps me be kinder to myself and keep trying."
 
 ---
 

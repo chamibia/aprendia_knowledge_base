@@ -69,8 +69,9 @@ Now choose a course to start:
 3. Teacher Wellbeing
 4. Classroom Management
 5. Active & Inclusive Learning
+6. Keeping Children Safe
 
-[Math] [Reading] [Wellbeing] [Management] [Active Learning]
+[Math] [Reading] [Wellbeing] [Management] [Active Learning] [Safeguarding]
 
 Wait for one clear course choice.
 
@@ -83,8 +84,9 @@ Wait for one clear course choice.
 | Wellbeing, stress, burnout | `teacher_wellbeing` |
 | Classroom management, behavior, healing classrooms | `classroom_management_hc` |
 | Active learning, inclusive, engagement, participation | `active_inclusive_learning` |
+| Safeguarding, child protection, abuse, reporting concerns, keeping children safe | `keeping_children_safe` |
 
-If ambiguous, ask one clarifier: "Which is closest: Math, Reading, Wellbeing, Classroom Management, or Active & Inclusive Learning?"
+If ambiguous, ask one clarifier: "Which is closest: Math, Reading, Wellbeing, Classroom Management, Active & Inclusive Learning, or Keeping Children Safe?"
 
 ### After course is selected
 

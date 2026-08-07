@@ -42,7 +42,7 @@ This course builds fluency through steady pathways, mindset shifts via stories, 
 | `TWB_M1_UTWB` | Understanding Teacher Wellbeing & Stress | `steady_path` | `empathy_arc` | `prior_stress_language` OR `reflective_tone` |
 | `TWB_M2_BRM` | Building Resilience & Motivation | `empathy_arc` | `steady_path` | `short_responses` OR `factual_tone` |
 | `TWB_M3_BRB` | Building Positive Relationships & Boundaries | `steady_path` | `empathy_arc` | `prior_stress_language` OR `reflective_tone` |
-| `TWB_M4_CWP` | Creating a Wellbeing Plan | `explain_exchange` | `steady_path` | `user_struggles_with_socratic` |
+| `TWB_M4_CWP` | Creating a Wellbeing Plan | `diy_kit` | `steady_path` | `user_expresses_confusion` |
 
 ### Routing Heuristics (Pathway Selection)
 
@@ -136,7 +136,7 @@ This course builds fluency through steady pathways, mindset shifts via stories, 
 | Field | Value |
 |-------|-------|
 | **Module ID** | `TWB_M4_CWP` |
-| **Pathway** | `explain_exchange` (primary, Socratic); `steady_path` if user struggles with dialogue |
+| **Pathway** | `diy_kit` (primary); `steady_path` if user expresses confusion or requests a simpler explanation |
 | **Time** | ≤12–15 minutes total |
 | **Completion** | Plan generated and confirmed OR teacher confirms plan is usable |
 | **Unlocks** | — (course complete) |
@@ -149,17 +149,17 @@ This course builds fluency through steady pathways, mindset shifts via stories, 
 4. Weekly Wellbeing Check-In (rate energy, emotions, physical tension, workload; one thing that went well; one supportive action for next week)
 5. Peer Connection Plan (one low-effort, non-identifying habit; no colleague names—roles only)
 
-**When pathway is explain_exchange (primary):** Follow Socratic flow in `global_pathway_instructions.md`. Use questions to draw out the teacher’s wellbeing plan (e.g. wellbeing moments, stressors/responses, growth reminder, weekly check-in, peer connection). After dialogue, summarize their plan and offer PDF if applicable.
+**When pathway is diy_kit (primary):** Follow the diy_kit flow in `global_pathway_instructions.md` — intro → context check → build steps (one per message, Reflection #1 mid-build) → refinement → final plan → Reflection #2 → confirmation & PDF. Co-create the five components (wellbeing moments, stressors/responses, growth reminder, weekly check-in, peer connection) using structured prompts and sentence stems; limit choices to prevent overload.
 
-**When fallback is steady_path:** Guide co-creation with structured prompts and sentence stems; limit choices; capture outputs for PDF. Confirm plan completeness; generate and offer Wellbeing Plan PDF; optional revision prompt ("Is there anything you'd like to edit?").
+**When fallback is steady_path (user expresses confusion or requests a simpler explanation):** Skip the Tool Options choice and context-check questions — walk the teacher directly through the five components in fixed order, one at a time, offering the simplest sentence stem for each rather than asking them to choose. Confirm plan completeness; generate and offer Wellbeing Plan PDF; optional revision prompt ("Is there anything you’d like to edit?").
 
 ### Pacing for Strategy-Heavy Modules (M2, M4)
 
-> **Do not rush.** Module 2 (empathy_arc) and Module 4 (explain_exchange or steady_path) require careful pacing. The agent must:
+> **Do not rush.** Module 2 (empathy_arc) and Module 4 (diy_kit, or steady_path fallback) require careful pacing. The agent must:
 
 - **empathy_arc (M2):** Deliver one scene per message batch. Do not send Scene 2 and Scene 3 back-to-back. For Scene 3 (2 strategies): deliver one strategy per message; use `<break>` between them. Allow time for reflection between scenes. See `global_pathway_instructions.md`.
-- **explain_exchange (M4):** One Socratic question at a time; wait for response before follow-up. Do not lecture; draw out understanding through questions.
-- **steady_path (M4 fallback):** One build step per message; wait for user input when designated.
+- **diy_kit (M4, primary):** One build step per message; wait for user input when designated.
+- **steady_path (M4 fallback):** One wellbeing-plan component per message, using the simplest sentence stem directly; wait for user input before moving to the next component.
 - Include at least one concrete example per strategy. Do not bundle multiple strategies into a single message.
 
 ---

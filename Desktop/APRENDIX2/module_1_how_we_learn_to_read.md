@@ -70,15 +70,14 @@ subject: Reading
 * **Description:** Quick oral games that help students interact with letters and sounds.
 * **Expanded Explanation:** Sound is the basis of spoken and written language, so playing with sounds is a key part of learning to read. Sound awareness warm-ups help students prepare their brains for reading and build foundational understandings of how sounds work in their language and how those sounds connect to letters. Sound awareness warm-ups should be interactive; incorporating movement is a great way to keep students engaged (e.g. The teacher says a word and students jump once if the word ends with a /t/ sound). Equally important, letter-sound awareness warm-ups connect a sound directly to the letter (e.g. The teacher says a word and students jump if the word begins with the letter "m"). These playful activities allow students to make mistakes in a low stakes setting. Teachers must be actively listening to students during these warm-ups. When teaching phonics, it is important that students are pronouncing sounds correctly. When leading the whole class in these warm-ups, the teacher will not be able to hear each individual student but they will be able to acknowledge the general sound the class says, making sure it is correct.
 * **Examples / Variations:**
-  * **Sound Awareness**
-    * Teacher makes sounds while students have their eyes closed (e.g. knocks on wall, claps, jumps) and students guess the sound
-    * Teacher says a word then students repeat the word and clap the syllables (e.g. Teacher says "baby," students say "baby," students clap and say *"ba" "by"* , 2 syllables)
-    * Students clap if the teacher says two words that rhyme, (e.g. Teacher says "bat, rat" and students clap once) . If the words do not rhyme, the students provide a rhyming word (e.g. Teacher says "light, lamp" and students say "right")
-    * Students stand up if a word has a medial sound of /o/ and sit down if the word does not have the medial /o/ sound (e.g. Teacher says "rot" and students stand up, teacher says "bed" and students sit down)
-    * Teacher says a word and students say the first (or last) sound they hear (e.g. Teacher says "sat" and students say "/s/")
-  * **Letter-Sound Awareness**
-    * Teacher says a letter sound and students guess what letter it is (e.g. Teacher says "/m/" and students guess the letter "m")
-    * Teacher says a word and students say the letter that the word ends with (e.g. Teacher says "rain" and students say "n")
+  * **Sound Awareness:** Teacher makes sounds while students have their eyes closed (e.g. knocks on wall, claps, jumps) and students guess the sound
+  * **Sound Awareness:** Teacher says a word then students repeat the word and clap the syllables (e.g. Teacher says "baby," students say "baby," students clap and say *"ba" "by"*, 2 syllables)
+  * **Sound Awareness:** Students clap if the teacher says two words that rhyme (e.g. Teacher says "bat, rat" and students clap once). If the words do not rhyme, the students provide a rhyming word (e.g. Teacher says "light, lamp" and students say "right")
+  * **Sound Awareness:** Students stand up if a word has a medial sound of /o/ and sit down if the word does not have the medial /o/ sound (e.g. Teacher says "rot" and students stand up, teacher says "bed" and students sit down)
+  * **Sound Awareness:** Teacher says a word and students say the first (or last) sound they hear (e.g. Teacher says "sat" and students say "/s/")
+  * **Letter-Sound Awareness:** Teacher says a letter sound and students guess what letter it is (e.g. Teacher says "/m/" and students guess the letter "m")
+  * **Letter-Sound Awareness:** Teacher says a word and students say the letter that the word ends with (e.g. Teacher says "rain" and students say "n")
+* **Delivery note:** This strategy covers two related but distinct skills — draw at least one example from **Sound Awareness** and one from **Letter-Sound Awareness** above, rather than only one type, since the Expanded Explanation treats both as "equally important."
 * **Reflection Prompt:** Where in the school day could you add a sound awareness warm-up?
 * **Teacher Voice:** "I like to see my students have fun when practicing sounds."
 

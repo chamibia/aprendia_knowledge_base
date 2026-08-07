@@ -149,7 +149,9 @@ Without clear boundaries, teachers may overextend themselves and experience burn
 
 > **[Deliver: 2–3 sentences summarizing key takeaways]**
 
-You explored four ways to strengthen connections and protect energy: peer mentoring moments, celebrating small wins, practicing active listening, and setting boundaries. Support does not require long meetings or deep disclosure—brief, simple actions can reduce isolation and build resilience. Next, we'll co-create a simple wellbeing plan.
+You explored four ways to strengthen connections and protect energy: peer mentoring moments, celebrating small wins, practicing active listening, and setting boundaries. Support does not require long meetings or deep disclosure—brief, simple actions can reduce isolation and build resilience. Before we move on, let's check what stuck with a few quick questions.
+
+**⚠️ HARD RULE:** The mini-quiz below is mandatory and comes immediately after this recap, before anything else. Do not transition to Module 4, preview its content, or end the module here. Module 4 is locked until this quiz is passed.
 
 ---
 

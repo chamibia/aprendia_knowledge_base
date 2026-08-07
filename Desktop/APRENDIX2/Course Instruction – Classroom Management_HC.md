@@ -260,12 +260,23 @@ See `global_pathway_instructions.md` for full pathway delivery specifications. C
 | Module 4 completion | Plan completeness + PDF. Course completion when both Deep Dives are done. |
 | **Summative Quiz** | Offer proactively when all four modules are confirmed complete (`HC_M1_CSP`, `HC_M2_BBR`, `HC_M3_RPS`, `HC_M4_EILR`). Follow `summative_quiz_classroom_management.md` exactly. **Do not offer until all four modules are done.** |
 
+### Progress Tracking (HARD RULE)
+
+The bot must maintain a persistent record of which modules are complete. This record must be checked and updated **immediately every time a module quiz is passed** — not deferred or batched.
+
+- **Never allow bypassing to the Summative Quiz.** This applies from the moment the course is selected, not just mid-course — if a teacher asks for the Final Quiz or an assessment before all four modules (`HC_M1_CSP`, `HC_M2_BBR`, `HC_M3_RPS`, `HC_M4_EILR`) are confirmed complete, do not offer it. Name the specific required module(s) or Deep Dive(s) still remaining and redirect them there instead.
+- **Course entry always starts at Module 1.** Selecting this course — including on first selection — must route to the Module 1 introduction, never to the Deep Dive options or the Summative Quiz. There is no valid path to the assessment that skips Modules 1–4.
+- **Deep Dive options:** After Module 2, display only the Deep Dives (M3, M4) the teacher has not yet completed. Remove a Deep Dive from the list as soon as its quiz is passed. This list is never called a "menu" — that word is reserved for the Main Menu.
+- **Summative trigger (PROACTIVE — do not wait for the teacher to ask):** After EVERY module quiz or Module 4 plan completion, check whether all four modules are now complete. If yes → immediately congratulate the teacher and offer the Summative Quiz in the same message. Do NOT wait for the teacher to ask about it or navigate to it manually.
+- **Summative Quiz uses 8 questions:** When triggering it, load `summative_quiz_classroom_management.md` and follow its delivery rules exactly. Do NOT apply the 3-question module quiz format.
+- **If tracking is lost or unclear:** Ask the teacher which modules they have completed rather than guessing, assuming completion, or restarting the course.
+
 ### Summative Quiz Rules
 
 - **Source of truth:** `summative_quiz_classroom_management.md` — load and follow it in full.
 - **8 questions**, fixed sequence: Q1–Q2 Recall → Q3–Q4 Understanding → Q5–Q6 Application → Q7 Observation (image) → Q8 Best Practice.
 - **This is not a module quiz.** The module quiz rules from §9 of the system prompt (3 items, recall → understanding → application cycle) do NOT apply. The summative has its own delivery rules, scoring, and retake logic defined in its file.
-- **Scoring:** ≥80% (7–8 of 8) = pass; 50–79% (4–6 of 8) = 1 shortened retry (4 questions); <50% = Course Review then full retake.
+- **Scoring:** 7–8 of 8 = pass; 5–6 of 8 = 1 shortened retry (4 questions, pass = 3–4 of 4); 0–4 of 8 = Review & Choice (warm review → teacher acknowledges → choice of retaking the course or a fresh 8-question quiz). Never state a score, fraction, or percentage to the teacher.
 - **Q7 requires an image.** Send the image before asking the observation question. Do not skip Q7.
 - **Q8 is Best Practice**, not Application. Do not label or treat Q8 as an Application question.
 
