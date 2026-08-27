@@ -52,7 +52,23 @@ subject: Reading
 
 ### 5. Strategies
 
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **STRATEGIES_INTRO** | Before delivering READING_M1_STRAT1 (first strategy in this module) | `![](https://i.imgur.com/xtWFIv2.jpeg)` |
+| **READING_M1_STRAT1** | When delivering Daily Picture Talk | `![](https://i.imgur.com/T6M7ZD7.jpeg)` |
+| **READING_M1_STRAT2** | When delivering Sound Awareness Warm-Ups | `![](https://i.imgur.com/ealjwLV.jpeg)` |
+| **READING_M1_STRAT3** | When delivering Blending and Segmenting Sounds | `![](https://i.imgur.com/jLBFmgY.jpeg)` |
+| **READING_M1_STRAT5** | When delivering Mini Shared Writing | `![](https://i.imgur.com/E9XcFmg.jpeg)` |
+
+📷 Send this image first, then begin the Strategies section:
+![](https://i.imgur.com/xtWFIv2.jpeg)
+
 #### READING_M1_STRAT1 / Strategy 1: Daily Picture Talk
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/T6M7ZD7.jpeg)
 
 * **Description:** Daily routine where learners are shown a picture/drawing and asked to describe what they see.
 * **Expanded Explanation:** The first form of reading is looking at pictures; children can connect to an image and draw meaning from it. Daily picture walks should be done at the beginning of reading lessons to establish a predictable routine. The habitual practice of using oral language to communicate thoughts at the beginning of reading lessons helps students build vocabulary and comprehension skills. Giving students the opportunity to express their ideas also builds confidence. This strategy can be implemented in low resource classrooms, as a simple drawing on the board is enough to spark discussion. Teachers can utilize daily picture talks as a way to build student background knowledge (e.g. "Remember when we looked at the picture of a garden? Today we will learn why plants, like vegetables in a garden, need sunlight"). During picture talks, teachers are not asking simple questions, but guiding and prompting student discussion with deep questions (e.g. "I heard Mo say that the picture showed a boy getting off the bus. Where do you think he may be going?").
@@ -66,6 +82,9 @@ subject: Reading
 * **Teacher Voice:** "When we start with a picture, students are more engaged in the learning process."
 
 #### READING_M1_STRAT2 / Strategy 2: Sound Awareness Warm-Ups
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/ealjwLV.jpeg)
 
 * **Description:** Quick oral games that help students interact with letters and sounds.
 * **Expanded Explanation:** Sound is the basis of spoken and written language, so playing with sounds is a key part of learning to read. Sound awareness warm-ups help students prepare their brains for reading and build foundational understandings of how sounds work in their language and how those sounds connect to letters. Sound awareness warm-ups should be interactive; incorporating movement is a great way to keep students engaged (e.g. The teacher says a word and students jump once if the word ends with a /t/ sound). Equally important, letter-sound awareness warm-ups connect a sound directly to the letter (e.g. The teacher says a word and students jump if the word begins with the letter "m"). These playful activities allow students to make mistakes in a low stakes setting. Teachers must be actively listening to students during these warm-ups. When teaching phonics, it is important that students are pronouncing sounds correctly. When leading the whole class in these warm-ups, the teacher will not be able to hear each individual student but they will be able to acknowledge the general sound the class says, making sure it is correct.
@@ -82,6 +101,9 @@ subject: Reading
 * **Teacher Voice:** "I like to see my students have fun when practicing sounds."
 
 #### READING_M1_STRAT3 / Strategy 3: Blending and Segmenting Sounds
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/jLBFmgY.jpeg)
 
 * **Description:** Practicing how to put sounds together to make words and how to break words into smaller sounds
 * **Expanded Explanation:** Blending and segmenting sounds is where students build on their knowledge of letters and letter sounds to begin reading printed words. Teachers are helping students use their letter-sound knowledge to decode words, increasing vocabulary and also forming the foundation for writing. Blending shows learners that putting sounds together creates words. Teachers provide students with only letters or sounds and students blend the sounds together to make a word (e.g. /h//a//t/, hat). Segmenting shows learners that words can be broken down into sounds. Teachers provide students with a word and students segment each sound they hear (e.g. hat, /h//a//t/). Both strategies are important for students to learn how to respond when coming across words that are new or unfamiliar. This is building resilience and problem solving skills. An important resource for blending and segmenting words is letter cards. Teachers can make these on posters or cardboard for durability.
@@ -107,6 +129,9 @@ subject: Reading
 * **Teacher Voice:** "I realized some students were reading without understanding."
 
 #### READING_M1_STRAT5 / Strategy 5: Mini Shared Writing
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/E9XcFmg.jpeg)
 
 * **Description:** Writing a sentence with students using their spoken ideas
 * **Expanded Explanation:** Shared writing helps students visualize their spoken words and ideas become print. When teachers share a short oral story or read-aloud, they can engage their students in a discussion to think about what they read as a class (e.g. "What happened in our story?" "What was the lesson?" "What happened at the beginning/middle/end?"). Next, teachers can write a sentence using the learner's ideas on the board, narrating their writing and engaging learners to help them spell by stretching out words. Once the sentence is finished, the class can read the sentence together. This models to students how writing is connected to reading. Since the sentence was written collaboratively, students feel included and proud, which strengthens confidence and motivation to read.

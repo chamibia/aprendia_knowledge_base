@@ -42,6 +42,19 @@ subject: Reading
 
 ---
 
+## MEDIA OUTPUT
+
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then deliver the related scene content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **READING_M4_STRAT1** | When delivering Scene 1 (Teach New Words in Context) | `![](https://i.imgur.com/L2D2SEH.jpeg)` |
+| **READING_M4_STRAT2** | When delivering Scene 2 (Use Retelling to Check Understanding) | `![](https://i.imgur.com/A3DtymV.jpeg)` |
+| **READING_M4_STRAT3** | When delivering Scene 3 (Build Fluency through Weekly Text Studies) | `![](https://i.imgur.com/ahCi9ME.jpeg)` |
+| **READING_M4_STRAT4** | When delivering Scene 4 (Ask Good Questions) | `![](https://i.imgur.com/JBUo8r3.jpeg)` |
+
+---
+
 ## INTERNAL: Concepts (Agent Guidance Only)
 
 > **Do NOT show these concepts to the user.** Concepts are overarching and apply across strategies. Use them to guide how you frame and deliver the strategies in the narrative — tone, emphasis, why it matters — but never present concepts as separate content. The user sees only strategies in action.
@@ -119,6 +132,9 @@ Comprehension strengthens when students connect new readings to what they alread
 
 ### READING_M4_STRAT1 — Teach New Words in Context (Vocabulary)
 
+📷 Send this image first, then deliver Scene 1:
+![](https://i.imgur.com/L2D2SEH.jpeg)
+
 **Description:** Introduce new words using visuals, actions, and real-life examples.
 
 **Expanded explanation:** Understanding words is essential for understanding text. When students decode a word, yet don't understand what it means, reading may feel confusing. Vocabulary development helps students connect spoken language and written language. Strong vocabulary supports comprehension and overall reading fluency. Teachers should introduce new words to students that are relevant and help children build meaning. When introducing new words, they should be explained clearly and through real-life examples (including objects or images, when possible). Using interactive activities that allow students to interact with vocabulary increases the likelihood that students will remember and use the new word. Vocabulary words should be used in the teacher and student spoken language in the classroom. Teaching a few new words at a time allows for students to learn terms in a meaningful way.
@@ -139,6 +155,9 @@ Comprehension strengthens when students connect new readings to what they alread
 
 ### READING_M4_STRAT2 — Use Retelling to Check Understanding (Comprehension)
 
+📷 Send this image first, then deliver Scene 2:
+![](https://i.imgur.com/A3DtymV.jpeg)
+
 **Description:** Students retell stories in their own words to show what they understood.
 
 **Expanded explanation:** Retelling helps students remember and organize ideas. Teachers should prompt students with simple sequencing words (e.g. first, next, then, after, last) to show clear transition between different events in a story or text. Retelling can be in various ways, like writing, drawing, acting, or orally. Retelling is an easy activity to bring choice into the classroom and allow students to choose which way they would like to retell a text to show understanding without pressure. Retelling also helps teachers identify confusion quickly. Teachers should analyze student retelling to check comprehension (e.g. Is there a part of the story a lot of students are having trouble retelling? Are students not retelling the beginning correctly — was there a word they did not understand?).
@@ -156,6 +175,9 @@ Comprehension strengthens when students connect new readings to what they alread
 ---
 
 ### READING_M4_STRAT3 — Build Fluency through Weekly Text Studies (Fluency)
+
+📷 Send this image first, then deliver Scene 3:
+![](https://i.imgur.com/ahCi9ME.jpeg)
 
 **Description:** Students interact with a text multiple times during a week to build smooth, confident, expressive reading.
 
@@ -175,6 +197,9 @@ Comprehension strengthens when students connect new readings to what they alread
 ---
 
 ### READING_M4_STRAT4 — Ask Good Questions (Comprehension)
+
+📷 Send this image first, then deliver Scene 4:
+![](https://i.imgur.com/JBUo8r3.jpeg)
 
 **Description:** Teachers ask a variety of questions to help students think and make connections.
 

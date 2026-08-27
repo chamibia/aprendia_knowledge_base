@@ -51,6 +51,15 @@ subject: Reading
 
 ### 5. Strategies
 
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **READING_M2_STRAT2** | When delivering Shared Reading and Finger Tracking | `![](https://i.imgur.com/ZRcE1wj.jpeg)` |
+| **READING_M2_STRAT3** | When delivering Echo→Choral→Independent Reading | `![](https://i.imgur.com/Fvgwpqx.jpeg)` |
+| **READING_M2_STRAT4** | When delivering Thinking Aloud | `![](https://i.imgur.com/hdGpTUB.jpeg)` |
+| **READING_M2_STRAT5** | When delivering Encourage Peer Discussion | `![](https://i.imgur.com/uiqLq3j.jpeg)` |
+
 #### READING_M2_STRAT1 / Strategy 1: Picture Walks
 
 * **Description:** Looking through pictures before reading to build background knowledge, review vocabulary, and make predictions.
@@ -65,6 +74,9 @@ subject: Reading
 
 #### READING_M2_STRAT2 / Strategy 2: Shared Reading and Finger Tracking
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/ZRcE1wj.jpeg)
+
 * **Description:** Reading a shared text while tracking each word as it is said
 * **Expanded Explanation:** Writing a short text on the board or on a poster invites all learners to practice reading. The text can be simple and feature vocabulary and high-frequency words that have recently been taught in reading class. Pointing to the words as they're read (also known as finger tracking) helps students see that spoken words match written words, along with noticing direction, spacing, and handwriting. When guiding the class in reading the shared text, teachers model finger tracking and instruct students to track in the air with their finger. This keeps all learners included, even without their own text. This is a strategy that works best when built into the weekly routine of a reading class (e.g. Every Monday, a new shared text is posted for the class to use and revisit throughout the week).
 * **Examples / Variations:**
@@ -77,6 +89,9 @@ subject: Reading
 
 #### READING_M2_STRAT3 / Strategy 3: Echo→Choral→Independent Reading
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/Fvgwpqx.jpeg)
+
 * **Description:** Guiding students to read by repeating, read together, and read independently
 * **Expanded Explanation:** This reading strategy builds student confidence step by step. Teachers can use a short story or paragraph (2 to 5 sentences) as the text for echo-choral-independent reading. The teacher should first introduce the text to their students (e.g "Today we will be reading a text called 'Going to the farm.' Before we read, what do you think will happen in the story?"). The teacher will then read a line of the story and students echo, or repeat, the line. This allows students to hear fluent reading first. Teachers should read slowly and clearly to help students understand the text. Next is choral reading, the teacher and students will read the same line again but together. Reading the line again with the teachers allows all students to practice without pressure. Then, the teacher allows students to try independent reading, where they can read the line by themselves. Not all students will feel comfortable reading independently. The teacher should encourage students to join independent reading based on their own comfort level. Reading should not be a place of shame or embarrassment. When teachers emphasize effort over perfection, students are more willing to take risks, practice fluency, and grow as readers.
 * **Examples / Variations:**
@@ -88,6 +103,9 @@ subject: Reading
 * **Teacher Voice:** "Echo and choral reading helped everyone participate, even shy learners and giving choice made independent reading feel safer."
 
 #### READING_M2_STRAT4 / Strategy 4: Thinking Aloud
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/hdGpTUB.jpeg)
 
 * **Description:** The teacher explains their thinking while reading.
 * **Expanded Explanation:** Thinking aloud shows students what skilled readers do in their minds. This strategy is the teacher modeling positive ways students can think to themselves when trying to decode or understand a word. Thinking aloud makes the reading process visible and less mysterious for learners, especially those who struggle silently. When the teacher thinks aloud, it shows students that reading involves looking for clues, noticing letters, and checking meaning (e.g. "I see the first letter is n. I know n says /n/. This word could be 'net' and that makes sense because the story is about fishing."). Thinking aloud also shows students how good readers can make meaning from text, building comprehension skills. Teachers can model to students how to make predictions, summarize, and ask questions (e.g. "Hm, I wonder why the character did that? Maybe it was because…"). In crowded classrooms, it supports many students at once and is applicable for learners of all reading levels.
@@ -102,6 +120,9 @@ subject: Reading
 * **Teacher Voice:** "I realized students didn't know how readers think." and "My students started using the thinking words I modeled."
 
 #### READING_M2_STRAT5 / Strategy 5: Encourage Peer Discussion
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/uiqLq3j.jpeg)
 
 * **Description:** Students briefly talk with a partner about what they read.
 * **Expanded Explanation:** Peer discussion gives students a safe way to process what they read by talking with a partner. Turn-and-talk allows all learners to participate, even those who are hesitant to speak in whole class discussions. Teachers should give students guiding questions to prompt student thinking (e.g. "What was the order of events in the story?" or "What was the problem the main character faced? Was there a resolution?"). When students explain ideas to each other, they practice using new words and organizing their thoughts, which strengthens comprehension. Peer talk also builds connection and belonging by promoting reading as a shared experience rather than a test. Teachers should be active during turn-and-talks. They should be walking around the classroom, listening to discussions, and helping facilitate deeper questions for some pairs. Over time, students will become more confident expressing ideas and listening to others.

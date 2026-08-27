@@ -66,6 +66,14 @@ subject: Healing Classrooms
 
 ### 6. Strategies
 
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **HC_M4_STRAT2** | When delivering Simple Teaching Aids | `![](https://i.imgur.com/hNufehK.jpeg)` |
+| **HC_M4_STRAT3** | When delivering Different Types of Questions | `![](https://i.imgur.com/ufMr2Ol.jpeg)` |
+| **HC_M4_STRAT4** | When delivering Movement-Based Learning | `![](https://i.imgur.com/ou6PkTD.jpeg)` |
+
 #### HC_M4_STRAT1 / Strategy 1: Multiple Ways to Respond
 
 * **Description:** Offer different ways for children to show their understanding.
@@ -91,6 +99,9 @@ subject: Healing Classrooms
 * **Teacher Voice:**  “More students stay calm and involved when they have more ways to respond.”
 
 #### HC_M4_STRAT2 / Strategy 2: Simple Teaching Aids
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/hNufehK.jpeg)
 
 * **Description:** Use simple teaching aids to support learning and understanding.
 
@@ -118,6 +129,9 @@ subject: Healing Classrooms
 
 #### HC_M4_STRAT3 / Strategy 3: Different Types of Questions
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/ufMr2Ol.jpeg)
+
 * **Description:** Ask a variety of assessing and advancing questions to keep all students thinking.
 
 * **Expanded Explanation:** Different types of questions serve different purposes for teachers and students. Closed questions are simple and let teachers check student understanding of a topic (e.g. “What does 5 − 2 equal?,” “What is the next shape in the pattern?,” “Does the sentence end with a period?”). Closed questions have one answer only and they may be yes/no questions. By contrast, open questions are deeper questions that encourage critical thinking. Open questions can have many different answers. “What is a word that rhymes with mat?,” “Our story ended with the boy arriving at the football field. What do you think happened next?,” “How would you draw a house with only squares and triangles?”). Using a mixture of closed and open questions during lessons keeps all learners engaged. Teachers can ask students who are becoming distracted or bored a question to reengage them in a lesson. Teachers can also check student understanding of content when they ask different types of questions and should observe which students may need additional support for specific learning goals. 
@@ -139,6 +153,9 @@ subject: Healing Classrooms
 * **Teacher Voice:** “When I asked different types of questions, more students raised their hands.”
 
 #### HC_M4_STRAT4 / Strategy 4: Movement-Based Learning
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/ou6PkTD.jpeg)
 
 * **Description:** Safe movement manages energy. 
 

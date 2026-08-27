@@ -52,7 +52,18 @@ subject: Reading
 
 ### 5. Strategies
 
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **READING_M6_STRAT1** | When delivering Teach Skills in Different Ways | `![](https://i.imgur.com/rA2k78Q.jpeg)` |
+| **READING_M6_STRAT2** | When delivering Use Quick Checks | `![](https://i.imgur.com/QvThp3N.jpeg)` |
+| **READING_M6_STRAT3** | When delivering Focus Groups | `![](https://i.imgur.com/ANKeTZq.jpeg)` |
+
 #### READING_M6_STRAT1 / Strategy 1: Teach Skills in Different Ways
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/rA2k78Q.jpeg)
 
 * **Description:** Present new reading skills by showing, saying, acting, and drawing.
 * **Expanded Explanation:** Children learn through different pathways, like seeing, hearing, or doing. Teachers can incorporate visual, verbal, and physical models when teaching reading skills to make learning more accessible to all students. Using multiple pathways or approaches also helps learners to build confidence, recognizing that everyone learns in different ways and speeds. If students are confused during lessons, teachers can present another pathway to help students understand (e.g. "We practiced chopping the sounds /f//l//a//g/ flag. Now I want us to write the word and tap the sounds we hear"), ensuring that no approach is presented as better than the other. Teachers should encourage students to share the approach that helped them understand and explain their reasoning (e.g. "Did drawing a 'bowl' or acting like we were eating out of a bowl help you understand the new word more?"). Sharing can allow other students to learn from peers who may think differently from them.
@@ -66,6 +77,9 @@ subject: Reading
 
 #### READING_M6_STRAT2 / Strategy 2: Use Quick Checks
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/QvThp3N.jpeg)
+
 * **Description:** Use fast, simple gestures or tasks to see who understands.
 * **Expanded Explanation:** Quick checks allow teachers to adjust instruction immediately. When introducing new concepts, a quick check, "show me" gesture, allows teachers to visually glance around the classroom to assess if their students are understanding or not. If the teacher assesses their class is understanding, they may move on with learning. However, if the teacher assesses that the class is not understanding, it allows them to address it immediately. Teachers can try explaining the content through different approaches (e.g. drawing, actions, writing, new explanation) then use another quick check to reassess student learning. Quick checks help teachers stay active in lessons and notice learning patterns of students (e.g. "My students always understand a word better when I write it and draw it."). Quick checks should be part of the learning process, not disruptive, and should not single out or shame individual students. Students should be encouraged to respond honestly, as classroom expectations have normalized making mistakes.
 * **Examples / Variations:**
@@ -77,6 +91,9 @@ subject: Reading
 * **Teacher Voice:** "I realized most of the class wanted more practice even though I thought they were ready to move on."
 
 #### READING_M6_STRAT3 / Strategy 3: Focus Groups
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/ANKeTZq.jpeg)
 
 * **Description:** Grouping same-level learners to provide specific support
 * **Expanded Explanation:** Focus groups allow teachers to adjust instruction based on students' current skill levels. Instead of delivering the same support to everyone, the teacher intentionally groups learners who need similar reading practice (e.g. letter-sound recognition, blending, fluency, vocabulary, or comprehension). These groups are flexible and change as students grow and develop reading skills. These are not permanent groups and should not be labeled as "fast" or "slow." Teachers can simply call names of students they want to work with on a given day. Focus groups are short and focused (10-15 minutes). The group is small (3 to 6 students) and skill-aligned. For multilingual learners, focus groups can provide additional oral language practice and vocabulary support. These groups allow students to have more chances to practice, respond, and receive specific feedback from the teacher. This builds students' confidence and reduces frustration. Focus groups are adaptable to fit the needs of a class. Teachers may place every student in a focus group or choose to only work with students who need extra support.

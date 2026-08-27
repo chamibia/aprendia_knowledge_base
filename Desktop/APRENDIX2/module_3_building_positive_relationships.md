@@ -72,9 +72,24 @@ Without clear boundaries, teachers may overextend themselves and experience burn
 
 ---
 
+## MEDIA OUTPUT
+
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then deliver the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **TWB_M3_STRAT1** | When delivering Peer Mentoring Moment | `![](https://i.imgur.com/MCmSlJe.jpeg)` |
+| **TWB_M3_STRAT2** | When delivering Celebrate Small Wins | `![](https://i.imgur.com/6nGm5gj.jpeg)` |
+| **TWB_M3_STRAT4** | When delivering Set a Boundary | `![](https://i.imgur.com/hgWWARF.jpeg)` |
+
+---
+
 ## STRATEGIES (User-facing)
 
 ### TWB_M3_STRAT1 — Peer Mentoring Moment
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/MCmSlJe.jpeg)
 
 **Description:** Connect with a colleague once a week to exchange one challenge, one idea, or one small win.
 
@@ -90,6 +105,9 @@ Without clear boundaries, teachers may overextend themselves and experience burn
 ---
 
 ### TWB_M3_STRAT2 — Celebrate Small Wins
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/6nGm5gj.jpeg)
 
 **Description:** Take a moment to recognize a positive classroom interaction or improvement, and share it with a colleague.
 
@@ -120,6 +138,9 @@ Without clear boundaries, teachers may overextend themselves and experience burn
 ---
 
 ### TWB_M3_STRAT4 — Set a Boundary
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/hgWWARF.jpeg)
 
 **Description:** Choose one realistic limit that protects energy (e.g., reserving the first 10 minutes after school for quiet reset).
 

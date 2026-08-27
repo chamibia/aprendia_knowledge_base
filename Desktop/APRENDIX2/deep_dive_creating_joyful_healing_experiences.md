@@ -36,6 +36,19 @@ subject: Reading
 
 ---
 
+## MEDIA OUTPUT
+
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then deliver the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **READING_M5_STRAT2** | When delivering Scene 2 (Create a Class Story Together) | `![](https://i.imgur.com/U1uqUdJ.jpeg)` |
+| **READING_M5_STRAT3** | When delivering Scene 3 (Invite Creative Expression) | `![](https://i.imgur.com/LySdZK3.jpeg)` |
+| **READING_M5_STRAT5** | When delivering Scene 5 (Reader's Theater) | `![](https://i.imgur.com/n9OK2BU.jpeg)` |
+| **VIGNETTE_DEBRIEF** | When delivering the Vignette Debrief (module end, closing image) | `![](https://i.imgur.com/PwDJ5yT.jpeg)` |
+
+---
+
 ## INTERNAL: Concepts (Agent Guidance Only)
 
 > **Do NOT show these concepts to the user.** Concepts are overarching and apply across strategies. Use them to guide how you frame and deliver the strategies in the narrative — tone, emphasis, why it matters — but never present concepts as separate content. The user sees only strategies in action.
@@ -133,6 +146,9 @@ Creating stories, retelling events, and drawing scenes allows students to learn 
 
 ### READING_M5_STRAT2 — Create a Class Story Together
 
+📷 Send this image first, then deliver Scene 2:
+![](https://i.imgur.com/U1uqUdJ.jpeg)
+
 **Description:** Tell a story as a whole class to build shared ownership and language skills.
 
 **Expanded explanation:** When children help create a story, they feel ownership and pride. Including students' ideas, names, and familiar places makes the story feel meaningful and affirming. Writing their ideas on the board shows that their words matter. This strategy creates rich reading material without needing many books. Students can practice creative skills, like brainstorming, and collaborative skills, like combining ideas and compromising. It is important to include various students while building a story to ensure inclusiveness. Creating class stories regularly allows students to understand that their ideas might not be used now, but they can be for the next story. Teachers should act as facilitators to guide student ideas and collaboration. Teachers should use encouraging language that celebrates student participation and ideas (e.g. "This was a good contribution to the beginning of the story"). If students are not moving through story sequences, teachers should prompt them through sequence words (e.g. "I am hearing a lot of good ideas. What happens next?... What happens in the middle?... What will happen at the end?").
@@ -152,6 +168,9 @@ Creating stories, retelling events, and drawing scenes allows students to learn 
 ---
 
 ### READING_M5_STRAT3 — Invite Creative Expression
+
+📷 Send this image first, then deliver Scene 3:
+![](https://i.imgur.com/LySdZK3.jpeg)
 
 **Description:** Give students regular opportunities to draw, talk, act, or write about their ideas.
 
@@ -191,6 +210,9 @@ Creating stories, retelling events, and drawing scenes allows students to learn 
 
 ### READING_M5_STRAT5 — Reader's Theater
 
+📷 Send this image first, then deliver Scene 5:
+![](https://i.imgur.com/n9OK2BU.jpeg)
+
 **Description:** Students work together to perform a reading of a text or story.
 
 **Expanded explanation:** Reader's Theater allows students to practice reading a text multiple times with a purpose — to perform it for their class. Teacher breaks students into small groups (4 to 6 students) and provides short, simple scripts. They should include enough characters so each student has a role. Scripts can reflect students' daily lives (e.g. going to school, helping a friend, watching a football match), making the reading meaningful. Reader's Theater does not require special materials, only teacher-written scripts. The scripts should contain decodable sentences, with dialogue that forms a simple, clear story. In low-resource classrooms, students can copy the script into their notebooks or share the teacher's text. Students will practice performing their script together, helping one another decode the sentences for their character. Then students will perform for the class, reading from their scripts to focus on accuracy, smoothness, and expression. Performing in front of peers builds confidence, and even hesitant readers may be willing to participate when they are part of a group. Teachers should review that when the class is the audience, they should be respectful, kind, and encouraging. This is an activity that allows students to be creative and have fun with reading.
@@ -209,6 +231,9 @@ Creating stories, retelling events, and drawing scenes allows students to learn 
 ---
 
 ## VIGNETTE DEBRIEF (Module End)
+
+📷 Send this image first, then deliver the debrief:
+![](https://i.imgur.com/PwDJ5yT.jpeg)
 
 > **Agent:** Resolve the vignette generated for this module. Show the teacher's classroom becoming a place where reading is expressive, co-created, creative, culturally reflective, and performed together — where students see themselves as readers and authors, not just decoders. Name what the teacher did and why it mattered, in 2–3 sentences. End with a one-sentence bridge into the quiz — NOT back into the Deep Dive options — e.g. "Joyful, identity-affirming reading isn't a departure from good instruction — it's part of it. Before we wrap up, let's check what stuck with a few quick questions." **Do not preview the Deep Dive options here; they come back into view only after this quiz is passed.**
 >

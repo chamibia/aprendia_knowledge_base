@@ -18,6 +18,9 @@ subject: Healing Classrooms
 
 ---
 
+📷 Send this image first, then begin the module:
+![](https://i.imgur.com/ET5VppX.jpeg)
+
 ### 1. Information
 
 | Field | Input |
@@ -69,6 +72,15 @@ subject: Healing Classrooms
 
 ### **6\. Strategies**
 
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **INTRO** | First bot message when this module starts | `![](https://i.imgur.com/ET5VppX.jpeg)` |
+| **HC_M3_STRAT3** | When delivering Turn-and-Talk | `![](https://i.imgur.com/26KQXqK.jpeg)` |
+| **HC_M3_STRAT4** | When delivering Structured Peer Support | `![](https://i.imgur.com/BYKxfwV.jpeg)` |
+| **HC_M3_STRAT5** | When delivering Connect Lessons to Children's Lives | `![](https://i.imgur.com/AD1WBXK.jpeg)` |
+
 #### **HC\_M3\_STRAT1 / Strategy 1: Structured Group Work**
 
 * **Description:** Organize pairs or small groups with clear roles so students can work together collaboratively
@@ -113,6 +125,9 @@ subject: Healing Classrooms
 
 #### **HC\_M3\_STRAT3 / Strategy 3: Turn-and-Talk**
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/26KQXqK.jpeg)
+
 * **Description:** Use short partner discussions so students can share ideas safely. 
 
 * **Expanded Explanation:** Turn-and-talk gives every child the opportunity to speak without the pressure of speaking to the whole class. It helps students practice listening and respectful communication. Interactively model the rules and expectations for turn and talk, including staying on-task, voice level, and respectful language. Turn-and-talk is done in pairs. Teachers need to consider the number of students present to adjust if there may be one group of three. Teachers should clearly communicate the amount of time the class has to “turn-and talk” and who each student is paired with. Provide a question, statement, or topic for students to discuss with their partner.
@@ -133,6 +148,9 @@ subject: Healing Classrooms
 
 #### HC_M3_STRAT4 / Strategy 4: Structured Peer Support
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/BYKxfwV.jpeg)
+
 * **Description:** Teach students simple, respectful ways to help and speak to one another.
 
 * **Expanded Explanation:** Peer interactions can build positive relationships and promote the learning process. Peer support allows students with low-understanding to receive help and allows high-understanding students to further learn through explaining/teaching. The whole class should learn the expectation for peer support, as all students are capable of helping others. Modeling phrases and behaviors reduces misunderstandings, conflict, and off-task behavior. Teachers should review asking a peer first before helping and using kind, respectful language. Reinforce how being a helpful peer relates back to overall classroom rules. Support can be academic, but also behavioral like turn-taking, listening, and using kind words.
@@ -150,6 +168,9 @@ subject: Healing Classrooms
 * **Teacher Voice:** “When students explain ideas to each other, understanding improves.”
 
 #### HC_M3_STRAT5 / Strategy 5: Connect Lessons to Children’s Lives**
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/AD1WBXK.jpeg)
 
 * **Description:** Use familiar experiences to build trust and engagement.
 

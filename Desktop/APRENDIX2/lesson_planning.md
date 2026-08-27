@@ -2,7 +2,7 @@
 
 ## Overview
 
-Lesson Planning is a **Classroom Toolkit tool** that helps a teacher generate a **ready-to-teach plan for an upcoming lesson** in WhatsApp, with an optional **PDF export**. It is designed for crisis/low-resource contexts and interrupted use.
+Lesson Planning is a **Classroom Toolkit tool** that helps a teacher generate a **ready-to-teach plan for an upcoming lesson** in WhatsApp. It is designed for crisis/low-resource contexts and interrupted use.
 
 ## Objective
 
@@ -26,7 +26,19 @@ Classroom Toolkit → Lesson Planning
 Mentor opener:
 "Let's plan one lesson you can teach soon. Keep it short and practical."
 
-## Q1 (open-ended, bounded)
+## Q1 (confirm from profile, bounded)
+
+**Question:** "Quick check before we plan: is this for your usual class — [class_size] students, [students_grade_level]?"
+Instruction: "Pull `class_size` and `students_grade_level` from the teacher's onboarding profile (§13/§14 of the main system prompt) and present them back as a yes/no confirmation — do not ask this as an open question when profile values already exist."
+Examples (only used if profile values are missing and must be asked directly instead):
+
+• 45 students, Grade 3
+• 60 students, JSS1
+• 30 students, Primary 5
+
+**Guardrail:** If `class_size` or `students_grade_level` is missing from the profile, skip the confirm framing and ask directly (only once): "How many students, and what grade level, is this lesson for?" If the teacher says this lesson is for a different class than their usual one, capture the corrected class size and grade level for use in this plan only — do not overwrite the stored onboarding profile.
+
+## Q2 (open-ended, bounded)
 
 **Question:** "What is the performance objective of the lesson?"
 Instruction: "Share your own objective or one from curriculum."
@@ -39,7 +51,7 @@ Examples:
 **Guardrail:** If the answer is general, missing a specific topic or student outcome, ask one quick follow-up (only once):
 "Thank you for sharing. Can you be more specific? Here is an example: Explain the meaning of a verb"
 
-## Q2 (open-ended, bounded)
+## Q3 (open-ended, bounded)
 
 **Question:** "How much time do you have for the lesson?"
 Instruction: "Reply in one short line with time."
@@ -52,7 +64,7 @@ Examples:
 **Guardrail:** If time is missing, ask one quick follow-up (only once):
 "How long?"
 
-## Q3 (options provided, bounded)
+## Q4 (options provided, bounded)
 
 **Question:** "Do you have any materials for this lesson?"
 Instruction: "Respond with the number that best represents your classroom."
@@ -66,7 +78,7 @@ Options:
 **Guardrail:** If number is missing, ask one quick follow-up (only once):
 "Which number reflects your classroom?"
 
-## Q4 (options provided, bounded)
+## Q5 (options provided, bounded)
 
 **Question:** "How ready are your students for this objective?"
 Instruction: "Respond with the number that best represents your students."
@@ -81,7 +93,7 @@ Options:
 **Guardrail:** If number is missing, ask one quick follow-up (only once):
 "Which number reflects your students?"
 
-## Q5 (open-ended, bounded)
+## Q6 (open-ended, bounded)
 
 **Question:** "What challenges should we plan ahead for to ensure all students can participate in the lesson?"
 Instruction: "Share a challenge like language, skill level, student wellbeing, or something else."
@@ -97,11 +109,11 @@ Examples:
 
 ## Output (WhatsApp-first, one-screen plan)
 
-The plan must use this exact structure every time:
+The plan must use this exact structure every time. This is verbatim WhatsApp output — use WhatsApp's own single-asterisk bold (`*bold*`), never double-asterisk `**bold**`, per the WhatsApp Formatting Rules in the main system prompt:
 
 > Thank you for answering those questions! Let's build the lesson plan together, step by step — I'll suggest, and you can accept, change, or add your own ideas before we move on. Ready?
 
-**Step 1: Warm-up**
+*Step 1: Warm-up*
 How would you like to introduce the topic or access students' background knowledge?
 
 1. ...
@@ -110,7 +122,7 @@ How would you like to introduce the topic or access students' background knowled
 
 Which warm-up do you like best, or do you have a different idea?
 
-**Step 2: I Do (Teacher Modeling)**
+*Step 2: I Do (Teacher Modeling)*
 How would you like to model this to students? Here are two ideas:
 
 1. ...
@@ -119,7 +131,7 @@ How would you like to model this to students? Here are two ideas:
 
 Which option do you like?
 
-**Step 3: We Do (Practice Together)**
+*Step 3: We Do (Practice Together)*
 How would you like to practice with your students here?
 
 1. ...
@@ -128,7 +140,7 @@ How would you like to practice with your students here?
 
 Which one of these would you like to use, or do you want to combine ideas?
 
-**Step 4: You Do (Independent Practice)**
+*Step 4: You Do (Independent Practice)*
 How would you like students to show their understanding? For example:
 
 1. ...
@@ -137,7 +149,7 @@ How would you like students to show their understanding? For example:
 
 Which option do you like, or would you like different ideas?
 
-**Step 5: Wrap-up**
+*Step 5: Wrap-up*
 Let's build your wrap-up so you can close the lesson. Which best fits your style or class, or add your own idea!
 
 1. Closing reflection (relating to real-world or classroom learning)
@@ -162,36 +174,30 @@ Let's build your wrap-up so you can close the lesson. Which best fits your style
 
 ## Options loop (always)
 
-Save | Another version | Export PDF | Back
+Save | Another version | Back
 
 # Builder Implementation Checklist (Bianca)
 
 ## A) Flow nodes
 
 1. Toolkit menu → Lesson Planning
-2. Q1 capture → store
-3. Q1 follow-up only if missing a specific topic/outcome
+2. Q1 capture → store (confirm class size & grade level from profile, or capture correction)
+3. Q1 follow-up only if profile values are missing, or the teacher indicates a different class
 4. Q2 capture → store
-5. Q2 follow-up only if time is missing
+5. Q2 follow-up only if missing a specific topic/outcome
 6. Q3 capture → store
-7. Q3 follow-up only if number is missing
+7. Q3 follow-up only if time is missing
 8. Q4 capture → store
 9. Q4 follow-up only if number is missing
 10. Q5 capture → store
-11. Q5 follow-up only if challenge is missing or too general
-12. Direct LLM generation (no retrieval) — only after Q1–Q5 are all captured
-13. Render output contract
-14. Options loop
+11. Q5 follow-up only if number is missing
+12. Q6 capture → store
+13. Q6 follow-up only if challenge is missing or too general
+14. Direct LLM generation (no retrieval) — only after Q1–Q6 are all captured
+15. Render output contract
+16. Options loop
 
-## B) PDF export
-
-* Trigger: user selects Export PDF
-* Use `lp.plan_text` + metadata (topic/learners, time) as header
-* Output: 1-page PDF with the same headings as WhatsApp plan
-* Failure fallback (single line):
-  "I couldn't generate a PDF right now. Your plan is still here in chat."
-
-## C) Telemetry (minimum)
+## B) Telemetry (minimum)
 
 * `toolkit_lesson_planning_started`
 * `toolkit_lesson_planning_q1_captured`
@@ -199,10 +205,10 @@ Save | Another version | Export PDF | Back
 * `toolkit_lesson_planning_q3_captured`
 * `toolkit_lesson_planning_q4_captured`
 * `toolkit_lesson_planning_q5_captured`
+* `toolkit_lesson_planning_q6_captured`
 * `toolkit_lesson_planning_generated`
 * `toolkit_lesson_planning_saved`
 * `toolkit_lesson_planning_regenerated`
-* `toolkit_lesson_planning_pdf_exported`
 * `latency_seconds`
 
 # Builder Prompt Set
@@ -217,13 +223,13 @@ Objective: deliver one classroom-ready plan the teacher can teach soon, optimize
 
 Mandatory flow:
 
-1. Ask all 5 questions, in order (Q1–Q5) — one at a time, waiting for a reply before moving to the next. Do not skip a question, reorder them, or generate the plan until every one of Q1–Q5 has been answered (each may have used its one allowed guardrail follow-up).
-2. Call the Direct LLM prompt (no retrieval) — only once Q1–Q5 are all captured.
+1. Ask all 6 questions, in order (Q1–Q6) — one at a time, waiting for a reply before moving to the next. Do not skip a question, reorder them, or generate the plan until every one of Q1–Q6 has been answered (each may have used its one allowed guardrail follow-up).
+2. Call the Direct LLM prompt (no retrieval) — only once Q1–Q6 are all captured.
 3. Show the plan exactly as returned.
-4. Always show options: Save | Another version | Export PDF | Back.
+4. Always show options: Save | Another version | Back.
 
 Step options format (Warm-up, I Do, We Do, You Do):
-For each of these steps, generate exactly 2 original options (numbered 1–2) tailored to the teacher's inputs from Q1–Q5. Always append a fixed 3rd option inviting the teacher's own idea (e.g. "Another idea you have?"). Never label the generated options as AI-generated in the output shown to the teacher.
+For each of these steps, generate exactly 2 original options (numbered 1–2) tailored to the teacher's inputs from Q1–Q6, including the confirmed class size and grade level from Q1. Always append a fixed 3rd option inviting the teacher's own idea (e.g. "Another idea you have?"). Never label the generated options as AI-generated in the output shown to the teacher.
 
 Inputs available from system (use them, don't ask the teacher):
 `teacher_language`, `profile_tags`, `context_assessment_summary`, `interaction_history_summary`, `recent_outputs_same_tool` (last 2), `saved_items_same_tool_summary` (last 2).
@@ -231,9 +237,10 @@ Inputs available from system (use them, don't ask the teacher):
 Quality gate (required):
 Before sending the plan, verify:
 
-* All of Q1–Q5 were answered before generation was triggered — including student readiness (Q4) and the challenge to plan for (Q5)
-* It matches Q1–Q5
+* All of Q1–Q6 were answered before generation was triggered — including the confirmed class size/grade level (Q1), student readiness (Q5), and the challenge to plan for (Q6)
+* It matches Q1–Q6
 * It follows the output contract exactly
+* It is appropriately scaled to the confirmed class size (whole-class vs. small-group feasibility, materials per student) — per the class_size personalization rules in the main system prompt §9
 * It assumes low resources appropriately
 * It is culturally portable
 * It is not a near-duplicate of the last 2 delivered or last 2 saved plans
@@ -244,7 +251,6 @@ Action handling:
 
 * **Save:** store exact `plan_text` + metadata; reply "Saved." then show options again.
 * **Another version:** regenerate using same inputs; must be meaningfully different.
-* **Export PDF:** call PDF tool with `plan_text`; if it fails, send fallback line.
 * **Back:** return to Classroom Toolkit menu.
 
 Non-negotiables:
@@ -264,17 +270,19 @@ Interaction history: `{{interaction_history_summary}}`
 Recent plans delivered (last 2): `{{recent_outputs_same_tool}}`
 Saved plans (last 2): `{{saved_items_same_tool_summary}}`
 
-Teacher inputs (raw) — all 5 must be present; do not generate if any are missing:
-Q1 (performance objective): `{{lp.objective_raw}}`
-Q2 (time available): `{{lp.time_raw}}`
-Q3 (materials available): `{{lp.materials_raw}}`
-Q4 (student readiness): `{{lp.readiness_raw}}`
-Q5 (challenges to plan for): `{{lp.challenges_raw}}`
+Teacher inputs (raw) — all 6 must be present; do not generate if any are missing:
+Q1 (class size & grade level, confirmed): `{{lp.class_size_raw}}` / `{{lp.grade_level_raw}}`
+Q2 (performance objective): `{{lp.objective_raw}}`
+Q3 (time available): `{{lp.time_raw}}`
+Q4 (materials available): `{{lp.materials_raw}}`
+Q5 (student readiness): `{{lp.readiness_raw}}`
+Q6 (challenges to plan for): `{{lp.challenges_raw}}`
 
 Hard constraints:
 
 * Total length 220–280 words max
 * Steps: exactly 5 steps (Warm-up, I do, We do, You do, Wrap-up); each step line ≤25 words
+* Must explicitly account for the confirmed class size in Warm-up/We do/You do (e.g. whole-class vs. small-group feasibility, materials per student) — apply the same class_size rules as the main system prompt §9 Personalization (e.g. over 60 students: avoid pair work or tasks requiring individual monitoring; prioritize whole-class, choral, and slate-based activities)
 * Low-resource by default; include alternatives
 * No jargon; no long explanations
 * Must not be a near-duplicate of last 2 delivered or last 2 saved
@@ -283,28 +291,29 @@ Hard constraints:
 
 ### Output template
 
-**Title:**
+WhatsApp cannot render tables — write every step as a plain-text paragraph (no columns, no pipes, no Markdown table syntax). For each step, fold the teacher's action, the pupils' action, and the teaching strategy into one flowing sentence or two, not separate labeled fields.
 
-**Performance Objective:**
+Title: ...
 
-**Materials:**
+Performance Objective: ...
 
-|  | Teacher's Actions | Pupils' Actions | Teaching Strategies |
-| :---- | :---- | :---- | :---- |
-| Warm-up |  |  |  |
-| Teacher Presentation (I do) |  |  |  |
-| Whole Class Practice (We do) |  |  |  |
-| Independent Practice (You do) |  |  |  |
-| Wrap-up |  |  |  |
-| Differentiation |  |  |  |
-| What went well… Even better if… | *Reflect on what worked during your lesson and what could have been improved!* |  |  |
+Materials: ...
+
+1. Warm-up (include time): ...
+2. I do — Teacher Modeling (include time): ...
+3. We do — Practice Together (include time): ...
+4. You do — Independent Practice (include time): ...
+5. Wrap-up (include time): ...
+6. Differentiation — Support: ... Extension: ...
+
+What went well / Even better if: Reflect on what worked during your lesson and what could have been improved!
 
 Silent self-check:
 Confirm it matches the teacher's inputs and is runnable tomorrow. Rewrite once if needed.
 
 ---
 
-# Instructional Design blanks (Mackenzie + Shelby fill)
+# Instructional Design blanks 
 
 1. Topic examples per subject that are culturally portable and low-resource (2–3 each): ______
 2. What "good lesson plan" means for aprendIA (5 bullet checklist):
@@ -327,7 +336,3 @@ Confirm it matches the teacher's inputs and is runnable tomorrow. Rewrite once i
      * Assume single cultural, religious, or family norm as universal
      * Suggest resources/materials that are expensive or unavailable to users
      * Assume the learning level of students based off grade level alone
-4. PDF format preference (one page vs two; include title/date or not):
-   * PDFs should be two pages maximum
-   * Include title, performance objective, and materials needed.
-     * Reach out to the Nigeria team about what other key things headmasters/teachers would like to see (e.g. grade level, subject, topic…)?

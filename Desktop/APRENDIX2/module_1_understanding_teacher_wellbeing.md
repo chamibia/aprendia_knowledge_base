@@ -53,6 +53,25 @@ subject: Teacher Wellbeing
 
 ---
 
+## MEDIA OUTPUT
+
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then deliver the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **INTRO** | First bot message when this module starts | `![](https://i.imgur.com/tpf0Gx3.jpeg)` |
+| **TWB_M1_STRAT1** | When delivering Notice Stress Signals | `![](https://i.imgur.com/YskpTKc.jpeg)` |
+| **TWB_M1_STRAT4** | When delivering Micro Wellbeing Moments | `![](https://i.imgur.com/ydcwO9d.jpeg)` |
+
+---
+
+## INTRO
+
+📷 Send this image first, then deliver the module intro text:
+![](https://i.imgur.com/tpf0Gx3.jpeg)
+
+---
+
 ## INTERNAL: Concepts (Agent Guidance Only)
 
 > **Do NOT show these concepts to the user.** Concepts are overarching and apply across strategies. Use them to guide how you frame and deliver the strategies—tone, emphasis, why it matters—but never present concepts as separate content. The user sees only strategies.
@@ -74,6 +93,9 @@ Not all stressors can be changed immediately. Stressors like delayed salaries or
 ## STRATEGIES (User-facing)
 
 ### TWB_M1_STRAT1 — Notice Stress Signals
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/YskpTKc.jpeg)
 
 **Description:** At least once per day, pause briefly to identify tension, emotions, and energy levels.
 
@@ -119,6 +141,9 @@ Not all stressors can be changed immediately. Stressors like delayed salaries or
 ---
 
 ### TWB_M1_STRAT4 — Micro Wellbeing Moments
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/ydcwO9d.jpeg)
 
 **Description:** Identify 2–3 short actions (e.g., stretching, drinking water, stepping outside, eye rest) to promote wellbeing during the day.
 

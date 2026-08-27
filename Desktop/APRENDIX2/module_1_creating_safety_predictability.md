@@ -18,6 +18,9 @@ subject: Healing Classrooms
 
 ---
 
+📷 Send this image first, then begin the module:
+![](https://i.imgur.com/1R97HZ1.jpeg)
+
 ### 1. Information
 
 | Field | Input  |
@@ -65,6 +68,16 @@ subject: Healing Classrooms
 
 ### 6. Strategies
 
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **INTRO** | First bot message when this module starts | `![](https://i.imgur.com/1R97HZ1.jpeg)` |
+| **HC_M1_STRAT2** | When delivering Morning Greeting | `![](https://i.imgur.com/nfKC59b.jpeg)` |
+| **HC_M1_STRAT3** | When delivering Teacher Modeling | `![](https://i.imgur.com/ASYaIRm.jpeg)` |
+| **HC_M1_STRAT4** | When delivering Co-Create Classroom Rules | `![](https://i.imgur.com/tOWpSy1.jpeg)` |
+| **HC_M1_STRAT5** | When delivering Consistent, Non-Violent Consequences | `![](https://i.imgur.com/nO5xB61.jpeg)` |
+
 #### **HC_M1_STRAT1 / Strategy 1: Daily Routine & Agenda**
 
 * **Description:** Setting a simple daily schedule helps children know what comes next and feel safe.
@@ -85,6 +98,9 @@ subject: Healing Classrooms
 
 #### **HC_M1_STRAT2 / Strategy 2: Morning Greeting**
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/nfKC59b.jpeg)
+
 * **Description:** Welcoming students by name makes them feel known and safe.
 
 * **Expanded Explanation:** A greeting builds trust and emotional safety before learning begins. When students are welcomed by name, they feel seen, valued, and known as individuals. Greeting students at the door also allows the teacher to assess students’ moods or signs of distress, helping teachers make informed decisions on how to best support different students. Morning greetings can set a positive tone for the school day. A simple statement like, “I am glad you are here today,” can help students feel safe, valued, and excited to learn. 
@@ -103,6 +119,9 @@ subject: Healing Classrooms
 
 #### **HC_M1_STRAT3 / Strategy 3: Teacher Modeling**
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/ASYaIRm.jpeg)
+
 * **Description:** Interactive modeling sets clear, predictable expectations. 
 
 * **Expanded Explanation:** Interactive modeling is an effective way to teach classroom expectations. When expectations are practiced, the teacher creates an efficient, predictable classroom environment where students feel safe and ready to learn. Teachers can model skills like listening, helping a classmate, or working in groups. Teachers can model routines like cleaning up, arrival/dismissal, or transitioning between classes.  Modeling starts by naming the skill and why it is important. The teacher then models the skill exactly how they want students to do it. Next, the students comment on what they observed the teacher do. The teacher will invite one or two students to model the skill exactly as they did it and the class will share what they observed again. After that, the whole class practices the skill together and the teacher provides specific feedback. 
@@ -118,6 +137,9 @@ subject: Healing Classrooms
 * **Teacher Voice:**  “My students feel safe and ready to learn when expectations are clearly modeled and practiced.”
 
 #### **HC_M1_STRAT4 / Strategy 4: Co-Create Classroom Rules**
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/tOWpSy1.jpeg)
 
 * **Description:** Creating rules together builds shared responsibility. 
 
@@ -140,6 +162,9 @@ subject: Healing Classrooms
 * **Teacher Voice:** “When students help create the rules, they follow them better.”
 
 #### **HC_M1_STRAT5 / Strategy 5: Consistent, Non-Violent Consequences**
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/nO5xB61.jpeg)
 
 * **Description:** Predictable consequences help children learn without fear.
 

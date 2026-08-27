@@ -36,6 +36,18 @@ subject: Reading
 
 ---
 
+## MEDIA OUTPUT
+
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then deliver the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **READING_M7_STRAT1** | When delivering Scene 1 (One Text, Four Ways) | `![](https://i.imgur.com/jskxs9g.jpeg)` |
+| **READING_M7_STRAT3** | When delivering Scene 3 (Environmental Print Hunt) | `![](https://i.imgur.com/f2scSWC.jpeg)` |
+| **READING_M7_STRAT5** | When delivering Scene 5 (Let Children Be Authors) | `![](https://i.imgur.com/jbmxhRB.jpeg)` |
+
+---
+
 ## INTERNAL: Concepts (Agent Guidance Only)
 
 > **Do NOT show these concepts to the user.** Concepts are overarching and apply across strategies. Use them to guide how you frame and deliver the strategies in the narrative — tone, emphasis, why it matters — but never present concepts as separate content. The user sees only strategies in action.
@@ -113,6 +125,9 @@ When students create texts, the classroom library grows. Student-made material b
 
 ### READING_M7_STRAT1 — One Text, Four Ways
 
+📷 Send this image first, then deliver Scene 1:
+![](https://i.imgur.com/jskxs9g.jpeg)
+
 **Description:** Use one text in different ways throughout the school week.
 
 **Expanded explanation:** One text can support different reading skills, like decoding, fluency, comprehension, and vocabulary. In low-resource classrooms, one text, four ways can serve as a reading text throughout an entire school week, needing limited materials. The texts should be 3 to 5 sentences long and include a title.
@@ -154,6 +169,9 @@ When students create texts, the classroom library grows. Student-made material b
 
 ### READING_M7_STRAT3 — Environmental Print Hunt
 
+📷 Send this image first, then deliver Scene 3:
+![](https://i.imgur.com/f2scSWC.jpeg)
+
 **Description:** Use labels, signs, bags, or packaging as real-world reading practice.
 
 **Expanded explanation:** Community print connects literacy to daily life as students read signs, food packaging, or classroom labels. These texts are short, yet meaningful. In low-resource settings, environmental print can increase reading opportunities without cost. Teachers can use environmental print as a way to connect reading to real-world experiences by inviting students to bring in examples of environmental print from their home (e.g. wrapper or label). Teachers can post classroom labels around the learning environment using small paper cards (e.g. door, board, desk, pens); this not only acts as print in the classroom, but also supports growing student vocabulary.
@@ -191,6 +209,9 @@ When students create texts, the classroom library grows. Student-made material b
 ---
 
 ### READING_M7_STRAT5 — Let Children Be Authors
+
+📷 Send this image first, then deliver Scene 5:
+![](https://i.imgur.com/jbmxhRB.jpeg)
 
 **Description:** Support children in creating simple books using drawings, labels, or short sentences.
 

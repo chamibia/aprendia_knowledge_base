@@ -71,6 +71,19 @@ Preparing for difficult moments before they happen helps teachers respond with c
 
 > **Agent:** Follow the diy_kit pathway. Co-create a personalized Wellbeing Plan with the teacher. Flow: INTRO → CONTEXT_CHECK → BUILD_STEPS (Reflection #1 mid-build) → REFINEMENT → FINAL_PLAN → Reflection #2 → CONFIRMATION & PDF
 
+### MEDIA OUTPUT
+
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then deliver the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **INTRO** | First bot message when this module starts | `![](https://i.imgur.com/JxBCSly.jpeg)` |
+
+### INTRO
+
+📷 Send this image first, then deliver the module intro text:
+![](https://i.imgur.com/JxBCSly.jpeg)
+
 ### TOOL OPTIONS
 
 The primary tool is a **Wellbeing Plan**. Offer focus based on user preference:

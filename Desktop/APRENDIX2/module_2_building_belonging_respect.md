@@ -44,6 +44,26 @@ subject: Healing Classrooms
 
 ---
 
+## MEDIA OUTPUT
+
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then deliver the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **INTRO** | First bot message when this module starts | `![](https://i.imgur.com/afjtNh6.jpeg)` |
+| **HC_M2_STRAT1** | When delivering Scene 1 (Meaningful Classroom Jobs) | `![](https://i.imgur.com/0PSjpRj.jpeg)` |
+| **HC_M2_STRAT3** | When delivering Scene 3 (Specific Positive Feedback) | `![](https://i.imgur.com/rCS3u1z.jpeg)` |
+| **HC_M2_STRAT5** | When delivering Scene 5 (Respectful Language for All) | `![](https://i.imgur.com/BduvZZX.jpeg)` |
+
+---
+
+## INTRO
+
+📷 Send this image first, then deliver the module intro text:
+![](https://i.imgur.com/afjtNh6.jpeg)
+
+---
+
 ## INTERNAL: Concepts (Agent Guidance Only)
 
 > **Do NOT show these concepts to the user.** Concepts are overarching and apply across strategies. Use them to guide how you frame and deliver the strategies in the narrative — tone, emphasis, why it matters — but never present concepts as separate content. The user sees only strategies in action.
@@ -120,6 +140,9 @@ The words teachers use matter. Teacher language can help students or hurt them. 
 
 ### HC_M2_STRAT1 — Meaningful Classroom Jobs
 
+📷 Send this image first, then deliver Scene 1:
+![](https://i.imgur.com/0PSjpRj.jpeg)
+
 **Description:** Rotating simple classroom jobs helps students feel responsible and included.
 
 **Expanded explanation:** When students are given meaningful, developmentally appropriate jobs, they see themselves as trusted members of the classroom community. Classroom jobs help children understand that everyone plays a role in keeping the class running efficiently, so that effective learning can occur. Use rotating jobs to ensure that every child has the opportunity to try each job at least once throughout the school year. Not every student needs to have a job at the same time, so the teacher should remind children that everyone will have the opportunity to participate. Encourage teachers to keep track of which students have done which role. Classroom jobs may include line leader, sweeper, cleaning the board, taking attendance, or leading a song. Classroom jobs should be safe, equitable, non-exploitative, and appropriate.
@@ -156,6 +179,9 @@ The words teachers use matter. Teacher language can help students or hurt them. 
 ---
 
 ### HC_M2_STRAT3 — Specific Positive Feedback
+
+📷 Send this image first, then deliver Scene 3:
+![](https://i.imgur.com/rCS3u1z.jpeg)
 
 **Description:** Naming the positive behavior you notice helps students repeat it.
 
@@ -195,6 +221,9 @@ The words teachers use matter. Teacher language can help students or hurt them. 
 ---
 
 ### HC_M2_STRAT5 — Respectful Language for All
+
+📷 Send this image first, then deliver Scene 5:
+![](https://i.imgur.com/BduvZZX.jpeg)
 
 **Description:** Using respectful, effort-focused language helps students feel capable and valued.
 

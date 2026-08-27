@@ -52,7 +52,18 @@ subject: Reading
 
 ### 5. Strategies
 
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **READING_M3_STRAT1** | When delivering Help Children Hear Sounds in Language | `![](https://i.imgur.com/jdhgWJa.jpeg)` |
+| **READING_M3_STRAT4** | When delivering Teach How Print Works | `![](https://i.imgur.com/VbbnG8l.jpeg)` |
+| **READING_M3_STRAT5** | When delivering Word Building with Manipulatives | `![](https://i.imgur.com/LSKThkl.jpeg)` |
+
 #### READING_M3_STRAT1 / Strategy 1: Help Children Hear Sounds in Language (Phonological Awareness)
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/jdhgWJa.jpeg)
 
 * **Description:** Children practice listening to and playing with sounds in spoken words
 * **Expanded Explanation:** Phonological awareness helps children recognize and play with sounds in spoken language. Activities like rhyming, clapping syllables, and identifying beginning sounds build phonological awareness. These activities are done orally without printed materials and are accessible to low-resource classrooms. Teachers should speak clearly and slowly when leading activities to help children hear sounds in language. Using hand motions, or small actions, helps learners recognize the sounds the teacher is emphasizing. For each activity, teachers should be giving multiple examples, about four or five, so that students can practice and gain understanding of the particular sound skill. When first introducing an activity, the teacher should model how students respond. Once students are familiar with sound activities, the teacher should give a brief wait time to allow students to respond. Hearing sounds clearly prepares students to connect sounds to letters later.
@@ -93,6 +104,9 @@ subject: Reading
 
 #### READING_M3_STRAT4 / Strategy 4: Teach How Print Works (Print Concepts, Oral Language)
 
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/VbbnG8l.jpeg)
+
 * **Description:** Explain how print works so students recognize the patterns of text
 * **Expanded Explanation:** For students to become proficient readers, they need to learn the mechanics of print. Teachers can name and point out parts of print while reading books or written text, like the title and spacing (e.g. "What do you notice in between each word?... Yes there is a space. Spaces separate words. Would it be hard to read without spaces? Why?"/ "Before reading, we should check if the text has a title. Where do you think a reader can find a title?..."). They also should draw specific attention to where text starts and the direction print moves. This will help students track accurately and support writing skills. Simple cues like, "We start reading here" or "These are the words we read," draw student attention to important details of print. When print routines are clear and consistent, students feel less confused and more confident using their decoding skills.
 * **Examples / Variations:**
@@ -105,6 +119,9 @@ subject: Reading
 * **Teacher Voice:** "I didn't realize some students didn't know where to start reading."
 
 #### READING_M3_STRAT5 / Strategy 5: Word Building with Manipulatives
+
+📷 Send this image first, then deliver strategy content:
+![](https://i.imgur.com/LSKThkl.jpeg)
 
 * **Description:** Students build and change words using simple letter materials to practice decoding.
 * **Expanded Explanation:** Word building allows students to use the letter-sound knowledge they have learned in a hands-on way. Students can use letter cards, bottle caps, paper, cardboard, or stones to build words by placing letters together then blending the sounds. Changing one letter at a time helps students see how small changes affect a whole word (e.g. changing the beginning, medial, or final letter - "pat" to "pet" to "let" to "led"). This supports decoding because students are actively blending sounds of randomized words or non-words. Part of learning how to read is noticing if a word sounds correct or not. Teachers should use non-words, also called nonsense words, to help students critically think about how words sound and if they have heard them in spoken language (e.g. "Watch how I change 'led' to 'med.' Is 'med' a real word or a non-sense word?"). Manipulatives can be helpful for learners to create tactile experiences for abstract concepts. Word building turns reading into problem solving, reducing the fear of making mistakes.

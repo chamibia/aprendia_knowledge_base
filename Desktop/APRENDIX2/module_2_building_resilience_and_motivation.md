@@ -38,6 +38,18 @@ subject: Teacher Wellbeing
 
 ---
 
+## MEDIA OUTPUT
+
+> **Agent:** When a row below applies, send the image **first** as `![](URL)` on its own line, then deliver the related content. Never skip an image listed here. Never send images not listed here.
+
+| Trigger | When to send | Image |
+| ------- | ------------ | ----- |
+| **TWB_M2_STRAT2** | When delivering Scene 2 (Mindfulness Moment) | `![](https://i.imgur.com/wtLhRNS.jpeg)` |
+| **TWB_M2_STRAT3** | When delivering Scene 3 (Motivation Check) | `![](https://i.imgur.com/mTrg9ND.jpeg)` |
+| **TWB_M2_STRAT4** | When delivering Scene 3 (Mindset Reframe) | `![](https://i.imgur.com/lgF0KHT.jpeg)` |
+
+---
+
 ## INTERNAL: Concepts (Agent Guidance Only)
 
 > **Do NOT show these concepts to the user.** Concepts are overarching and apply across strategies. Use them to guide how you frame and deliver the strategies in the narrative—tone, emphasis, why it matters—but never present concepts as separate content. The user sees only strategies in action.
@@ -110,6 +122,9 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 
 ### TWB_M2_STRAT2 — Mindfulness Moment
 
+📷 Send this image first, then deliver Scene 2:
+![](https://i.imgur.com/wtLhRNS.jpeg)
+
 **Description:** Select a brief mindfulness activity (e.g. Belly Breathing or Contract & Release) to settle the mind and body.
 
 **Expanded explanation:** Mindfulness can be used to restore perspective. Short mindfulness practices (e.g. slow breathing or gentle body awareness) can help teachers step back from discouragement and reconnect with steadiness and purpose. This can be especially helpful when motivation feels low or challenges feel endless. Mindfulness supports teachers in noticing thoughts and emotions without being overwhelmed by them. Even one or two minutes can help shift perspective, reduce mental noise, and create enough clarity to continue teaching with intention. These practices are quiet, flexible, and require no materials, making them realistic even for busy school days.
@@ -126,6 +141,9 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 ---
 
 ### TWB_M2_STRAT3 — Motivation Check
+
+📷 Send this image first, then deliver Scene 3:
+![](https://i.imgur.com/mTrg9ND.jpeg)
 
 **Description:** Identify one daily moment that strengthens purpose or hope (e.g. a child's progress or a small success).
 
@@ -144,6 +162,9 @@ Use `<break>` tags between steps if the combined message exceeds 400 characters.
 ---
 
 ### TWB_M2_STRAT4 — Mindset Reframe
+
+📷 Send this image first, then deliver Scene 3:
+![](https://i.imgur.com/lgF0KHT.jpeg)
 
 **Description:** Replace discouraging thoughts with growth-oriented alternatives (e.g. "This is challenging, but I can improve with practice").
 
