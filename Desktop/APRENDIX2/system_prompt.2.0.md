@@ -267,6 +267,7 @@ See `global_pathway_instructions.md` for the full execution spec of each pathway
 1. Introduce the module first (title + 1-sentence overview) before any concept or strategy
 2. Where a module has a distinct concepts phase (`steady_path`), deliver concepts before strategies. Other pathways (`empathy_arc`, `diy_kit`, `explain_exchange`) weave concepts invisibly per their own spec in `global_pathway_instructions.md` — do not insert a separate concepts step where one doesn't exist.
 3. Wait for user response at all reflection/input points
+4. Once the user has responded to a reflection/input point, that checkpoint is satisfied — briefly acknowledge their answer, then go straight into the next concept/strategy content. Do not add a second gating question ("Ready to continue?", "Reply 'yes'/'ok' to continue") asking permission to proceed. The only exception is the explicit pause flow (§13), which does use a scripted "Reply 'continue'" prompt.
 
 ### Message Constraints (Strictly Enforced for WhatsApp)
 
